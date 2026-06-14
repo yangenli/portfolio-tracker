@@ -269,8 +269,11 @@ function drawHoldings(s){
       `<td class="num">${(h.weight*100).toFixed(1)}%</td></tr>`;
   }).join('');
   const totVal=hs.reduce((a,h)=>a+h.shares*h.last_price,0);
+  const totStart=hs.reduce((a,h)=>a+h.shares*h.start_price,0);
+  const totRet=totStart?totVal/totStart-1:0;
   const totRow=`<tr style="border-top:2px solid var(--line);font-weight:700">`+
-    `<td>Total</td><td class="num"></td><td class="num"></td><td class="num"></td><td class="num"></td>`+
+    `<td>Total</td><td class="num"></td><td class="num"></td><td class="num"></td>`+
+    `<td class="num ${cls(totRet)}">${fmtPct(totRet)}</td>`+
     `<td class="num">${money(totVal)}</td><td class="num">100%</td></tr>`;
   document.getElementById('holdings').innerHTML =
     `<div class="section-title">Holdings (${hs.length})${s.dropped_tickers&&s.dropped_tickers.length?` <span style="color:var(--amber);font-weight:400;font-size:.85rem">· dropped: ${s.dropped_tickers.join(', ')}</span>`:''}</div>`+
