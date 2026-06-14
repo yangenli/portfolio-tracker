@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portfolio Project — Performance Tracker</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  :root{
+    --bg:#0f172a; --card:#1e293b; --muted:#94a3b8; --text:#e2e8f0;
+    --green:#22c55e; --red:#ef4444; --blue:#38bdf8; --amber:#f59e0b; --line:#334155;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+       background:var(--bg);color:var(--text);line-height:1.5}
+  .wrap{max-width:920px;margin:0 auto;padding:24px 18px 60px}
+  h1{font-size:1.6rem;margin:0 0 4px}
+  .sub{color:var(--muted);font-size:.9rem;margin-bottom:24px}
+  .searchbar{display:flex;gap:8px;margin-bottom:8px}
+  input{flex:1;padding:12px 14px;border-radius:10px;border:1px solid var(--line);
+        background:var(--card);color:var(--text);font-size:1rem}
+  input:focus{outline:none;border-color:var(--blue)}
+  button{padding:12px 18px;border:none;border-radius:10px;background:var(--blue);
+         color:#04263a;font-weight:600;font-size:1rem;cursor:pointer}
+  button.ghost{background:transparent;color:var(--muted);border:1px solid var(--line);font-weight:500}
+  .hint{color:var(--muted);font-size:.82rem;margin-bottom:24px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;
+        padding:22px;margin-bottom:18px}
+  .hidden{display:none}
+  .name{font-size:1.25rem;font-weight:600;margin-bottom:2px}
+  .id{color:var(--muted);font-size:.85rem;margin-bottom:18px}
+  .metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin-bottom:8px}
+  .metric{background:#0b1322;border:1px solid var(--line);border-radius:10px;padding:14px}
+  .metric .label{color:var(--muted);font-size:.78rem;text-transform:uppercase;letter-spacing:.04em}
+  .metric .value{font-size:1.6rem;font-weight:700;margin-top:4px}
+  .metric .cmp{font-size:.82rem;color:var(--muted);margin-top:2px}
+  .pos{color:var(--green)} .neg{color:var(--red)}
+  .badges{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 4px}
+  .badge{font-size:.8rem;padding:5px 10px;border-radius:999px;font-weight:600}
+  .badge.win{background:rgba(34,197,94,.15);color:var(--green);border:1px solid rgba(34,197,94,.4)}
+  .badge.lose{background:rgba(148,163,184,.12);color:var(--muted);border:1px solid var(--line)}
+  .badge.pts{background:rgba(56,189,248,.15);color:var(--blue);border:1px solid rgba(56,189,248,.4)}
+  .badge.warn{background:rgba(245,158,11,.15);color:var(--amber);border:1px solid rgba(245,158,11,.4)}
+  .chartbox{margin-top:18px;background:#0b1322;border:1px solid var(--line);border-radius:10px;padding:12px}
+  table{width:100%;border-collapse:collapse;font-size:.9rem;margin-top:8px}
+  th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line)}
+  th{color:var(--muted);font-weight:600;font-size:.78rem;text-transform:uppercase;letter-spacing:.03em}
+  td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+  .section-title{font-size:1.05rem;font-weight:600;margin:26px 0 6px}
+  .err{color:var(--amber);font-size:.9rem;margin-top:10px}
+  .lb-row{cursor:pointer}
+  .lb-row:hover{background:rgba(56,189,248,.07)}
+  .me{background:rgba(56,189,248,.12)}
+  details{margin-top:10px}
+  summary{cursor:pointer;color:var(--blue);font-size:.9rem}
+  .foot{color:var(--muted);font-size:.78rem;margin-top:30px;border-top:1px solid var(--line);padding-top:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>📈 Portfolio Project — Performance Tracker</h1>
+  <div class="sub" id="subtitle">Loading…</div>
+
+  <div class="searchbar">
+    <input id="search" placeholder="Enter your Student ID (e.g. 01484279)" autocomplete="off">
+    <button onclick="lookup()">Show</button>
+  </div>
+  <div class="hint">Tip: you can also type part of your name. Click any leaderboard row to open it.</div>
+
+  <div id="result" class="card hidden"></div>
+  <div id="chartcard" class="card hidden">
+    <div class="section-title" style="margin-top:0">Cumulative return vs. <span id="bnameC"></span></div>
+    <div class="chartbox"><canvas id="chart" height="150"></canvas></div>
+    <div id="holdings"></div>
+  </div>
+
+  <div class="section-title">🏆 Leaderboard <span style="color:var(--muted);font-weight:400;font-size:.85rem">(ranked by cumulative return)</span></div>
+  <div class="card" style="padding:8px 6px">
+    <table id="lb"><thead><tr>
+      <th class="num">#</th><th>Student</th>
+      <th class="num">Return</th><th class="num">Sharpe</th><th>vs S&amp;P 500</th>
+    </tr></thead><tbody></tbody></table>
+  </div>
+
+  <div id="reviewbox" class="hidden">
+    <div class="section-title" style="color:var(--amber)">⚠️ Needs instructor review</div>
+    <div class="card"><div id="reviewlist" style="font-size:.88rem"></div></div>
+  </div>
+
+  <div class="foot" id="foot"></div>
+</div>
+
+<script>
+let DATA=null, chart=null;
+
+fetch('results.json?_=' + Date.now())
+  .then(r=>r.json())
+  .then(d=>{ DATA=d; init(); })
+  .catch(e=>{ document.getElementById('subtitle').textContent =
+              'Could not load results.json — make sure it sits next to this page.'; });
+
+function fmtPct(x){ return (x*100).toFixed(2)+'%'; }
+function cls(x){ return x>=0?'pos':'neg'; }
+
+function init(){
+  const b = DATA.benchmark;
+  document.getElementById('subtitle').innerHTML =
+    `Tracking ${DATA.tracking_start} → ${DATA.tracking_end} &nbsp;·&nbsp; ` +
+    `prices through <b>${DATA.last_price_date}</b> &nbsp;·&nbsp; updated ${DATA.generated_at}<br>` +
+    `${b.name} so far: <span class="${cls(b.cumulative_return)}">${fmtPct(b.cumulative_return)}</span> ` +
+    `&nbsp;·&nbsp; Sharpe ${b.sharpe}`;
+  document.getElementById('bnameC').textContent = b.name;
+
+  // leaderboard
+  const tb = document.querySelector('#lb tbody');
+  DATA.leaderboard.forEach(r=>{
+    const tr=document.createElement('tr'); tr.className='lb-row'; tr.dataset.id=r.student_id;
+    tr.onclick=()=>{ document.getElementById('search').value=r.student_id; lookup(); };
+    const vs = (r.beats_return?'✅ return ':'') + (r.beats_sharpe?'✅ Sharpe':'');
+    const warn = (r.flags&&r.flags.length)?` <span class="badge warn" title="${r.flags.join('; ')}">⚠</span>`:'';
+    tr.innerHTML = `<td class="num">${r.rank}</td>`+
+      `<td>${maskName(r)}${warn}</td>`+
+      `<td class="num ${cls(r.cumulative_return)}">${fmtPct(r.cumulative_return)}</td>`+
+      `<td class="num">${r.sharpe==null?'—':r.sharpe.toFixed(2)}</td>`+
+      `<td>${vs||'—'}</td>`;
+    tb.appendChild(tr);
+  });
+
+  // needs-review list
+  if(DATA.needs_review && DATA.needs_review.length){
+    document.getElementById('reviewbox').classList.remove('hidden');
+    document.getElementById('reviewlist').innerHTML = DATA.needs_review.map(r=>
+      `<div style="padding:6px 0;border-bottom:1px solid var(--line)"><b>${r.student_id}</b> ${r.name||''} — `+
+      `<span class="${cls(r.cumulative_return)}">${fmtPct(r.cumulative_return)}</span> `+
+      `<span style="color:var(--muted)">(${r.flags.join('; ')})</span></div>`).join('');
+  }
+
+  const m=DATA.methodology||{};
+  document.getElementById('foot').innerHTML =
+    `Method: ${m.cumulative_return||''}. Sharpe: ${m.sharpe||''}. Prices: ${m.prices||''}. `+
+    `Benchmark: ${m.benchmark||''}.`;
+
+  // deep link: index.html#01484279
+  if(location.hash.length>1){ document.getElementById('search').value=decodeURIComponent(location.hash.slice(1)); lookup(); }
+}
+
+// when names are stripped from results.json, show the Student ID instead
+function maskName(r){ return r.name || r.student_id; }
+
+function findStudent(q){
+  q=q.trim().toLowerCase();
+  if(!q) return null;
+  const S=DATA.students;
+  if(S[q]) return S[q];                                  // exact id key
+  for(const k in S){ if(k.toLowerCase()===q) return S[k]; }
+  // by student_id field or name contains
+  let hit=null;
+  for(const k in S){
+    const s=S[k];
+    if(String(s.student_id).toLowerCase()===q) return s;
+    if(s.name && s.name.toLowerCase().includes(q)) hit=hit||s;
+  }
+  return hit;
+}
+
+function lookup(){
+  const q=document.getElementById('search').value;
+  const s=findStudent(q);
+  const res=document.getElementById('result');
+  const cc=document.getElementById('chartcard');
+  if(!s){
+    res.classList.remove('hidden'); cc.classList.add('hidden');
+    res.innerHTML=`<div class="err">No portfolio found for “${q}”. Check your Student ID, or click a leaderboard row.</div>`;
+    return;
+  }
+  history.replaceState(null,'', '#'+encodeURIComponent(s.student_id));
+  renderStudent(s);
+  // highlight in leaderboard
+  document.querySelectorAll('.lb-row').forEach(tr=>tr.classList.toggle('me', tr.dataset.id===s.student_id));
+}
+
+function renderStudent(s){
+  const res=document.getElementById('result');
+  const b=DATA.benchmark;
+  res.classList.remove('hidden');
+
+  const ptsTxt = s.points==null ? 'TBD by instructor' : (s.points+' pts');
+  const beatsR = s.beats_return, beatsS = s.beats_sharpe;
+  const flags = (s.flags||[]);
+
+  res.innerHTML = `
+    <div class="name">${s.name||'Student'}</div>
+    <div class="id">Student ID: ${s.student_id}</div>
+    ${ s.needs_review ? `<div class="err">⚠️ This portfolio needs instructor review — the numbers below may be unreliable.<br>${flags.join('<br>')}</div>` : ''}
+    <div class="metrics">
+      <div class="metric">
+        <div class="label">Cumulative return</div>
+        <div class="value ${cls(s.cumulative_return)}">${fmtPct(s.cumulative_return)}</div>
+        <div class="cmp">${b.name}: ${fmtPct(b.cumulative_return)} &nbsp;·&nbsp; ${beatsR?'<span class="pos">ahead</span>':'<span class="neg">behind</span>'}</div>
+      </div>
+      <div class="metric">
+        <div class="label">Sharpe ratio</div>
+        <div class="value">${s.sharpe==null?'—':s.sharpe.toFixed(2)}</div>
+        <div class="cmp">${b.name}: ${b.sharpe} &nbsp;·&nbsp; ${beatsS?'<span class="pos">ahead</span>':'<span class="neg">behind</span>'}</div>
+      </div>
+      <div class="metric">
+        <div class="label">Portfolio value</div>
+        <div class="value">$${Math.round(s.last_value).toLocaleString()}</div>
+        <div class="cmp">started at $${Math.round(s.start_value).toLocaleString()}</div>
+      </div>
+    </div>
+    <div class="badges">
+      <span class="badge ${beatsR?'win':'lose'}">${beatsR?'✅':'▫️'} Beats S&P on return</span>
+      <span class="badge ${beatsS?'win':'lose'}">${beatsS?'✅':'▫️'} Beats S&P on Sharpe</span>
+      <span class="badge pts">🎯 ${ptsTxt}</span>
+      ${flags.filter(()=>!s.needs_review).map(f=>`<span class="badge warn">⚠ ${f}</span>`).join('')}
+    </div>`;
+
+  // chart + holdings
+  document.getElementById('chartcard').classList.remove('hidden');
+  drawChart(s);
+  drawHoldings(s);
+}
+
+function drawChart(s){
+  const ctx=document.getElementById('chart');
+  const labels=DATA.dates;
+  const stu=s.curve.map(x=>x*100);
+  const ben=DATA.benchmark.curve.map(x=>x*100);
+  if(chart) chart.destroy();
+  chart=new Chart(ctx,{
+    type:'line',
+    data:{labels,datasets:[
+      {label:s.name||'You', data:stu, borderColor:'#38bdf8', backgroundColor:'rgba(56,189,248,.12)',
+       borderWidth:2, fill:true, tension:.15, pointRadius:0},
+      {label:DATA.benchmark.name, data:ben, borderColor:'#f59e0b', borderWidth:2,
+       borderDash:[5,4], fill:false, tension:.15, pointRadius:0},
+    ]},
+    options:{responsive:true, interaction:{mode:'index',intersect:false},
+      plugins:{legend:{labels:{color:'#e2e8f0'}},
+        tooltip:{callbacks:{label:c=>` ${c.dataset.label}: ${c.parsed.y.toFixed(2)}%`}}},
+      scales:{
+        x:{ticks:{color:'#94a3b8',maxTicksLimit:8},grid:{color:'#1e293b'}},
+        y:{ticks:{color:'#94a3b8',callback:v=>v+'%'},grid:{color:'#1e293b'}}}}
+  });
+}
+
+function drawHoldings(s){
+  const rows=(s.holdings||[]).map(h=>{
+    const ret=h.last_price/h.start_price-1;
+    return `<tr><td>${h.ticker}</td><td class="num">${h.shares}</td>`+
+      `<td class="num">$${h.start_price}</td><td class="num">$${h.last_price}</td>`+
+      `<td class="num ${cls(ret)}">${fmtPct(ret)}</td>`+
+      `<td class="num">${(h.weight*100).toFixed(1)}%</td></tr>`;
+  }).join('');
+  document.getElementById('holdings').innerHTML =
+    `<details><summary>Holdings (${(s.holdings||[]).length})${s.dropped_tickers&&s.dropped_tickers.length?` · dropped: ${s.dropped_tickers.join(', ')}`:''}</summary>`+
+    `<table><thead><tr><th>Ticker</th><th class="num">Shares</th><th class="num">Start</th>`+
+    `<th class="num">Latest</th><th class="num">Return</th><th class="num">Weight</th></tr></thead>`+
+    `<tbody>${rows}</tbody></table></details>`;
+}
+
+document.getElementById('search').addEventListener('keydown',e=>{ if(e.key==='Enter') lookup(); });
+</script>
+</body>
+</html>

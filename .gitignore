@@ -1,0 +1,8 @@
+# Raw student files contain names in the filename — never publish them
+submissions/
+
+__pycache__/
+*.pyc
+docs/_preview.png
+.DS_Store
+Thumbs.db
