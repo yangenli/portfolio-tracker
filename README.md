@@ -3,6 +3,8 @@
 Tracks each student's stock portfolio vs. the S&P 500 over the tracking window
 (June 22 – Aug 6, 2025) using Yahoo Finance prices.
 
+**Live site:** https://yangenli.github.io/portfolio-tracker/
+
 ## Files
 
 ```
@@ -16,13 +18,9 @@ docs/
 
 ## Refreshing the numbers
 
-Either double-click **`update.bat`**, or run:
-
-```
-"C:/Users/yange/anaconda3/envs/simple/python.exe" compute_portfolios.py
-```
-
-It rewrites `docs/results.json`. The web page always loads the latest JSON.
+**Double-click `update.bat`** — it re-pulls prices, rewrites `docs/results.json`,
+and automatically commits + pushes to GitHub, so the live site updates within
+about a minute. (Or run `compute_portfolios.py` yourself and push manually.)
 
 ## Viewing the page locally
 
