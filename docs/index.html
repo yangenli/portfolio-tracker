@@ -80,11 +80,6 @@
     <div class="chartbox"><canvas id="avgchart" height="150"></canvas></div>
   </div>
 
-  <div id="reviewbox" class="hidden">
-    <div class="section-title" style="color:var(--amber)">⚠️ Needs instructor review</div>
-    <div class="card"><div id="reviewlist" style="font-size:.88rem"></div></div>
-  </div>
-
   <div class="foot" id="foot"></div>
 </div>
 
@@ -112,15 +107,6 @@ function init(){
   // class-average chart
   document.getElementById('bnameAvg').textContent = b.name;
   drawAvgChart();
-
-  // needs-review list
-  if(DATA.needs_review && DATA.needs_review.length){
-    document.getElementById('reviewbox').classList.remove('hidden');
-    document.getElementById('reviewlist').innerHTML = DATA.needs_review.map(r=>
-      `<div style="padding:6px 0;border-bottom:1px solid var(--line)"><b>${r.student_id}</b> ${r.name||''} — `+
-      `<span class="${cls(r.cumulative_return)}">${fmtPct(r.cumulative_return)}</span> `+
-      `<span style="color:var(--muted)">(${r.flags.join('; ')})</span></div>`).join('');
-  }
 
   const m=DATA.methodology||{};
   document.getElementById('foot').innerHTML =
