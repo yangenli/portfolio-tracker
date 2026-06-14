@@ -69,15 +69,17 @@
 
   <div id="result" class="card hidden"></div>
   <div id="chartcard" class="card hidden">
-    <div class="section-title" style="margin-top:0">Cumulative return vs. <span id="bnameC"></span></div>
+    <div class="section-title" style="margin-top:0">Cumulative return — you vs. class average vs. <span id="bnameC"></span></div>
     <div class="chartbox"><canvas id="chart" height="150"></canvas></div>
     <div id="holdings"></div>
   </div>
 
-  <div class="section-title">📊 Class average vs. <span id="bnameAvg"></span></div>
-  <div class="card">
-    <div id="avgcaption" class="sub" style="margin:0 0 12px"></div>
-    <div class="chartbox"><canvas id="avgchart" height="150"></canvas></div>
+  <div id="classcard">
+    <div class="section-title">📊 Class average vs. <span id="bnameAvg"></span></div>
+    <div class="card">
+      <div id="avgcaption" class="sub" style="margin:0 0 12px"></div>
+      <div class="chartbox"><canvas id="avgchart" height="150"></canvas></div>
+    </div>
   </div>
 
   <div class="foot" id="foot"></div>
@@ -143,6 +145,7 @@ function lookup(){
   const cc=document.getElementById('chartcard');
   if(!s){
     res.classList.remove('hidden'); cc.classList.add('hidden');
+    document.getElementById('classcard').classList.remove('hidden');
     res.innerHTML=`<div class="err">No portfolio found for “${q}”. Please double-check your Student ID.</div>`;
     return;
   }
@@ -187,8 +190,9 @@ function renderStudent(s){
       ${flags.filter(()=>!s.needs_review).map(f=>`<span class="badge warn">⚠ ${f}</span>`).join('')}
     </div>`;
 
-  // chart + holdings
+  // chart + holdings (class average is merged into the chart, so hide the standalone one)
   document.getElementById('chartcard').classList.remove('hidden');
+  document.getElementById('classcard').classList.add('hidden');
   drawChart(s);
   drawHoldings(s);
 }
@@ -198,15 +202,21 @@ function drawChart(s){
   const labels=DATA.dates;
   const stu=s.curve.map(x=>x*100);
   const ben=DATA.benchmark.curve.map(x=>x*100);
+  const ca=DATA.class_average;
+  const datasets=[
+    {label:'You', data:stu, borderColor:'#38bdf8', backgroundColor:'rgba(56,189,248,.12)',
+     borderWidth:2.5, fill:true, tension:.15, pointRadius:0},
+  ];
+  if(ca){ datasets.push(
+    {label:'Class average', data:ca.curve.map(x=>x*100), borderColor:'#a78bfa', borderWidth:2,
+     borderDash:[6,3], fill:false, tension:.15, pointRadius:0}); }
+  datasets.push(
+    {label:DATA.benchmark.name, data:ben, borderColor:'#f59e0b', borderWidth:2,
+     borderDash:[5,4], fill:false, tension:.15, pointRadius:0});
   if(chart) chart.destroy();
   chart=new Chart(ctx,{
     type:'line',
-    data:{labels,datasets:[
-      {label:s.name||'You', data:stu, borderColor:'#38bdf8', backgroundColor:'rgba(56,189,248,.12)',
-       borderWidth:2, fill:true, tension:.15, pointRadius:0},
-      {label:DATA.benchmark.name, data:ben, borderColor:'#f59e0b', borderWidth:2,
-       borderDash:[5,4], fill:false, tension:.15, pointRadius:0},
-    ]},
+    data:{labels,datasets},
     options:{responsive:true, interaction:{mode:'index',intersect:false},
       plugins:{legend:{labels:{color:'#e2e8f0'}},
         tooltip:{callbacks:{label:c=>` ${c.dataset.label}: ${c.parsed.y.toFixed(2)}%`}}},
@@ -247,18 +257,26 @@ function drawAvgChart(){
 }
 
 function drawHoldings(s){
-  const rows=(s.holdings||[]).map(h=>{
+  const hs=(s.holdings||[]);
+  const money=v=>'$'+Math.round(v).toLocaleString();
+  const rows=hs.map(h=>{
     const ret=h.last_price/h.start_price-1;
+    const total=h.shares*h.last_price;
     return `<tr><td>${h.ticker}</td><td class="num">${h.shares}</td>`+
       `<td class="num">$${h.start_price}</td><td class="num">$${h.last_price}</td>`+
       `<td class="num ${cls(ret)}">${fmtPct(ret)}</td>`+
+      `<td class="num">${money(total)}</td>`+
       `<td class="num">${(h.weight*100).toFixed(1)}%</td></tr>`;
   }).join('');
+  const totVal=hs.reduce((a,h)=>a+h.shares*h.last_price,0);
+  const totRow=`<tr style="border-top:2px solid var(--line);font-weight:700">`+
+    `<td>Total</td><td class="num"></td><td class="num"></td><td class="num"></td><td class="num"></td>`+
+    `<td class="num">${money(totVal)}</td><td class="num">100%</td></tr>`;
   document.getElementById('holdings').innerHTML =
-    `<div class="section-title">Holdings (${(s.holdings||[]).length})${s.dropped_tickers&&s.dropped_tickers.length?` <span style="color:var(--amber);font-weight:400;font-size:.85rem">· dropped: ${s.dropped_tickers.join(', ')}</span>`:''}</div>`+
+    `<div class="section-title">Holdings (${hs.length})${s.dropped_tickers&&s.dropped_tickers.length?` <span style="color:var(--amber);font-weight:400;font-size:.85rem">· dropped: ${s.dropped_tickers.join(', ')}</span>`:''}</div>`+
     `<table><thead><tr><th>Ticker</th><th class="num">Shares</th><th class="num">Start</th>`+
-    `<th class="num">Latest</th><th class="num">Return</th><th class="num">Weight</th></tr></thead>`+
-    `<tbody>${rows}</tbody></table>`;
+    `<th class="num">Latest</th><th class="num">Return</th><th class="num">Total</th><th class="num">Weight</th></tr></thead>`+
+    `<tbody>${rows}${totRow}</tbody></table>`;
 }
 
 document.getElementById('search').addEventListener('keydown',e=>{ if(e.key==='Enter') lookup(); });
