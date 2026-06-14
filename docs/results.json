@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-13 18:35",
+ "generated_at": "2026-06-13 18:54",
  "tracking_start": "2025-06-22",
  "tracking_end": "2025-08-06",
  "last_price_date": "2025-08-06",
@@ -75,6 +75,46 @@
    0.050583,
    0.045479,
    0.053092
+  ]
+ },
+ "class_average": {
+  "name": "Class average",
+  "count": 30,
+  "cumulative_return": 0.050105,
+  "sharpe": 3.7002,
+  "curve": [
+   0.0,
+   0.00826,
+   0.007407,
+   0.01646,
+   0.01866,
+   0.023832,
+   0.019077,
+   0.026418,
+   0.036506,
+   0.027893,
+   0.025115,
+   0.031906,
+   0.034505,
+   0.032577,
+   0.035333,
+   0.032727,
+   0.037534,
+   0.04283,
+   0.044405,
+   0.04626,
+   0.042312,
+   0.048813,
+   0.04638,
+   0.05082,
+   0.053176,
+   0.047004,
+   0.045556,
+   0.046286,
+   0.02386,
+   0.038067,
+   0.036379,
+   0.050105
   ]
  },
  "leaderboard": [
@@ -234,7 +274,7 @@
    "rank": 16,
    "student_id": "01472914",
    "name": null,
-   "cumulative_return": 0.055859,
+   "cumulative_return": 0.055858,
    "sharpe": 5.0581,
    "beats_return": true,
    "beats_sharpe": true,
@@ -398,7 +438,7 @@
    "student_id": "01484279",
    "name": null,
    "file": null,
-   "start_value": 98559.09,
+   "start_value": 98559.1,
    "last_value": 101692.35,
    "cumulative_return": 0.031791,
    "sharpe": 2.8808,
@@ -451,9 +491,9 @@
     {
      "ticker": "COST",
      "shares": 20.0,
-     "start_price": 998.8572,
+     "start_price": 998.8573,
      "last_price": 964.4727,
-     "start_value": 19977.14,
+     "start_value": 19977.15,
      "weight": 0.2027
     },
     {
@@ -467,9 +507,9 @@
     {
      "ticker": "JPM",
      "shares": 73.0,
-     "start_price": 272.9614,
-     "last_price": 287.1687,
-     "start_value": 19926.18,
+     "start_price": 272.9615,
+     "last_price": 287.1688,
+     "start_value": 19926.19,
      "weight": 0.2022
     },
     {
@@ -516,7 +556,7 @@
     0.027896,
     0.036482,
     0.041168,
-    0.038967,
+    0.038966,
     0.041859,
     0.044657,
     0.047508,
@@ -892,7 +932,7 @@
      "ticker": "CEG",
      "shares": 20.0,
      "start_price": 313.5616,
-     "last_price": 336.6899,
+     "last_price": 336.69,
      "start_value": 6271.23,
      "weight": 0.0628
     },
@@ -915,8 +955,8 @@
     {
      "ticker": "JPM",
      "shares": 22.0,
-     "start_price": 272.9614,
-     "last_price": 287.1687,
+     "start_price": 272.9615,
+     "last_price": 287.1688,
      "start_value": 6005.15,
      "weight": 0.0602
     },
@@ -1005,7 +1045,7 @@
    "name": null,
    "file": null,
    "start_value": 94681.25,
-   "last_value": 97364.0,
+   "last_value": 97364.01,
    "cumulative_return": 0.028335,
    "sharpe": 2.1187,
    "beats_return": false,
@@ -1114,7 +1154,7 @@
      "ticker": "VB",
      "shares": 25.0,
      "start_price": 230.4215,
-     "last_price": 238.225,
+     "last_price": 238.2251,
      "start_value": 5760.54,
      "weight": 0.0608
     },
@@ -1172,7 +1212,7 @@
     -0.010506,
     -0.021208,
     -0.019642,
-    -0.023388,
+    -0.023389,
     -0.022989,
     -0.038648,
     -0.011471,
@@ -1213,9 +1253,9 @@
     {
      "ticker": "JPM",
      "shares": 80.0,
-     "start_price": 272.9614,
-     "last_price": 287.1687,
-     "start_value": 21836.91,
+     "start_price": 272.9615,
+     "last_price": 287.1688,
+     "start_value": 21836.92,
      "weight": 0.217
     },
     {
@@ -1355,7 +1395,7 @@
     0.0,
     0.030854,
     0.034799,
-    0.058616,
+    0.058617,
     0.032697,
     0.055103,
     0.02546,
@@ -1365,7 +1405,7 @@
     0.045427,
     0.057341,
     0.055948,
-    0.043836,
+    0.043837,
     0.055265,
     0.046024,
     0.039917,
@@ -1377,12 +1417,12 @@
     0.063067,
     0.071764,
     0.06943,
-    0.041034,
+    0.041035,
     0.045654,
     0.085063,
     0.0546,
     0.087037,
-    0.108174,
+    0.108175,
     0.12449
    ],
    "holdings": [
@@ -1749,7 +1789,7 @@
      "shares": 25.0,
      "start_price": 696.8934,
      "last_price": 770.1812,
-     "start_value": 17422.34,
+     "start_value": 17422.33,
      "weight": 0.1739
     },
     {
@@ -1794,7 +1834,7 @@
    "student_id": "01479030",
    "name": null,
    "file": null,
-   "start_value": 96307.41,
+   "start_value": 96307.42,
    "last_value": 97697.31,
    "cumulative_return": 0.014432,
    "sharpe": 1.1433,
@@ -1871,7 +1911,7 @@
     {
      "ticker": "COST",
      "shares": 15.0,
-     "start_price": 998.8572,
+     "start_price": 998.8573,
      "last_price": 964.4727,
      "start_value": 14982.86,
      "weight": 0.1556
@@ -1904,7 +1944,7 @@
      "ticker": "INTU",
      "shares": 10.0,
      "start_price": 756.3954,
-     "last_price": 774.225,
+     "last_price": 774.2251,
      "start_value": 7563.95,
      "weight": 0.0785
     },
@@ -1982,7 +2022,7 @@
    "student_id": "ilyasshamir",
    "name": null,
    "file": null,
-   "start_value": 109427.71,
+   "start_value": 109427.72,
    "last_value": 118061.62,
    "cumulative_return": 0.078901,
    "sharpe": 5.3519,
@@ -2035,7 +2075,7 @@
     {
      "ticker": "COST",
      "shares": 11.0,
-     "start_price": 998.8572,
+     "start_price": 998.8573,
      "last_price": 964.4727,
      "start_value": 10987.43,
      "weight": 0.1004
@@ -2043,9 +2083,9 @@
     {
      "ticker": "JPM",
      "shares": 80.0,
-     "start_price": 272.9614,
-     "last_price": 287.1687,
-     "start_value": 21836.91,
+     "start_price": 272.9615,
+     "last_price": 287.1688,
+     "start_value": 21836.92,
      "weight": 0.1996
     },
     {
@@ -2135,7 +2175,7 @@
     {
      "ticker": "IBM",
      "shares": 102.0,
-     "start_price": 281.9681,
+     "start_price": 281.9682,
      "last_price": 245.9884,
      "start_value": 28760.75,
      "weight": 0.3373
@@ -2243,7 +2283,7 @@
     {
      "ticker": "COST",
      "shares": 11.0,
-     "start_price": 998.8572,
+     "start_price": 998.8573,
      "last_price": 964.4727,
      "start_value": 10987.43,
      "weight": 0.1105
@@ -2311,7 +2351,7 @@
     0.026987,
     0.042894,
     0.043371,
-    0.060809,
+    0.060808,
     0.067212,
     0.07658,
     0.078944,
@@ -2383,7 +2423,7 @@
     {
      "ticker": "NEE",
      "shares": 69.9,
-     "start_price": 68.7395,
+     "start_price": 68.7396,
      "last_price": 68.5549,
      "start_value": 4804.89,
      "weight": 0.0489
@@ -2432,7 +2472,7 @@
    "file": null,
    "start_value": 99404.35,
    "last_value": 104956.93,
-   "cumulative_return": 0.055859,
+   "cumulative_return": 0.055858,
    "sharpe": 5.0581,
    "beats_return": true,
    "beats_sharpe": true,
@@ -2469,7 +2509,7 @@
     0.038643,
     0.048664,
     0.04749,
-    0.055859
+    0.055858
    ],
    "holdings": [
     {
@@ -2507,7 +2547,7 @@
     {
      "ticker": "COST",
      "shares": 7.0,
-     "start_price": 998.8572,
+     "start_price": 998.8573,
      "last_price": 964.4727,
      "start_value": 6992.0,
      "weight": 0.0703
@@ -2617,7 +2657,7 @@
     0.004812,
     0.010494,
     0.01152,
-    0.008784,
+    0.008783,
     0.019552,
     0.020841,
     0.03257,
@@ -2628,11 +2668,11 @@
     0.036153,
     0.043705,
     0.039203,
-    0.035315,
+    0.035314,
     0.028869,
     0.005131,
     0.02238,
-    0.018184,
+    0.018183,
     0.043999
    ],
    "holdings": [
@@ -2687,7 +2727,7 @@
    "name": null,
    "file": null,
    "start_value": 100225.15,
-   "last_value": 100730.27,
+   "last_value": 100730.28,
    "cumulative_return": 0.00504,
    "sharpe": 0.3874,
    "beats_return": false,
@@ -2699,7 +2739,7 @@
     -0.004042,
     0.000511,
     0.002659,
-    0.002674,
+    0.002673,
     0.018883,
     0.015409,
     0.017874,
@@ -2786,7 +2826,7 @@
    "student_id": "01477732",
    "name": null,
    "file": null,
-   "start_value": 95650.46,
+   "start_value": 95650.47,
    "last_value": 98555.97,
    "cumulative_return": 0.030376,
    "sharpe": 1.8881,
@@ -2796,7 +2836,7 @@
    "curve": [
     0.0,
     0.004945,
-    0.00374,
+    0.003739,
     0.010284,
     0.020192,
     0.020798,
@@ -2857,7 +2897,7 @@
      "shares": 50.0,
      "start_price": 164.7201,
      "last_price": 195.5322,
-     "start_value": 8236.0,
+     "start_value": 8236.01,
      "weight": 0.0861
     },
     {
@@ -2918,7 +2958,7 @@
    "student_id": "myerssydney",
    "name": null,
    "file": null,
-   "start_value": 97062.06,
+   "start_value": 97062.07,
    "last_value": 101113.98,
    "cumulative_return": 0.041746,
    "sharpe": 3.5283,
@@ -2938,14 +2978,14 @@
     0.029324,
     0.024605,
     0.030436,
-    0.031969,
+    0.031968,
     0.029324,
     0.028931,
     0.026057,
     0.028648,
     0.032145,
     0.031195,
-    0.033844,
+    0.033843,
     0.034485,
     0.039686,
     0.041977,
@@ -2979,7 +3019,7 @@
     {
      "ticker": "COST",
      "shares": 15.0,
-     "start_price": 998.8572,
+     "start_price": 998.8573,
      "last_price": 964.4727,
      "start_value": 14982.86,
      "weight": 0.1544
@@ -2995,8 +3035,8 @@
     {
      "ticker": "JPM",
      "shares": 40.0,
-     "start_price": 272.9614,
-     "last_price": 287.1687,
+     "start_price": 272.9615,
+     "last_price": 287.1688,
      "start_value": 10918.46,
      "weight": 0.1125
     },
@@ -3042,7 +3082,7 @@
    "student_id": "01440594",
    "name": null,
    "file": null,
-   "start_value": 103739.15,
+   "start_value": 103739.16,
    "last_value": 109809.75,
    "cumulative_return": 0.058518,
    "sharpe": 4.8576,
@@ -3053,7 +3093,7 @@
     0.0,
     0.002847,
     0.005929,
-    0.015962,
+    0.015961,
     0.02061,
     0.021142,
     0.025038,
@@ -3073,14 +3113,14 @@
     0.049971,
     0.055878,
     0.0605,
-    0.06162,
+    0.061619,
     0.060751,
     0.062747,
     0.061172,
     0.062035,
     0.041581,
     0.051254,
-    0.046082,
+    0.046081,
     0.058518
    ],
    "holdings": [
@@ -3103,7 +3143,7 @@
     {
      "ticker": "COST",
      "shares": 14.0,
-     "start_price": 998.8572,
+     "start_price": 998.8573,
      "last_price": 964.4727,
      "start_value": 13984.0,
      "weight": 0.1348
@@ -3127,8 +3167,8 @@
     {
      "ticker": "JPM",
      "shares": 69.0,
-     "start_price": 272.9614,
-     "last_price": 287.1687,
+     "start_price": 272.9615,
+     "last_price": 287.1688,
      "start_value": 18834.34,
      "weight": 0.1816
     },
@@ -3158,7 +3198,7 @@
    "student_id": "01513826",
    "name": null,
    "file": null,
-   "start_value": 119038.43,
+   "start_value": 119038.44,
    "last_value": 129353.74,
    "cumulative_return": 0.086655,
    "sharpe": 6.4264,
@@ -3185,7 +3225,7 @@
     0.058475,
     0.059415,
     0.062081,
-    0.071259,
+    0.071258,
     0.077555,
     0.079693,
     0.08353,
@@ -3213,7 +3253,7 @@
      "shares": 140.0,
      "start_price": 164.7201,
      "last_price": 195.5322,
-     "start_value": 23060.81,
+     "start_value": 23060.82,
      "weight": 0.1937
     },
     {
@@ -3237,7 +3277,7 @@
      "shares": 70.0,
      "start_price": 341.0561,
      "last_price": 337.0775,
-     "start_value": 23873.92,
+     "start_value": 23873.93,
      "weight": 0.2006
     }
    ],
@@ -3260,7 +3300,7 @@
    "curve": [
     0.0,
     0.007696,
-    0.007016,
+    0.007015,
     0.015124,
     0.020925,
     0.021108,
@@ -3319,7 +3359,7 @@
     {
      "ticker": "COST",
      "shares": 10.0,
-     "start_price": 998.8572,
+     "start_price": 998.8573,
      "last_price": 964.4727,
      "start_value": 9988.57,
      "weight": 0.094
@@ -3337,7 +3377,7 @@
      "shares": 25.0,
      "start_price": 696.8934,
      "last_price": 770.1812,
-     "start_value": 17422.34,
+     "start_value": 17422.33,
      "weight": 0.164
     },
     {
@@ -3374,7 +3414,7 @@
    "student_id": "01475037",
    "name": null,
    "file": null,
-   "start_value": 97670.85,
+   "start_value": 97670.86,
    "last_value": 104570.71,
    "cumulative_return": 0.070644,
    "sharpe": 4.1394,
@@ -3467,7 +3507,7 @@
    "name": null,
    "file": null,
    "start_value": 103281.45,
-   "last_value": 106610.1,
+   "last_value": 106610.11,
    "cumulative_return": 0.032229,
    "sharpe": 1.39,
    "beats_return": false,
@@ -3560,7 +3600,7 @@
      "ticker": "HII",
      "shares": 40.0,
      "start_price": 233.1625,
-     "last_price": 263.0478,
+     "last_price": 263.0479,
      "start_value": 9326.5,
      "weight": 0.0903
     },
@@ -3641,7 +3681,7 @@
    "name": null,
    "file": null,
    "start_value": 99789.52,
-   "last_value": 106241.36,
+   "last_value": 106241.37,
    "cumulative_return": 0.064655,
    "sharpe": 5.2779,
    "beats_return": true,
@@ -3661,7 +3701,7 @@
     0.028537,
     0.036597,
     0.037068,
-    0.035164,
+    0.035165,
     0.038617,
     0.037792,
     0.041377,
@@ -3710,7 +3750,7 @@
      "ticker": "QQQM",
      "shares": 92.0,
      "start_price": 217.9557,
-     "last_price": 232.6189,
+     "last_price": 232.619,
      "start_value": 20051.93,
      "weight": 0.2009
     },
@@ -3727,7 +3767,7 @@
      "shares": 153.0,
      "start_price": 63.8103,
      "last_price": 66.1932,
-     "start_value": 9762.98,
+     "start_value": 9762.97,
      "weight": 0.0978
     }
    ],
@@ -4041,7 +4081,7 @@
     0.080617,
     0.07523,
     0.057431,
-    0.073753,
+    0.073752,
     0.065774,
     0.066748
    ],
@@ -4089,7 +4129,7 @@
     {
      "ticker": "CTAS",
      "shares": 45.7352,
-     "start_price": 218.8233,
+     "start_price": 218.8234,
      "last_price": 222.1716,
      "start_value": 10007.93,
      "weight": 0.1006

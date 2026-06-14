@@ -346,6 +346,23 @@ def main():
         "cumulative_return": r["cumulative_return"], "flags": r["flags"],
     } for r in out_students.values() if r["needs_review"]]
 
+    # ---- class average: equal-weight mean of every rankable student's curve ----
+    class_average = None
+    if rankable:
+        curves = np.array([r["curve"] for r in rankable], dtype=float)  # (students, days)
+        avg = curves.mean(axis=0)
+        avg_value = pd.Series(1.0 + avg, index=calendar)               # pseudo value series
+        cam = series_metrics(avg_value)
+        class_average = {
+            "name": "Class average",
+            "count": len(rankable),
+            "cumulative_return": cam["cumulative_return"],
+            "sharpe": cam["sharpe"],
+            "curve": cam["curve"],
+        }
+        print(f"\nClass average ({len(rankable)} students): "
+              f"return {cam['cumulative_return']*100:.2f}%  sharpe {cam['sharpe']}")
+
     result = {
         "generated_at": dt.datetime.now().strftime("%Y-%m-%d %H:%M"),
         "tracking_start": TRACKING_START,
@@ -353,6 +370,7 @@ def main():
         "last_price_date": dates[-1],
         "dates": dates,
         "benchmark": benchmark_out,
+        "class_average": class_average,
         "leaderboard": leaderboard,
         "needs_review": needs_review,
         "students": out_students,

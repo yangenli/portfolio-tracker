@@ -65,7 +65,7 @@
     <input id="search" placeholder="Enter your Student ID (e.g. 01484279)" autocomplete="off">
     <button onclick="lookup()">Show</button>
   </div>
-  <div class="hint">Tip: you can also type part of your name. Click any leaderboard row to open it.</div>
+  <div class="hint">Enter your Student ID to see your performance and how you compare to the S&amp;P 500.</div>
 
   <div id="result" class="card hidden"></div>
   <div id="chartcard" class="card hidden">
@@ -74,12 +74,10 @@
     <div id="holdings"></div>
   </div>
 
-  <div class="section-title">🏆 Leaderboard <span style="color:var(--muted);font-weight:400;font-size:.85rem">(ranked by cumulative return)</span></div>
-  <div class="card" style="padding:8px 6px">
-    <table id="lb"><thead><tr>
-      <th class="num">#</th><th>Student</th>
-      <th class="num">Return</th><th class="num">Sharpe</th><th>vs S&amp;P 500</th>
-    </tr></thead><tbody></tbody></table>
+  <div class="section-title">📊 Class average vs. <span id="bnameAvg"></span></div>
+  <div class="card">
+    <div id="avgcaption" class="sub" style="margin:0 0 12px"></div>
+    <div class="chartbox"><canvas id="avgchart" height="150"></canvas></div>
   </div>
 
   <div id="reviewbox" class="hidden">
@@ -111,20 +109,9 @@ function init(){
     `&nbsp;·&nbsp; Sharpe ${b.sharpe}`;
   document.getElementById('bnameC').textContent = b.name;
 
-  // leaderboard
-  const tb = document.querySelector('#lb tbody');
-  DATA.leaderboard.forEach(r=>{
-    const tr=document.createElement('tr'); tr.className='lb-row'; tr.dataset.id=r.student_id;
-    tr.onclick=()=>{ document.getElementById('search').value=r.student_id; lookup(); };
-    const vs = (r.beats_return?'✅ return ':'') + (r.beats_sharpe?'✅ Sharpe':'');
-    const warn = (r.flags&&r.flags.length)?` <span class="badge warn" title="${r.flags.join('; ')}">⚠</span>`:'';
-    tr.innerHTML = `<td class="num">${r.rank}</td>`+
-      `<td>${maskName(r)}${warn}</td>`+
-      `<td class="num ${cls(r.cumulative_return)}">${fmtPct(r.cumulative_return)}</td>`+
-      `<td class="num">${r.sharpe==null?'—':r.sharpe.toFixed(2)}</td>`+
-      `<td>${vs||'—'}</td>`;
-    tb.appendChild(tr);
-  });
+  // class-average chart
+  document.getElementById('bnameAvg').textContent = b.name;
+  drawAvgChart();
 
   // needs-review list
   if(DATA.needs_review && DATA.needs_review.length){
@@ -170,13 +157,11 @@ function lookup(){
   const cc=document.getElementById('chartcard');
   if(!s){
     res.classList.remove('hidden'); cc.classList.add('hidden');
-    res.innerHTML=`<div class="err">No portfolio found for “${q}”. Check your Student ID, or click a leaderboard row.</div>`;
+    res.innerHTML=`<div class="err">No portfolio found for “${q}”. Please double-check your Student ID.</div>`;
     return;
   }
   history.replaceState(null,'', '#'+encodeURIComponent(s.student_id));
   renderStudent(s);
-  // highlight in leaderboard
-  document.querySelectorAll('.lb-row').forEach(tr=>tr.classList.toggle('me', tr.dataset.id===s.student_id));
 }
 
 function renderStudent(s){
@@ -245,6 +230,36 @@ function drawChart(s){
   });
 }
 
+let avgChart=null;
+function drawAvgChart(){
+  const ca=DATA.class_average, b=DATA.benchmark;
+  const cap=document.getElementById('avgcaption');
+  if(!ca){ cap.textContent='Class average not available yet.'; return; }
+  const diff=ca.cumulative_return-b.cumulative_return;
+  cap.innerHTML =
+    `Equal-weighted average of all ${ca.count} ranked student portfolios. `+
+    `Class so far: <b class="${cls(ca.cumulative_return)}">${fmtPct(ca.cumulative_return)}</b> `+
+    `vs ${b.name} <b class="${cls(b.cumulative_return)}">${fmtPct(b.cumulative_return)}</b> — `+
+    `class is <b class="${cls(diff)}">${diff>=0?'ahead':'behind'} by ${fmtPct(Math.abs(diff))}</b>.`;
+  const avg=ca.curve.map(x=>x*100), ben=b.curve.map(x=>x*100);
+  if(avgChart) avgChart.destroy();
+  avgChart=new Chart(document.getElementById('avgchart'),{
+    type:'line',
+    data:{labels:DATA.dates,datasets:[
+      {label:'Class average', data:avg, borderColor:'#38bdf8', backgroundColor:'rgba(56,189,248,.12)',
+       borderWidth:2, fill:true, tension:.15, pointRadius:0},
+      {label:b.name, data:ben, borderColor:'#f59e0b', borderWidth:2,
+       borderDash:[5,4], fill:false, tension:.15, pointRadius:0},
+    ]},
+    options:{responsive:true, interaction:{mode:'index',intersect:false},
+      plugins:{legend:{labels:{color:'#e2e8f0'}},
+        tooltip:{callbacks:{label:c=>` ${c.dataset.label}: ${c.parsed.y.toFixed(2)}%`}}},
+      scales:{
+        x:{ticks:{color:'#94a3b8',maxTicksLimit:8},grid:{color:'#1e293b'}},
+        y:{ticks:{color:'#94a3b8',callback:v=>v+'%'},grid:{color:'#1e293b'}}}}
+  });
+}
+
 function drawHoldings(s){
   const rows=(s.holdings||[]).map(h=>{
     const ret=h.last_price/h.start_price-1;
@@ -254,10 +269,10 @@ function drawHoldings(s){
       `<td class="num">${(h.weight*100).toFixed(1)}%</td></tr>`;
   }).join('');
   document.getElementById('holdings').innerHTML =
-    `<details><summary>Holdings (${(s.holdings||[]).length})${s.dropped_tickers&&s.dropped_tickers.length?` · dropped: ${s.dropped_tickers.join(', ')}`:''}</summary>`+
+    `<div class="section-title">Holdings (${(s.holdings||[]).length})${s.dropped_tickers&&s.dropped_tickers.length?` <span style="color:var(--amber);font-weight:400;font-size:.85rem">· dropped: ${s.dropped_tickers.join(', ')}</span>`:''}</div>`+
     `<table><thead><tr><th>Ticker</th><th class="num">Shares</th><th class="num">Start</th>`+
     `<th class="num">Latest</th><th class="num">Return</th><th class="num">Weight</th></tr></thead>`+
-    `<tbody>${rows}</tbody></table></details>`;
+    `<tbody>${rows}</tbody></table>`;
 }
 
 document.getElementById('search').addEventListener('keydown',e=>{ if(e.key==='Enter') lookup(); });
