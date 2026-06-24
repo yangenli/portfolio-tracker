@@ -57,6 +57,8 @@ PUBLISH_NAMES = False
 TICKER_CORRECTIONS = {
     "APPL":  "AAPL",   # Apple
     "PLNTR": "PLTR",   # Palantir
+    "NVDIA": "NVDA",   # Nvidia (misspelled)
+    "BRKB":  "BRK-B",  # Berkshire Hathaway B (missing hyphen)
 }
 
 # If a student didn't put their 8-digit ID in the filename you can pin one here:
