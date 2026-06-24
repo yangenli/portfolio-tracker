@@ -38,8 +38,8 @@ HERE          = os.path.dirname(os.path.abspath(__file__))
 SUBMISSIONS   = os.path.join(HERE, "submissions")
 OUT_JSON      = os.path.join(HERE, "docs", "results.json")
 
-TRACKING_START = "2025-06-22"   # portfolios "lock in" on this date
-TRACKING_END   = "2025-08-06"   # end of the 8-week tracking window
+TRACKING_START = "2026-06-22"   # portfolios "lock in" on this date
+TRACKING_END   = "2026-08-06"   # end of the 8-week tracking window
 
 BENCHMARK_TICKER = "^GSPC"      # what we call "the S&P 500" on the page
 BENCHMARK_NAME   = "S&P 500"
