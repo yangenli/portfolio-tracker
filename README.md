@@ -1,7 +1,7 @@
 # Portfolio Project — performance tracker
 
 Tracks each student's stock portfolio vs. the S&P 500 over the tracking window
-(June 22 – Aug 6, 2025) using Yahoo Finance prices.
+(June 22 – Aug 6, 2026) using Yahoo Finance prices.
 
 **Live site:** https://yangenli.github.io/portfolio-tracker/
 
