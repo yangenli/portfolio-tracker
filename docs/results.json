@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-23 22:29",
+ "generated_at": "2026-06-23 22:33",
  "tracking_start": "2026-06-22",
  "tracking_end": "2026-08-06",
  "last_price_date": "2026-06-23",
@@ -20,11 +20,11 @@
  "class_average": {
   "name": "Class average",
   "count": 39,
-  "cumulative_return": -0.019704,
+  "cumulative_return": -0.019667,
   "sharpe": null,
   "curve": [
    0.0,
-   -0.019704
+   -0.019667
   ]
  },
  "leaderboard": [
@@ -240,9 +240,9 @@
   },
   {
    "rank": 22,
-   "student_id": "01551546",
+   "student_id": "01522385",
    "name": null,
-   "cumulative_return": -0.019976,
+   "cumulative_return": -0.019691,
    "sharpe": null,
    "beats_return": false,
    "beats_sharpe": false,
@@ -250,15 +250,13 @@
   },
   {
    "rank": 23,
-   "student_id": "01522385",
+   "student_id": "01551546",
    "name": null,
-   "cumulative_return": -0.021114,
+   "cumulative_return": -0.019976,
    "sharpe": null,
    "beats_return": false,
    "beats_sharpe": false,
-   "flags": [
-    "could not price: SPACX"
-   ]
+   "flags": []
   },
   {
    "rank": 24,
@@ -2053,16 +2051,16 @@
    "student_id": "01522385",
    "name": null,
    "file": null,
-   "start_value": 96006.95,
-   "last_value": 93979.82,
-   "cumulative_return": -0.021114,
+   "start_value": 100644.95,
+   "last_value": 98663.12,
+   "cumulative_return": -0.019691,
    "sharpe": null,
    "beats_return": false,
    "beats_sharpe": false,
    "points": null,
    "curve": [
     0.0,
-    -0.021114
+    -0.019691
    ],
    "holdings": [
     {
@@ -2071,7 +2069,7 @@
      "start_price": 297.01,
      "last_price": 294.3,
      "start_value": 2970.1,
-     "weight": 0.0309
+     "weight": 0.0295
     },
     {
      "ticker": "F",
@@ -2079,7 +2077,7 @@
      "start_price": 14.11,
      "last_price": 14.0,
      "start_value": 945.37,
-     "weight": 0.0098
+     "weight": 0.0094
     },
     {
      "ticker": "INTC",
@@ -2087,7 +2085,7 @@
      "start_price": 140.94,
      "last_price": 132.28,
      "start_value": 5778.54,
-     "weight": 0.0602
+     "weight": 0.0574
     },
     {
      "ticker": "META",
@@ -2095,7 +2093,7 @@
      "start_price": 563.85,
      "last_price": 562.2,
      "start_value": 5638.5,
-     "weight": 0.0587
+     "weight": 0.056
     },
     {
      "ticker": "MRVL",
@@ -2103,7 +2101,7 @@
      "start_price": 307.86,
      "last_price": 279.04,
      "start_value": 4617.9,
-     "weight": 0.0481
+     "weight": 0.0459
     },
     {
      "ticker": "NVDA",
@@ -2111,7 +2109,7 @@
      "start_price": 208.65,
      "last_price": 200.04,
      "start_value": 10432.5,
-     "weight": 0.1087
+     "weight": 0.1037
     },
     {
      "ticker": "PLTR",
@@ -2119,7 +2117,7 @@
      "start_price": 119.5,
      "last_price": 116.7,
      "start_value": 3585.0,
-     "weight": 0.0373
+     "weight": 0.0356
     },
     {
      "ticker": "QQQ",
@@ -2127,7 +2125,7 @@
      "start_price": 737.95,
      "last_price": 713.65,
      "start_value": 7379.5,
-     "weight": 0.0769
+     "weight": 0.0733
     },
     {
      "ticker": "RTX",
@@ -2135,7 +2133,7 @@
      "start_price": 181.83,
      "last_price": 186.39,
      "start_value": 9455.16,
-     "weight": 0.0985
+     "weight": 0.0939
     },
     {
      "ticker": "SOFI",
@@ -2143,7 +2141,15 @@
      "start_price": 17.1,
      "last_price": 17.29,
      "start_value": 855.0,
-     "weight": 0.0089
+     "weight": 0.0085
+    },
+    {
+     "ticker": "SPCX",
+     "shares": 30.0,
+     "start_price": 154.6,
+     "last_price": 156.11,
+     "start_value": 4638.0,
+     "weight": 0.0461
     },
     {
      "ticker": "SPIR",
@@ -2151,7 +2157,7 @@
      "start_price": 17.27,
      "last_price": 17.44,
      "start_value": 949.85,
-     "weight": 0.0099
+     "weight": 0.0094
     },
     {
      "ticker": "SPY",
@@ -2159,7 +2165,7 @@
      "start_price": 744.39,
      "last_price": 733.58,
      "start_value": 7443.9,
-     "weight": 0.0775
+     "weight": 0.074
     },
     {
      "ticker": "T",
@@ -2167,7 +2173,7 @@
      "start_price": 22.1,
      "last_price": 22.81,
      "start_value": 972.4,
-     "weight": 0.0101
+     "weight": 0.0097
     },
     {
      "ticker": "TMC",
@@ -2175,7 +2181,7 @@
      "start_price": 4.95,
      "last_price": 4.82,
      "start_value": 242.55,
-     "weight": 0.0025
+     "weight": 0.0024
     },
     {
      "ticker": "TSLA",
@@ -2183,7 +2189,7 @@
      "start_price": 405.05,
      "last_price": 381.61,
      "start_value": 4050.5,
-     "weight": 0.0422
+     "weight": 0.0402
     },
     {
      "ticker": "VB",
@@ -2191,7 +2197,7 @@
      "start_price": 297.27,
      "last_price": 295.01,
      "start_value": 10107.18,
-     "weight": 0.1053
+     "weight": 0.1004
     },
     {
      "ticker": "VOO",
@@ -2199,17 +2205,14 @@
      "start_price": 686.1,
      "last_price": 676.34,
      "start_value": 20583.0,
-     "weight": 0.2144
+     "weight": 0.2045
     }
    ],
-   "dropped_tickers": [
-    "SPACX"
-   ],
-   "flags": [
-    "could not price: SPACX"
-   ],
+   "dropped_tickers": [],
+   "flags": [],
    "needs_review": false,
    "notes": [
+    "corrected ticker SPACX -> SPCX",
     "corrected ticker NVDIA -> NVDA"
    ]
   },

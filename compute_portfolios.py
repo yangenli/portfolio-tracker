@@ -59,6 +59,7 @@ TICKER_CORRECTIONS = {
     "PLNTR": "PLTR",   # Palantir
     "NVDIA": "NVDA",   # Nvidia (misspelled)
     "BRKB":  "BRK-B",  # Berkshire Hathaway B (missing hyphen)
+    "SPACX": "SPCX",   # SPAC & New Issue ETF (extra 'A'; 6 classmates wrote SPCX)
 }
 
 # If a student didn't put their 8-digit ID in the filename you can pin one here:
