@@ -1,111 +1,117 @@
 {
- "generated_at": "2026-06-29 16:04",
+ "generated_at": "2026-07-01 12:56",
  "tracking_start": "2026-06-22",
  "tracking_end": "2026-08-06",
- "last_price_date": "2026-06-29",
+ "last_price_date": "2026-07-01",
  "dates": [
   "2026-06-22",
   "2026-06-23",
   "2026-06-24",
   "2026-06-25",
   "2026-06-26",
-  "2026-06-29"
+  "2026-06-29",
+  "2026-06-30",
+  "2026-07-01"
  ],
  "benchmark": {
   "name": "S&P 500",
   "ticker": "^GSPC",
-  "cumulative_return": -0.00433,
-  "sharpe": -1.4304,
+  "cumulative_return": 0.002587,
+  "sharpe": 0.7667,
   "curve": [
    0.0,
    -0.014363,
    -0.015332,
    -0.015429,
    -0.015894,
-   -0.00433
+   -0.00433,
+   0.003556,
+   0.002587
   ]
  },
  "class_average": {
   "name": "Class average",
-  "count": 40,
-  "cumulative_return": -0.006389,
-  "sharpe": -1.2375,
+  "count": 41,
+  "cumulative_return": 0.005401,
+  "sharpe": 1.015,
   "curve": [
    0.0,
-   -0.019537,
-   -0.023859,
-   -0.029422,
-   -0.028152,
-   -0.006389
+   -0.019569,
+   -0.023909,
+   -0.029133,
+   -0.027787,
+   -0.006717,
+   0.005396,
+   0.005401
   ]
  },
  "leaderboard": [
   {
    "rank": 1,
-   "student_id": "01531109",
+   "student_id": "01675428",
    "name": null,
-   "cumulative_return": 0.026369,
-   "sharpe": 42.3909,
+   "cumulative_return": 0.034811,
+   "sharpe": 3.0748,
    "beats_return": true,
    "beats_sharpe": true,
    "flags": []
   },
   {
    "rank": 2,
-   "student_id": "01522051",
+   "student_id": "01527446",
    "name": null,
-   "cumulative_return": 0.020253,
-   "sharpe": 6.9746,
+   "cumulative_return": 0.031913,
+   "sharpe": 12.0056,
    "beats_return": true,
    "beats_sharpe": true,
    "flags": []
   },
   {
    "rank": 3,
-   "student_id": "01573342",
+   "student_id": "01538635",
    "name": null,
-   "cumulative_return": 0.017081,
-   "sharpe": 5.5792,
+   "cumulative_return": 0.031209,
+   "sharpe": 7.0869,
    "beats_return": true,
    "beats_sharpe": true,
    "flags": []
   },
   {
    "rank": 4,
-   "student_id": "01538635",
+   "student_id": "01522051",
    "name": null,
-   "cumulative_return": 0.016097,
-   "sharpe": 5.2227,
+   "cumulative_return": 0.030507,
+   "sharpe": 8.2885,
    "beats_return": true,
    "beats_sharpe": true,
    "flags": []
   },
   {
    "rank": 5,
-   "student_id": "01527446",
+   "student_id": "01531109",
    "name": null,
-   "cumulative_return": 0.014037,
-   "sharpe": 7.2815,
+   "cumulative_return": 0.029892,
+   "sharpe": 23.5253,
    "beats_return": true,
    "beats_sharpe": true,
    "flags": []
   },
   {
    "rank": 6,
-   "student_id": "00044085",
+   "student_id": "01573342",
    "name": null,
-   "cumulative_return": 0.011687,
-   "sharpe": 3.1692,
+   "cumulative_return": 0.028635,
+   "sharpe": 7.9534,
    "beats_return": true,
    "beats_sharpe": true,
    "flags": []
   },
   {
    "rank": 7,
-   "student_id": "01614976",
+   "student_id": "01573702",
    "name": null,
-   "cumulative_return": 0.00945,
-   "sharpe": 3.8092,
+   "cumulative_return": 0.027364,
+   "sharpe": 1.8182,
    "beats_return": true,
    "beats_sharpe": true,
    "flags": []
@@ -114,318 +120,318 @@
    "rank": 8,
    "student_id": "01581832",
    "name": null,
-   "cumulative_return": 0.006698,
-   "sharpe": 1.4849,
+   "cumulative_return": 0.025709,
+   "sharpe": 4.261,
    "beats_return": true,
    "beats_sharpe": true,
    "flags": []
   },
   {
    "rank": 9,
-   "student_id": "01645002",
+   "student_id": "01549219",
    "name": null,
-   "cumulative_return": 0.005453,
-   "sharpe": 2.0868,
+   "cumulative_return": 0.024078,
+   "sharpe": 3.4314,
    "beats_return": true,
    "beats_sharpe": true,
    "flags": []
   },
   {
    "rank": 10,
-   "student_id": "01611314",
+   "student_id": "01526828",
    "name": null,
-   "cumulative_return": 0.004557,
-   "sharpe": 1.1577,
+   "cumulative_return": 0.023826,
+   "sharpe": 2.9537,
    "beats_return": true,
    "beats_sharpe": true,
    "flags": []
   },
   {
    "rank": 11,
-   "student_id": "01476256",
+   "student_id": "01611314",
    "name": null,
-   "cumulative_return": 0.003551,
-   "sharpe": 0.7952,
+   "cumulative_return": 0.023812,
+   "sharpe": 4.4517,
    "beats_return": true,
    "beats_sharpe": true,
    "flags": []
   },
   {
    "rank": 12,
-   "student_id": "01533670",
+   "student_id": "01532527",
    "name": null,
-   "cumulative_return": 0.002234,
-   "sharpe": 0.4433,
+   "cumulative_return": 0.023762,
+   "sharpe": 2.1029,
    "beats_return": true,
    "beats_sharpe": true,
    "flags": []
   },
   {
    "rank": 13,
-   "student_id": "01462996",
+   "student_id": "01533670",
    "name": null,
-   "cumulative_return": 0.00176,
-   "sharpe": 0.541,
+   "cumulative_return": 0.022746,
+   "sharpe": 2.5022,
    "beats_return": true,
    "beats_sharpe": true,
    "flags": []
   },
   {
    "rank": 14,
-   "student_id": "01551546",
+   "student_id": "01585681",
    "name": null,
-   "cumulative_return": 0.00149,
-   "sharpe": 0.3686,
+   "cumulative_return": 0.021713,
+   "sharpe": 3.0669,
    "beats_return": true,
    "beats_sharpe": true,
    "flags": []
   },
   {
    "rank": 15,
-   "student_id": "01523172",
+   "student_id": "01551546",
    "name": null,
-   "cumulative_return": 0.001415,
-   "sharpe": 0.3906,
+   "cumulative_return": 0.020888,
+   "sharpe": 2.7476,
    "beats_return": true,
    "beats_sharpe": true,
    "flags": []
   },
   {
    "rank": 16,
-   "student_id": "01474894",
+   "student_id": "01523172",
    "name": null,
-   "cumulative_return": -0.001794,
-   "sharpe": -0.3571,
+   "cumulative_return": 0.02,
+   "sharpe": 3.3362,
    "beats_return": true,
    "beats_sharpe": true,
    "flags": []
   },
   {
    "rank": 17,
-   "student_id": "01526828",
+   "student_id": "00044085",
    "name": null,
-   "cumulative_return": -0.002251,
-   "sharpe": -0.2293,
+   "cumulative_return": 0.018273,
+   "sharpe": 4.9116,
    "beats_return": true,
    "beats_sharpe": true,
    "flags": []
   },
   {
    "rank": 18,
-   "student_id": "01675428",
+   "student_id": "01565215",
    "name": null,
-   "cumulative_return": -0.003222,
-   "sharpe": -0.1384,
+   "cumulative_return": 0.01561,
+   "sharpe": 1.6081,
    "beats_return": true,
    "beats_sharpe": true,
    "flags": []
   },
   {
    "rank": 19,
-   "student_id": "01584036",
+   "student_id": "01565215",
    "name": null,
-   "cumulative_return": -0.00427,
-   "sharpe": -0.9833,
+   "cumulative_return": 0.01561,
+   "sharpe": 1.6081,
    "beats_return": true,
    "beats_sharpe": true,
    "flags": []
   },
   {
    "rank": 20,
-   "student_id": "01546059",
+   "student_id": "01614976",
    "name": null,
-   "cumulative_return": -0.004766,
-   "sharpe": -1.3268,
-   "beats_return": false,
+   "cumulative_return": 0.012389,
+   "sharpe": 4.3456,
+   "beats_return": true,
    "beats_sharpe": true,
    "flags": []
   },
   {
    "rank": 21,
-   "student_id": "01549219",
+   "student_id": "01586793",
    "name": null,
-   "cumulative_return": -0.004966,
-   "sharpe": -0.7998,
-   "beats_return": false,
+   "cumulative_return": 0.009956,
+   "sharpe": 1.813,
+   "beats_return": true,
    "beats_sharpe": true,
    "flags": []
   },
   {
    "rank": 22,
-   "student_id": "01585681",
+   "student_id": "01474894",
    "name": null,
-   "cumulative_return": -0.005382,
-   "sharpe": -0.9729,
-   "beats_return": false,
+   "cumulative_return": 0.00943,
+   "sharpe": 1.967,
+   "beats_return": true,
    "beats_sharpe": true,
    "flags": []
   },
   {
    "rank": 23,
-   "student_id": "01552984",
+   "student_id": "01521102",
    "name": null,
-   "cumulative_return": -0.005663,
-   "sharpe": -1.0565,
-   "beats_return": false,
+   "cumulative_return": 0.00754,
+   "sharpe": 1.6972,
+   "beats_return": true,
    "beats_sharpe": true,
    "flags": []
   },
   {
    "rank": 24,
-   "student_id": "01521102",
+   "student_id": "01483453",
    "name": null,
-   "cumulative_return": -0.00569,
-   "sharpe": -1.5226,
-   "beats_return": false,
-   "beats_sharpe": false,
+   "cumulative_return": 0.007186,
+   "sharpe": 1.1261,
+   "beats_return": true,
+   "beats_sharpe": true,
    "flags": []
   },
   {
    "rank": 25,
-   "student_id": "01565215",
+   "student_id": "01645002",
    "name": null,
-   "cumulative_return": -0.006002,
-   "sharpe": -0.4903,
-   "beats_return": false,
+   "cumulative_return": 0.005602,
+   "sharpe": 1.7655,
+   "beats_return": true,
    "beats_sharpe": true,
    "flags": []
   },
   {
    "rank": 26,
-   "student_id": "01565215",
+   "student_id": "01476256",
    "name": null,
-   "cumulative_return": -0.006002,
-   "sharpe": -0.4903,
-   "beats_return": false,
+   "cumulative_return": 0.005315,
+   "sharpe": 0.949,
+   "beats_return": true,
    "beats_sharpe": true,
    "flags": []
   },
   {
    "rank": 27,
-   "student_id": "01483453",
+   "student_id": "01584036",
    "name": null,
-   "cumulative_return": -0.007358,
-   "sharpe": -1.2684,
-   "beats_return": false,
+   "cumulative_return": 0.004899,
+   "sharpe": 1.0626,
+   "beats_return": true,
    "beats_sharpe": true,
    "flags": []
   },
   {
    "rank": 28,
-   "student_id": "01542383",
+   "student_id": "01535768",
    "name": null,
-   "cumulative_return": -0.009809,
-   "sharpe": -1.6992,
+   "cumulative_return": 0.002543,
+   "sharpe": 0.4354,
    "beats_return": false,
    "beats_sharpe": false,
    "flags": []
   },
   {
    "rank": 29,
-   "student_id": "01522385",
+   "student_id": "01542383",
    "name": null,
-   "cumulative_return": -0.012211,
-   "sharpe": -2.6434,
+   "cumulative_return": 0.001262,
+   "sharpe": 0.2986,
    "beats_return": false,
    "beats_sharpe": false,
    "flags": []
   },
   {
    "rank": 30,
-   "student_id": "01573702",
+   "student_id": "01522385",
    "name": null,
-   "cumulative_return": -0.012632,
-   "sharpe": -0.5609,
+   "cumulative_return": 0.000743,
+   "sharpe": 0.215,
    "beats_return": false,
-   "beats_sharpe": true,
+   "beats_sharpe": false,
    "flags": []
   },
   {
    "rank": 31,
-   "student_id": "01532527",
+   "student_id": "01546059",
    "name": null,
-   "cumulative_return": -0.012917,
-   "sharpe": -1.0981,
+   "cumulative_return": -0.001668,
+   "sharpe": -0.323,
    "beats_return": false,
-   "beats_sharpe": true,
+   "beats_sharpe": false,
    "flags": []
   },
   {
    "rank": 32,
-   "student_id": "01522616",
+   "student_id": "01462996",
    "name": null,
-   "cumulative_return": -0.017029,
-   "sharpe": -4.4451,
+   "cumulative_return": -0.002343,
+   "sharpe": -0.3705,
    "beats_return": false,
    "beats_sharpe": false,
    "flags": []
   },
   {
    "rank": 33,
-   "student_id": "01541954",
+   "student_id": "01552984",
    "name": null,
-   "cumulative_return": -0.019661,
-   "sharpe": -1.866,
+   "cumulative_return": -0.011138,
+   "sharpe": -1.7233,
    "beats_return": false,
    "beats_sharpe": false,
    "flags": []
   },
   {
    "rank": 34,
-   "student_id": "01535768",
+   "student_id": "01522616",
    "name": null,
-   "cumulative_return": -0.026126,
-   "sharpe": -4.185,
+   "cumulative_return": -0.019803,
+   "sharpe": -4.0361,
    "beats_return": false,
    "beats_sharpe": false,
    "flags": []
   },
   {
    "rank": 35,
-   "student_id": "01545609",
+   "student_id": "01544864",
    "name": null,
-   "cumulative_return": -0.029779,
-   "sharpe": -3.1368,
+   "cumulative_return": -0.021637,
+   "sharpe": -1.5345,
    "beats_return": false,
    "beats_sharpe": false,
    "flags": []
   },
   {
    "rank": 36,
-   "student_id": "01530449",
+   "student_id": "01580649",
    "name": null,
-   "cumulative_return": -0.030522,
-   "sharpe": -5.9619,
+   "cumulative_return": -0.023184,
+   "sharpe": -2.308,
    "beats_return": false,
    "beats_sharpe": false,
    "flags": []
   },
   {
    "rank": 37,
-   "student_id": "01580649",
+   "student_id": "01530449",
    "name": null,
-   "cumulative_return": -0.032488,
-   "sharpe": -4.7582,
+   "cumulative_return": -0.023194,
+   "sharpe": -3.302,
    "beats_return": false,
    "beats_sharpe": false,
    "flags": []
   },
   {
    "rank": 38,
-   "student_id": "01544864",
+   "student_id": "01545609",
    "name": null,
-   "cumulative_return": -0.036911,
-   "sharpe": -3.8959,
+   "cumulative_return": -0.02561,
+   "sharpe": -2.0146,
    "beats_return": false,
    "beats_sharpe": false,
    "flags": []
   },
   {
    "rank": 39,
-   "student_id": "01552224",
+   "student_id": "01541954",
    "name": null,
-   "cumulative_return": -0.03849,
-   "sharpe": -2.2395,
+   "cumulative_return": -0.047539,
+   "sharpe": -3.6521,
    "beats_return": false,
    "beats_sharpe": false,
    "flags": []
@@ -434,8 +440,18 @@
    "rank": 40,
    "student_id": "01649735",
    "name": null,
-   "cumulative_return": -0.061753,
-   "sharpe": -5.0889,
+   "cumulative_return": -0.069533,
+   "sharpe": -4.2553,
+   "beats_return": false,
+   "beats_sharpe": false,
+   "flags": []
+  },
+  {
+   "rank": 41,
+   "student_id": "01552224",
+   "name": null,
+   "cumulative_return": -0.070124,
+   "sharpe": -3.3929,
    "beats_return": false,
    "beats_sharpe": false,
    "flags": []
@@ -448,26 +464,28 @@
    "name": null,
    "file": null,
    "start_value": 100249.29,
-   "last_value": 99647.57,
-   "cumulative_return": -0.006002,
-   "sharpe": -0.4903,
-   "beats_return": false,
+   "last_value": 101814.18,
+   "cumulative_return": 0.01561,
+   "sharpe": 1.6081,
+   "beats_return": true,
    "beats_sharpe": true,
-   "points": 3,
+   "points": 5,
    "curve": [
     0.0,
     -0.014454,
     -0.030727,
     -0.059572,
     -0.044656,
-    -0.006002
+    -0.006002,
+    0.012281,
+    0.01561
    ],
    "holdings": [
     {
      "ticker": "AAPL",
      "shares": 50.0,
      "start_price": 297.01,
-     "last_price": 281.74,
+     "last_price": 294.95,
      "start_value": 14850.5,
      "weight": 0.1481
     },
@@ -475,7 +493,7 @@
      "ticker": "AMZN",
      "shares": 34.1,
      "start_price": 232.79,
-     "last_price": 240.14,
+     "last_price": 243.8,
      "start_value": 7938.14,
      "weight": 0.0792
     },
@@ -483,7 +501,7 @@
      "ticker": "GOOG",
      "shares": 30.0,
      "start_price": 348.78,
-     "last_price": 351.28,
+     "last_price": 357.41,
      "start_value": 10463.4,
      "weight": 0.1044
     },
@@ -491,7 +509,7 @@
      "ticker": "META",
      "shares": 15.0,
      "start_price": 563.85,
-     "last_price": 562.6,
+     "last_price": 620.0401,
      "start_value": 8457.75,
      "weight": 0.0844
     },
@@ -499,7 +517,7 @@
      "ticker": "MSFT",
      "shares": 20.0,
      "start_price": 367.34,
-     "last_price": 368.57,
+     "last_price": 387.12,
      "start_value": 7346.8,
      "weight": 0.0733
     },
@@ -507,7 +525,7 @@
      "ticker": "NVDA",
      "shares": 80.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 16692.0,
      "weight": 0.1665
     },
@@ -515,7 +533,7 @@
      "ticker": "RKLB",
      "shares": 140.0,
      "start_price": 100.29,
-     "last_price": 98.01,
+     "last_price": 102.195,
      "start_value": 14040.6,
      "weight": 0.1401
     },
@@ -523,7 +541,7 @@
      "ticker": "SPCX",
      "shares": 100.0,
      "start_price": 154.6,
-     "last_price": 164.19,
+     "last_price": 157.16,
      "start_value": 15460.0,
      "weight": 0.1542
     },
@@ -531,9 +549,181 @@
      "ticker": "UBER",
      "shares": 70.0,
      "start_price": 71.43,
-     "last_price": 75.5,
+     "last_price": 73.23,
      "start_value": 5000.1,
      "weight": 0.0499
+    }
+   ],
+   "dropped_tickers": [],
+   "flags": [],
+   "needs_review": false,
+   "notes": []
+  },
+  "01586793": {
+   "student_id": "01586793",
+   "name": null,
+   "file": null,
+   "start_value": 97741.65,
+   "last_value": 98714.77,
+   "cumulative_return": 0.009956,
+   "sharpe": 1.813,
+   "beats_return": true,
+   "beats_sharpe": true,
+   "points": 5,
+   "curve": [
+    0.0,
+    -0.020477,
+    -0.025728,
+    -0.017048,
+    -0.013404,
+    0.003216,
+    0.016347,
+    0.009956
+   ],
+   "holdings": [
+    {
+     "ticker": "AMD",
+     "shares": 13.0,
+     "start_price": 551.63,
+     "last_price": 543.6797,
+     "start_value": 7171.19,
+     "weight": 0.0734
+    },
+    {
+     "ticker": "AMZN",
+     "shares": 25.0,
+     "start_price": 232.79,
+     "last_price": 243.8,
+     "start_value": 5819.75,
+     "weight": 0.0595
+    },
+    {
+     "ticker": "COST",
+     "shares": 5.0,
+     "start_price": 951.35,
+     "last_price": 927.735,
+     "start_value": 4756.75,
+     "weight": 0.0487
+    },
+    {
+     "ticker": "CRWD",
+     "shares": 9.0,
+     "start_price": 675.44,
+     "last_price": 767.41,
+     "start_value": 6078.96,
+     "weight": 0.0622
+    },
+    {
+     "ticker": "DVN",
+     "shares": 119.0,
+     "start_price": 43.05,
+     "last_price": 40.305,
+     "start_value": 5122.95,
+     "weight": 0.0524
+    },
+    {
+     "ticker": "KO",
+     "shares": 38.0,
+     "start_price": 79.53,
+     "last_price": 81.41,
+     "start_value": 3022.14,
+     "weight": 0.0309
+    },
+    {
+     "ticker": "MD",
+     "shares": 169.0,
+     "start_price": 23.52,
+     "last_price": 26.22,
+     "start_value": 3974.88,
+     "weight": 0.0407
+    },
+    {
+     "ticker": "MSFT",
+     "shares": 16.0,
+     "start_price": 367.34,
+     "last_price": 387.12,
+     "start_value": 5877.44,
+     "weight": 0.0601
+    },
+    {
+     "ticker": "MU",
+     "shares": 8.0,
+     "start_price": 1211.38,
+     "last_price": 1039.8199,
+     "start_value": 9691.04,
+     "weight": 0.0991
+    },
+    {
+     "ticker": "NVDA",
+     "shares": 38.0,
+     "start_price": 208.65,
+     "last_price": 197.98,
+     "start_value": 7928.7,
+     "weight": 0.0811
+    },
+    {
+     "ticker": "OKTA",
+     "shares": 34.0,
+     "start_price": 115.94,
+     "last_price": 141.6198,
+     "start_value": 3941.96,
+     "weight": 0.0403
+    },
+    {
+     "ticker": "ORCL",
+     "shares": 27.0,
+     "start_price": 175.07,
+     "last_price": 143.52,
+     "start_value": 4726.89,
+     "weight": 0.0484
+    },
+    {
+     "ticker": "PANW",
+     "shares": 21.0,
+     "start_price": 286.4,
+     "last_price": 351.93,
+     "start_value": 6014.4,
+     "weight": 0.0615
+    },
+    {
+     "ticker": "PG",
+     "shares": 20.0,
+     "start_price": 147.68,
+     "last_price": 146.55,
+     "start_value": 2953.6,
+     "weight": 0.0302
+    },
+    {
+     "ticker": "REGN",
+     "shares": 7.0,
+     "start_price": 612.5,
+     "last_price": 626.4,
+     "start_value": 4287.5,
+     "weight": 0.0439
+    },
+    {
+     "ticker": "TSM",
+     "shares": 13.0,
+     "start_price": 467.67,
+     "last_price": 443.63,
+     "start_value": 6079.71,
+     "weight": 0.0622
+    },
+    {
+     "ticker": "VRTX",
+     "shares": 9.0,
+     "start_price": 466.79,
+     "last_price": 498.48,
+     "start_value": 4201.11,
+     "weight": 0.043
+    },
+    {
+     "ticker": "XOM",
+     "shares": 44.0,
+     "start_price": 138.47,
+     "last_price": 136.36,
+     "start_value": 6092.68,
+     "weight": 0.0623
     }
    ],
    "dropped_tickers": [],
@@ -546,26 +736,28 @@
    "name": null,
    "file": null,
    "start_value": 99995.4,
-   "last_value": 100171.37,
-   "cumulative_return": 0.00176,
-   "sharpe": 0.541,
-   "beats_return": true,
-   "beats_sharpe": true,
-   "points": 5,
+   "last_value": 99761.11,
+   "cumulative_return": -0.002343,
+   "sharpe": -0.3705,
+   "beats_return": false,
+   "beats_sharpe": false,
+   "points": null,
    "curve": [
     0.0,
     -0.015279,
     -0.018044,
     -0.011273,
     -0.014656,
-    0.00176
+    0.00176,
+    0.010966,
+    -0.002343
    ],
    "holdings": [
     {
      "ticker": "AAPL",
      "shares": 16.0,
      "start_price": 297.01,
-     "last_price": 281.74,
+     "last_price": 294.95,
      "start_value": 4752.16,
      "weight": 0.0475
     },
@@ -573,7 +765,7 @@
      "ticker": "ABBV",
      "shares": 21.0,
      "start_price": 230.01,
-     "last_price": 254.31,
+     "last_price": 251.585,
      "start_value": 4830.21,
      "weight": 0.0483
     },
@@ -581,7 +773,7 @@
      "ticker": "AMD",
      "shares": 9.0,
      "start_price": 551.63,
-     "last_price": 539.49,
+     "last_price": 543.6797,
      "start_value": 4964.67,
      "weight": 0.0496
     },
@@ -589,7 +781,7 @@
      "ticker": "AMZN",
      "shares": 22.0,
      "start_price": 232.79,
-     "last_price": 240.14,
+     "last_price": 243.8,
      "start_value": 5121.38,
      "weight": 0.0512
     },
@@ -597,7 +789,7 @@
      "ticker": "CAT",
      "shares": 5.0,
      "start_price": 1022.28,
-     "last_price": 1033.1899,
+     "last_price": 986.57,
      "start_value": 5111.4,
      "weight": 0.0511
     },
@@ -605,7 +797,7 @@
      "ticker": "GE",
      "shares": 15.0,
      "start_price": 355.12,
-     "last_price": 373.71,
+     "last_price": 373.675,
      "start_value": 5326.8,
      "weight": 0.0533
     },
@@ -613,7 +805,7 @@
      "ticker": "GOOGL",
      "shares": 15.0,
      "start_price": 349.68,
-     "last_price": 353.65,
+     "last_price": 360.55,
      "start_value": 5245.2,
      "weight": 0.0525
     },
@@ -621,7 +813,7 @@
      "ticker": "JPM",
      "shares": 15.0,
      "start_price": 331.48,
-     "last_price": 329.39,
+     "last_price": 333.9125,
      "start_value": 4972.2,
      "weight": 0.0497
     },
@@ -629,7 +821,7 @@
      "ticker": "KO",
      "shares": 62.0,
      "start_price": 79.53,
-     "last_price": 82.65,
+     "last_price": 81.41,
      "start_value": 4930.86,
      "weight": 0.0493
     },
@@ -637,7 +829,7 @@
      "ticker": "LLY",
      "shares": 4.0,
      "start_price": 1102.08,
-     "last_price": 1229.9301,
+     "last_price": 1185.14,
      "start_value": 4408.32,
      "weight": 0.0441
     },
@@ -645,7 +837,7 @@
      "ticker": "MS",
      "shares": 22.0,
      "start_price": 227.09,
-     "last_price": 211.72,
+     "last_price": 211.43,
      "start_value": 4995.98,
      "weight": 0.05
     },
@@ -653,7 +845,7 @@
      "ticker": "MSFT",
      "shares": 14.0,
      "start_price": 367.34,
-     "last_price": 368.57,
+     "last_price": 387.12,
      "start_value": 5142.76,
      "weight": 0.0514
     },
@@ -661,7 +853,7 @@
      "ticker": "MU",
      "shares": 4.0,
      "start_price": 1211.38,
-     "last_price": 1145.28,
+     "last_price": 1039.8199,
      "start_value": 4845.52,
      "weight": 0.0485
     },
@@ -669,7 +861,7 @@
      "ticker": "NVDA",
      "shares": 24.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 5007.6,
      "weight": 0.0501
     },
@@ -677,7 +869,7 @@
      "ticker": "SPCX",
      "shares": 33.0,
      "start_price": 154.6,
-     "last_price": 164.19,
+     "last_price": 157.16,
      "start_value": 5101.8,
      "weight": 0.051
     },
@@ -685,7 +877,7 @@
      "ticker": "TSLA",
      "shares": 13.0,
      "start_price": 405.05,
-     "last_price": 411.84,
+     "last_price": 424.525,
      "start_value": 5265.65,
      "weight": 0.0527
     },
@@ -693,7 +885,7 @@
      "ticker": "TXN",
      "shares": 15.0,
      "start_price": 332.28,
-     "last_price": 285.48,
+     "last_price": 298.24,
      "start_value": 4984.2,
      "weight": 0.0498
     },
@@ -701,7 +893,7 @@
      "ticker": "WMT",
      "shares": 43.0,
      "start_price": 117.18,
-     "last_price": 114.6,
+     "last_price": 108.58,
      "start_value": 5038.74,
      "weight": 0.0504
     },
@@ -709,7 +901,7 @@
      "ticker": "XEL",
      "shares": 63.0,
      "start_price": 78.81,
-     "last_price": 81.98,
+     "last_price": 79.69,
      "start_value": 4965.03,
      "weight": 0.0497
     },
@@ -717,7 +909,7 @@
      "ticker": "XOM",
      "shares": 36.0,
      "start_price": 138.47,
-     "last_price": 136.06,
+     "last_price": 136.36,
      "start_value": 4984.92,
      "weight": 0.0499
     }
@@ -732,9 +924,9 @@
    "name": null,
    "file": null,
    "start_value": 147394.18,
-   "last_value": 148065.9,
-   "cumulative_return": 0.004557,
-   "sharpe": 1.1577,
+   "last_value": 150903.92,
+   "cumulative_return": 0.023812,
+   "sharpe": 4.4517,
    "beats_return": true,
    "beats_sharpe": true,
    "points": 5,
@@ -744,14 +936,16 @@
     -0.016403,
     -0.023583,
     -0.013535,
-    0.004557
+    0.004557,
+    0.020006,
+    0.023812
    ],
    "holdings": [
     {
      "ticker": "AMD",
      "shares": 55.0,
      "start_price": 551.63,
-     "last_price": 539.49,
+     "last_price": 543.6797,
      "start_value": 30339.65,
      "weight": 0.2058
     },
@@ -759,7 +953,7 @@
      "ticker": "AMZN",
      "shares": 35.0,
      "start_price": 232.79,
-     "last_price": 240.14,
+     "last_price": 243.8,
      "start_value": 8147.65,
      "weight": 0.0553
     },
@@ -767,7 +961,7 @@
      "ticker": "AVGO",
      "shares": 12.0,
      "start_price": 392.13,
-     "last_price": 372.45,
+     "last_price": 369.15,
      "start_value": 4705.56,
      "weight": 0.0319
     },
@@ -775,7 +969,7 @@
      "ticker": "COST",
      "shares": 10.0,
      "start_price": 951.35,
-     "last_price": 946.68,
+     "last_price": 927.735,
      "start_value": 9513.5,
      "weight": 0.0645
     },
@@ -783,7 +977,7 @@
      "ticker": "CRM",
      "shares": 18.0,
      "start_price": 150.12,
-     "last_price": 157.93,
+     "last_price": 163.6948,
      "start_value": 2702.16,
      "weight": 0.0183
     },
@@ -791,7 +985,7 @@
      "ticker": "GOOGL",
      "shares": 40.0,
      "start_price": 349.68,
-     "last_price": 353.65,
+     "last_price": 360.55,
      "start_value": 13987.2,
      "weight": 0.0949
     },
@@ -799,7 +993,7 @@
      "ticker": "JPM",
      "shares": 20.0,
      "start_price": 331.48,
-     "last_price": 329.39,
+     "last_price": 333.9125,
      "start_value": 6629.6,
      "weight": 0.045
     },
@@ -807,7 +1001,7 @@
      "ticker": "LLY",
      "shares": 12.0,
      "start_price": 1102.08,
-     "last_price": 1229.9301,
+     "last_price": 1185.14,
      "start_value": 13224.96,
      "weight": 0.0897
     },
@@ -815,7 +1009,7 @@
      "ticker": "META",
      "shares": 25.0,
      "start_price": 563.85,
-     "last_price": 562.6,
+     "last_price": 620.0401,
      "start_value": 14096.25,
      "weight": 0.0956
     },
@@ -823,7 +1017,7 @@
      "ticker": "MSFT",
      "shares": 30.0,
      "start_price": 367.34,
-     "last_price": 368.57,
+     "last_price": 387.12,
      "start_value": 11020.2,
      "weight": 0.0748
     },
@@ -831,7 +1025,7 @@
      "ticker": "NVDA",
      "shares": 65.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 13562.25,
      "weight": 0.092
     },
@@ -839,7 +1033,7 @@
      "ticker": "PLTR",
      "shares": 45.0,
      "start_price": 119.5,
-     "last_price": 115.7,
+     "last_price": 127.2,
      "start_value": 5377.5,
      "weight": 0.0365
     },
@@ -847,7 +1041,7 @@
      "ticker": "RTX",
      "shares": 25.0,
      "start_price": 181.83,
-     "last_price": 187.33,
+     "last_price": 191.01,
      "start_value": 4545.75,
      "weight": 0.0308
     },
@@ -855,7 +1049,7 @@
      "ticker": "UBER",
      "shares": 65.0,
      "start_price": 71.43,
-     "last_price": 75.5,
+     "last_price": 73.23,
      "start_value": 4642.95,
      "weight": 0.0315
     },
@@ -863,7 +1057,7 @@
      "ticker": "V",
      "shares": 15.0,
      "start_price": 326.6,
-     "last_price": 341.65,
+     "last_price": 350.03,
      "start_value": 4899.0,
      "weight": 0.0332
     }
@@ -877,157 +1071,159 @@
    "student_id": "01545609",
    "name": null,
    "file": null,
-   "start_value": 99178.73,
-   "last_value": 96225.33,
-   "cumulative_return": -0.029779,
-   "sharpe": -3.1368,
+   "start_value": 96737.3,
+   "last_value": 94259.91,
+   "cumulative_return": -0.02561,
+   "sharpe": -2.0146,
    "beats_return": false,
    "beats_sharpe": false,
    "points": null,
    "curve": [
     0.0,
-    -0.036538,
-    -0.051605,
-    -0.05503,
-    -0.068212,
-    -0.029779
+    -0.036885,
+    -0.051761,
+    -0.055492,
+    -0.067888,
+    -0.027513,
+    -0.008088,
+    -0.02561
    ],
    "holdings": [
     {
      "ticker": "AMZN",
      "shares": 32.0,
      "start_price": 232.79,
-     "last_price": 240.14,
+     "last_price": 243.8,
      "start_value": 7449.28,
-     "weight": 0.0751
+     "weight": 0.077
     },
     {
      "ticker": "ASTS",
      "shares": 108.0,
      "start_price": 73.19,
-     "last_price": 86.77,
+     "last_price": 87.7,
      "start_value": 7904.52,
-     "weight": 0.0797
+     "weight": 0.0817
     },
     {
      "ticker": "BE",
      "shares": 15.0,
      "start_price": 345.85,
-     "last_price": 275.01,
+     "last_price": 289.43,
      "start_value": 5187.75,
-     "weight": 0.0523
+     "weight": 0.0536
     },
     {
      "ticker": "CAT",
      "shares": 3.0,
      "start_price": 1022.28,
-     "last_price": 1033.1899,
+     "last_price": 986.57,
      "start_value": 3066.84,
-     "weight": 0.0309
+     "weight": 0.0317
     },
     {
      "ticker": "CEG",
      "shares": 19.0,
      "start_price": 275.53,
-     "last_price": 259.32,
+     "last_price": 232.45,
      "start_value": 5235.07,
-     "weight": 0.0528
+     "weight": 0.0541
     },
     {
      "ticker": "FSLR",
      "shares": 17.0,
      "start_price": 263.11,
-     "last_price": 232.8,
+     "last_price": 233.49,
      "start_value": 4472.87,
-     "weight": 0.0451
+     "weight": 0.0462
     },
     {
      "ticker": "GM",
      "shares": 41.0,
      "start_price": 80.43,
-     "last_price": 77.34,
+     "last_price": 75.235,
      "start_value": 3297.63,
-     "weight": 0.0332
+     "weight": 0.0341
     },
     {
      "ticker": "JNJ",
      "shares": 19.0,
      "start_price": 231.29,
-     "last_price": 258.51,
+     "last_price": 253.58,
      "start_value": 4394.51,
-     "weight": 0.0443
+     "weight": 0.0454
     },
     {
      "ticker": "MLI",
      "shares": 35.0,
-     "start_price": 139.51,
-     "last_price": 122.83,
-     "start_value": 4882.85,
-     "weight": 0.0492
+     "start_price": 69.755,
+     "last_price": 58.335,
+     "start_value": 2441.42,
+     "weight": 0.0252
     },
     {
      "ticker": "NVDA",
      "shares": 40.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 8346.0,
-     "weight": 0.0842
+     "weight": 0.0863
     },
     {
      "ticker": "PLTR",
      "shares": 58.0,
      "start_price": 119.5,
-     "last_price": 115.7,
+     "last_price": 127.2,
      "start_value": 6931.0,
-     "weight": 0.0699
+     "weight": 0.0716
     },
     {
      "ticker": "PWR",
      "shares": 8.0,
      "start_price": 740.14,
-     "last_price": 714.45,
+     "last_price": 689.35,
      "start_value": 5921.12,
-     "weight": 0.0597
+     "weight": 0.0612
     },
     {
      "ticker": "RKLB",
      "shares": 64.0,
      "start_price": 100.29,
-     "last_price": 98.01,
+     "last_price": 102.195,
      "start_value": 6418.56,
-     "weight": 0.0647
+     "weight": 0.0664
     },
     {
      "ticker": "SMH",
      "shares": 11.0,
      "start_price": 668.91,
-     "last_price": 631.98,
+     "last_price": 618.86,
      "start_value": 7358.01,
-     "weight": 0.0742
+     "weight": 0.0761
     },
     {
      "ticker": "SPMO",
      "shares": 46.0,
      "start_price": 161.66,
-     "last_price": 158.53,
+     "last_price": 155.015,
      "start_value": 7436.36,
-     "weight": 0.075
+     "weight": 0.0769
     },
     {
      "ticker": "UPS",
      "shares": 38.0,
      "start_price": 107.24,
-     "last_price": 108.01,
+     "last_price": 110.01,
      "start_value": 4075.12,
-     "weight": 0.0411
+     "weight": 0.0421
     },
     {
      "ticker": "VRT",
      "shares": 19.0,
      "start_price": 357.96,
-     "last_price": 306.97,
+     "last_price": 309.72,
      "start_value": 6801.24,
-     "weight": 0.0686
+     "weight": 0.0703
     }
    ],
    "dropped_tickers": [],
@@ -1040,26 +1236,28 @@
    "name": null,
    "file": null,
    "start_value": 97999.79,
-   "last_value": 97513.17,
-   "cumulative_return": -0.004966,
-   "sharpe": -0.7998,
-   "beats_return": false,
+   "last_value": 100359.45,
+   "cumulative_return": 0.024078,
+   "sharpe": 3.4314,
+   "beats_return": true,
    "beats_sharpe": true,
-   "points": 3,
+   "points": 5,
    "curve": [
     0.0,
     -0.018453,
     -0.022854,
     -0.036442,
     -0.028543,
-    -0.004966
+    -0.008379,
+    0.000893,
+    0.024078
    ],
    "holdings": [
     {
      "ticker": "AMD",
      "shares": 14.0,
      "start_price": 551.63,
-     "last_price": 539.49,
+     "last_price": 543.6797,
      "start_value": 7722.82,
      "weight": 0.0788
     },
@@ -1067,7 +1265,7 @@
      "ticker": "AMZN",
      "shares": 40.0,
      "start_price": 232.79,
-     "last_price": 240.14,
+     "last_price": 243.8,
      "start_value": 9311.6,
      "weight": 0.095
     },
@@ -1075,7 +1273,7 @@
      "ticker": "AVGO",
      "shares": 7.0,
      "start_price": 392.13,
-     "last_price": 372.45,
+     "last_price": 369.15,
      "start_value": 2744.91,
      "weight": 0.028
     },
@@ -1083,7 +1281,7 @@
      "ticker": "COIN",
      "shares": 24.0,
      "start_price": 164.84,
-     "last_price": 151.65,
+     "last_price": 160.75,
      "start_value": 3956.16,
      "weight": 0.0404
     },
@@ -1091,7 +1289,7 @@
      "ticker": "CRWD",
      "shares": 8.0,
      "start_price": 675.44,
-     "last_price": 742.91,
+     "last_price": 767.41,
      "start_value": 5403.52,
      "weight": 0.0551
     },
@@ -1099,7 +1297,7 @@
      "ticker": "GOOGL",
      "shares": 27.0,
      "start_price": 349.68,
-     "last_price": 353.65,
+     "last_price": 360.55,
      "start_value": 9441.36,
      "weight": 0.0963
     },
@@ -1107,7 +1305,7 @@
      "ticker": "HWM",
      "shares": 28.0,
      "start_price": 280.36,
-     "last_price": 268.57,
+     "last_price": 267.5,
      "start_value": 7850.08,
      "weight": 0.0801
     },
@@ -1115,7 +1313,7 @@
      "ticker": "JPM",
      "shares": 6.0,
      "start_price": 331.48,
-     "last_price": 329.39,
+     "last_price": 333.9125,
      "start_value": 1988.88,
      "weight": 0.0203
     },
@@ -1123,7 +1321,7 @@
      "ticker": "LULU",
      "shares": 9.0,
      "start_price": 105.43,
-     "last_price": 114.29,
+     "last_price": 115.1,
      "start_value": 948.87,
      "weight": 0.0097
     },
@@ -1131,7 +1329,7 @@
      "ticker": "META",
      "shares": 14.0,
      "start_price": 563.85,
-     "last_price": 562.6,
+     "last_price": 620.0401,
      "start_value": 7893.9,
      "weight": 0.0806
     },
@@ -1139,7 +1337,7 @@
      "ticker": "NVDA",
      "shares": 62.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 12936.3,
      "weight": 0.132
     },
@@ -1147,7 +1345,7 @@
      "ticker": "PLTR",
      "shares": 77.0,
      "start_price": 119.5,
-     "last_price": 115.7,
+     "last_price": 127.2,
      "start_value": 9201.5,
      "weight": 0.0939
     },
@@ -1155,7 +1353,7 @@
      "ticker": "RTX",
      "shares": 44.0,
      "start_price": 181.83,
-     "last_price": 187.33,
+     "last_price": 191.01,
      "start_value": 8000.52,
      "weight": 0.0816
     },
@@ -1163,7 +1361,7 @@
      "ticker": "TSLA",
      "shares": 14.0,
      "start_price": 405.05,
-     "last_price": 411.84,
+     "last_price": 424.525,
      "start_value": 5670.7,
      "weight": 0.0579
     },
@@ -1171,7 +1369,7 @@
      "ticker": "UBER",
      "shares": 69.0,
      "start_price": 71.43,
-     "last_price": 75.5,
+     "last_price": 73.23,
      "start_value": 4928.67,
      "weight": 0.0503
     }
@@ -1185,27 +1383,29 @@
    "student_id": "01538635",
    "name": null,
    "file": null,
-   "start_value": 99003.69,
-   "last_value": 100597.37,
-   "cumulative_return": 0.016097,
-   "sharpe": 5.2227,
+   "start_value": 98994.45,
+   "last_value": 102083.93,
+   "cumulative_return": 0.031209,
+   "sharpe": 7.0869,
    "beats_return": true,
    "beats_sharpe": true,
    "points": 5,
    "curve": [
     0.0,
-    -0.011483,
-    -0.003329,
+    -0.011485,
+    -0.003327,
     0.005867,
     0.003784,
-    0.016097
+    0.015961,
+    0.033307,
+    0.031209
    ],
    "holdings": [
     {
      "ticker": "AAON",
      "shares": 22.0,
      "start_price": 136.16,
-     "last_price": 125.71,
+     "last_price": 116.75,
      "start_value": 2995.52,
      "weight": 0.0303
     },
@@ -1213,7 +1413,7 @@
      "ticker": "AGYS",
      "shares": 41.0,
      "start_price": 84.44,
-     "last_price": 103.4,
+     "last_price": 109.86,
      "start_value": 3462.04,
      "weight": 0.035
     },
@@ -1221,7 +1421,7 @@
      "ticker": "ANET",
      "shares": 35.0,
      "start_price": 174.56,
-     "last_price": 164.1,
+     "last_price": 167.79,
      "start_value": 6109.6,
      "weight": 0.0617
     },
@@ -1229,23 +1429,23 @@
      "ticker": "AXON",
      "shares": 13.0,
      "start_price": 410.03,
-     "last_price": 510.6,
+     "last_price": 594.12,
      "start_value": 5330.39,
      "weight": 0.0538
     },
     {
      "ticker": "BDGIF",
      "shares": 70.0,
-     "start_price": 63.0,
-     "last_price": 65.55,
-     "start_value": 4410.0,
+     "start_price": 62.8679,
+     "last_price": 65.36,
+     "start_value": 4400.76,
      "weight": 0.0445
     },
     {
      "ticker": "BND",
      "shares": 115.0,
      "start_price": 73.14,
-     "last_price": 73.71,
+     "last_price": 73.055,
      "start_value": 8411.1,
      "weight": 0.085
     },
@@ -1253,7 +1453,7 @@
      "ticker": "BROS",
      "shares": 55.0,
      "start_price": 67.03,
-     "last_price": 71.69,
+     "last_price": 73.395,
      "start_value": 3686.65,
      "weight": 0.0372
     },
@@ -1261,7 +1461,7 @@
      "ticker": "BWXT",
      "shares": 18.0,
      "start_price": 210.0,
-     "last_price": 189.25,
+     "last_price": 192.07,
      "start_value": 3780.0,
      "weight": 0.0382
     },
@@ -1269,7 +1469,7 @@
      "ticker": "CWST",
      "shares": 35.0,
      "start_price": 84.58,
-     "last_price": 94.28,
+     "last_price": 95.84,
      "start_value": 2960.3,
      "weight": 0.0299
     },
@@ -1277,7 +1477,7 @@
      "ticker": "ECL",
      "shares": 23.0,
      "start_price": 269.34,
-     "last_price": 278.6,
+     "last_price": 281.0,
      "start_value": 6194.82,
      "weight": 0.0626
     },
@@ -1285,7 +1485,7 @@
      "ticker": "GKOS",
      "shares": 14.0,
      "start_price": 131.19,
-     "last_price": 142.19,
+     "last_price": 138.09,
      "start_value": 1836.66,
      "weight": 0.0186
     },
@@ -1293,7 +1493,7 @@
      "ticker": "INGM",
      "shares": 65.0,
      "start_price": 28.31,
-     "last_price": 27.45,
+     "last_price": 27.42,
      "start_value": 1840.15,
      "weight": 0.0186
     },
@@ -1301,7 +1501,7 @@
      "ticker": "MOD",
      "shares": 12.0,
      "start_price": 295.58,
-     "last_price": 256.34,
+     "last_price": 247.09,
      "start_value": 3546.96,
      "weight": 0.0358
     },
@@ -1309,7 +1509,7 @@
      "ticker": "SN",
      "shares": 25.0,
      "start_price": 138.56,
-     "last_price": 146.38,
+     "last_price": 151.465,
      "start_value": 3464.0,
      "weight": 0.035
     },
@@ -1317,7 +1517,7 @@
      "ticker": "SPXC",
      "shares": 14.0,
      "start_price": 246.41,
-     "last_price": 238.21,
+     "last_price": 233.07,
      "start_value": 3449.74,
      "weight": 0.0348
     },
@@ -1325,7 +1525,7 @@
      "ticker": "VTI",
      "shares": 76.0,
      "start_price": 367.7521,
-     "last_price": 367.12,
+     "last_price": 369.71,
      "start_value": 27949.16,
      "weight": 0.2823
     },
@@ -1333,7 +1533,7 @@
      "ticker": "VXUS",
      "shares": 110.0,
      "start_price": 87.06,
-     "last_price": 84.93,
+     "last_price": 84.535,
      "start_value": 9576.6,
      "weight": 0.0967
     }
@@ -1347,27 +1547,29 @@
    "student_id": "01527446",
    "name": null,
    "file": null,
-   "start_value": 99790.8,
-   "last_value": 101191.59,
-   "cumulative_return": 0.014037,
-   "sharpe": 7.2815,
+   "start_value": 99570.1,
+   "last_value": 102747.66,
+   "cumulative_return": 0.031913,
+   "sharpe": 12.0056,
    "beats_return": true,
    "beats_sharpe": true,
    "points": 5,
    "curve": [
     0.0,
-    0.004446,
-    0.007188,
-    0.001442,
-    0.012764,
-    0.014037
+    0.004426,
+    0.007158,
+    0.00138,
+    0.01269,
+    0.017078,
+    0.019704,
+    0.031913
    ],
    "holdings": [
     {
      "ticker": "AAPL",
      "shares": 10.0,
      "start_price": 297.01,
-     "last_price": 281.74,
+     "last_price": 294.95,
      "start_value": 2970.1,
      "weight": 0.0298
     },
@@ -1375,7 +1577,7 @@
      "ticker": "AON",
      "shares": 13.0,
      "start_price": 313.63,
-     "last_price": 327.57,
+     "last_price": 346.15,
      "start_value": 4077.19,
      "weight": 0.0409
     },
@@ -1383,63 +1585,63 @@
      "ticker": "BND",
      "shares": 102.0,
      "start_price": 73.14,
-     "last_price": 73.71,
+     "last_price": 73.055,
      "start_value": 7460.28,
-     "weight": 0.0748
+     "weight": 0.0749
     },
     {
      "ticker": "CB",
      "shares": 12.0,
      "start_price": 325.2,
-     "last_price": 343.29,
+     "last_price": 351.53,
      "start_value": 3902.4,
-     "weight": 0.0391
+     "weight": 0.0392
     },
     {
      "ticker": "EQR",
      "shares": 214.0,
-     "start_price": 64.73,
-     "last_price": 68.34,
-     "start_value": 13852.22,
-     "weight": 0.1388
+     "start_price": 64.0645,
+     "last_price": 68.74,
+     "start_value": 13709.81,
+     "weight": 0.1377
     },
     {
      "ticker": "GOOGL",
      "shares": 8.0,
      "start_price": 349.68,
-     "last_price": 353.65,
+     "last_price": 360.55,
      "start_value": 2797.44,
-     "weight": 0.028
+     "weight": 0.0281
     },
     {
      "ticker": "HIG",
      "shares": 33.0,
      "start_price": 129.5,
-     "last_price": 133.49,
+     "last_price": 134.06,
      "start_value": 4273.5,
-     "weight": 0.0428
+     "weight": 0.0429
     },
     {
      "ticker": "INTC",
      "shares": 26.0,
      "start_price": 140.94,
-     "last_price": 131.72,
+     "last_price": 126.765,
      "start_value": 3664.44,
-     "weight": 0.0367
+     "weight": 0.0368
     },
     {
      "ticker": "JPM",
      "shares": 23.0,
      "start_price": 331.48,
-     "last_price": 329.39,
+     "last_price": 333.9125,
      "start_value": 7624.04,
-     "weight": 0.0764
+     "weight": 0.0766
     },
     {
      "ticker": "LMT",
      "shares": 6.0,
      "start_price": 493.6,
-     "last_price": 502.07,
+     "last_price": 519.45,
      "start_value": 2961.6,
      "weight": 0.0297
     },
@@ -1447,31 +1649,31 @@
      "ticker": "MSFT",
      "shares": 8.0,
      "start_price": 367.34,
-     "last_price": 368.57,
+     "last_price": 387.12,
      "start_value": 2938.72,
-     "weight": 0.0294
+     "weight": 0.0295
     },
     {
      "ticker": "NVDA",
      "shares": 21.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 4381.65,
-     "weight": 0.0439
+     "weight": 0.044
     },
     {
      "ticker": "PGR",
      "shares": 21.0,
      "start_price": 207.38,
-     "last_price": 219.86,
+     "last_price": 225.18,
      "start_value": 4354.98,
-     "weight": 0.0436
+     "weight": 0.0437
     },
     {
      "ticker": "PLTR",
      "shares": 16.0,
      "start_price": 119.5,
-     "last_price": 115.7,
+     "last_price": 127.2,
      "start_value": 1912.0,
      "weight": 0.0192
     },
@@ -1479,49 +1681,49 @@
      "ticker": "RTX",
      "shares": 17.0,
      "start_price": 181.83,
-     "last_price": 187.33,
+     "last_price": 191.01,
      "start_value": 3091.11,
      "weight": 0.031
     },
     {
      "ticker": "STAG",
      "shares": 164.0,
-     "start_price": 38.58,
-     "last_price": 39.16,
-     "start_value": 6327.12,
-     "weight": 0.0634
+     "start_price": 38.1977,
+     "last_price": 38.51,
+     "start_value": 6264.43,
+     "weight": 0.0629
     },
     {
      "ticker": "TRBCX",
      "shares": 35.0,
      "start_price": 210.72,
-     "last_price": 203.54,
+     "last_price": 211.47,
      "start_value": 7375.2,
-     "weight": 0.0739
+     "weight": 0.0741
     },
     {
      "ticker": "TRV",
      "shares": 13.0,
      "start_price": 310.61,
-     "last_price": 331.88,
+     "last_price": 336.075,
      "start_value": 4037.93,
-     "weight": 0.0405
+     "weight": 0.0406
     },
     {
      "ticker": "VCIT",
      "shares": 91.0,
      "start_price": 82.29,
-     "last_price": 82.96,
+     "last_price": 82.19,
      "start_value": 7488.39,
-     "weight": 0.075
+     "weight": 0.0752
     },
     {
      "ticker": "WTW",
      "shares": 17.0,
-     "start_price": 252.97,
-     "last_price": 264.7,
-     "start_value": 4300.49,
-     "weight": 0.0431
+     "start_price": 252.0525,
+     "last_price": 275.6401,
+     "start_value": 4284.89,
+     "weight": 0.043
     }
    ],
    "dropped_tickers": [],
@@ -1534,9 +1736,9 @@
    "name": null,
    "file": null,
    "start_value": 120212.87,
-   "last_value": 120481.46,
-   "cumulative_return": 0.002234,
-   "sharpe": 0.4433,
+   "last_value": 122947.23,
+   "cumulative_return": 0.022746,
+   "sharpe": 2.5022,
    "beats_return": true,
    "beats_sharpe": true,
    "points": 5,
@@ -1546,14 +1748,16 @@
     -0.037996,
     -0.029815,
     -0.034455,
-    0.002234
+    0.002237,
+    0.024344,
+    0.022746
    ],
    "holdings": [
     {
      "ticker": "AMD",
      "shares": 18.0,
      "start_price": 551.63,
-     "last_price": 539.49,
+     "last_price": 543.6797,
      "start_value": 9929.34,
      "weight": 0.0826
     },
@@ -1561,7 +1765,7 @@
      "ticker": "AMZN",
      "shares": 42.95,
      "start_price": 232.79,
-     "last_price": 240.14,
+     "last_price": 243.8,
      "start_value": 9998.33,
      "weight": 0.0832
     },
@@ -1569,7 +1773,7 @@
      "ticker": "FMAT",
      "shares": 167.0,
      "start_price": 59.66,
-     "last_price": 58.268,
+     "last_price": 58.5837,
      "start_value": 9963.22,
      "weight": 0.0829
     },
@@ -1577,7 +1781,7 @@
      "ticker": "GEV",
      "shares": 8.86,
      "start_price": 1127.59,
-     "last_price": 1102.51,
+     "last_price": 1129.02,
      "start_value": 9990.45,
      "weight": 0.0831
     },
@@ -1585,7 +1789,7 @@
      "ticker": "NVDA",
      "shares": 24.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 5007.6,
      "weight": 0.0417
     },
@@ -1593,7 +1797,7 @@
      "ticker": "OKTA",
      "shares": 85.73,
      "start_price": 115.94,
-     "last_price": 131.31,
+     "last_price": 141.6198,
      "start_value": 9939.54,
      "weight": 0.0827
     },
@@ -1601,7 +1805,7 @@
      "ticker": "QCOM",
      "shares": 45.0,
      "start_price": 221.9,
-     "last_price": 188.72,
+     "last_price": 182.1,
      "start_value": 9985.5,
      "weight": 0.0831
     },
@@ -1609,7 +1813,7 @@
      "ticker": "TSLA",
      "shares": 50.5,
      "start_price": 405.05,
-     "last_price": 411.84,
+     "last_price": 424.525,
      "start_value": 20455.02,
      "weight": 0.1702
     },
@@ -1617,7 +1821,7 @@
      "ticker": "TTWO",
      "shares": 125.0,
      "start_price": 239.57,
-     "last_price": 247.15,
+     "last_price": 252.06,
      "start_value": 29946.25,
      "weight": 0.2491
     },
@@ -1625,7 +1829,7 @@
      "ticker": "VGT",
      "shares": 41.52,
      "start_price": 120.3667,
-     "last_price": 116.5,
+     "last_price": 117.295,
      "start_value": 4997.63,
      "weight": 0.0416
     }
@@ -1640,9 +1844,9 @@
    "name": null,
    "file": null,
    "start_value": 97733.09,
-   "last_value": 97557.73,
-   "cumulative_return": -0.001794,
-   "sharpe": -0.3571,
+   "last_value": 98654.75,
+   "cumulative_return": 0.00943,
+   "sharpe": 1.967,
    "beats_return": true,
    "beats_sharpe": true,
    "points": 5,
@@ -1652,14 +1856,16 @@
     -0.015018,
     -0.027868,
     -0.016858,
-    -0.001794
+    -0.001794,
+    -0.000567,
+    0.00943
    ],
    "holdings": [
     {
      "ticker": "AMZN",
      "shares": 28.0,
      "start_price": 232.79,
-     "last_price": 240.14,
+     "last_price": 243.8,
      "start_value": 6518.12,
      "weight": 0.0667
     },
@@ -1667,7 +1873,7 @@
      "ticker": "AVGO",
      "shares": 14.0,
      "start_price": 392.13,
-     "last_price": 372.45,
+     "last_price": 369.15,
      "start_value": 5489.82,
      "weight": 0.0562
     },
@@ -1675,7 +1881,7 @@
      "ticker": "CEG",
      "shares": 18.0,
      "start_price": 275.53,
-     "last_price": 259.32,
+     "last_price": 232.45,
      "start_value": 4959.54,
      "weight": 0.0507
     },
@@ -1683,7 +1889,7 @@
      "ticker": "COST",
      "shares": 4.0,
      "start_price": 951.35,
-     "last_price": 946.68,
+     "last_price": 927.735,
      "start_value": 3805.4,
      "weight": 0.0389
     },
@@ -1691,7 +1897,7 @@
      "ticker": "GOOGL",
      "shares": 19.0,
      "start_price": 349.68,
-     "last_price": 353.65,
+     "last_price": 360.55,
      "start_value": 6643.92,
      "weight": 0.068
     },
@@ -1699,7 +1905,7 @@
      "ticker": "JPM",
      "shares": 18.0,
      "start_price": 331.48,
-     "last_price": 329.39,
+     "last_price": 333.9125,
      "start_value": 5966.64,
      "weight": 0.0611
     },
@@ -1707,7 +1913,7 @@
      "ticker": "LLY",
      "shares": 4.0,
      "start_price": 1102.08,
-     "last_price": 1229.9301,
+     "last_price": 1185.14,
      "start_value": 4408.32,
      "weight": 0.0451
     },
@@ -1715,7 +1921,7 @@
      "ticker": "META",
      "shares": 10.0,
      "start_price": 563.85,
-     "last_price": 562.6,
+     "last_price": 620.0401,
      "start_value": 5638.5,
      "weight": 0.0577
     },
@@ -1723,7 +1929,7 @@
      "ticker": "MSFT",
      "shares": 18.0,
      "start_price": 367.34,
-     "last_price": 368.57,
+     "last_price": 387.12,
      "start_value": 6612.12,
      "weight": 0.0677
     },
@@ -1731,7 +1937,7 @@
      "ticker": "NFLX",
      "shares": 56.0,
      "start_price": 72.88,
-     "last_price": 73.78,
+     "last_price": 74.245,
      "start_value": 4081.28,
      "weight": 0.0418
     },
@@ -1739,7 +1945,7 @@
      "ticker": "NVDA",
      "shares": 39.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 8137.35,
      "weight": 0.0833
     },
@@ -1747,7 +1953,7 @@
      "ticker": "ORCL",
      "shares": 32.0,
      "start_price": 175.07,
-     "last_price": 147.76,
+     "last_price": 143.52,
      "start_value": 5602.24,
      "weight": 0.0573
     },
@@ -1755,7 +1961,7 @@
      "ticker": "PANW",
      "shares": 13.0,
      "start_price": 286.4,
-     "last_price": 332.0,
+     "last_price": 351.93,
      "start_value": 3723.2,
      "weight": 0.0381
     },
@@ -1763,7 +1969,7 @@
      "ticker": "PLTR",
      "shares": 36.0,
      "start_price": 119.5,
-     "last_price": 115.7,
+     "last_price": 127.2,
      "start_value": 4302.0,
      "weight": 0.044
     },
@@ -1771,7 +1977,7 @@
      "ticker": "RTX",
      "shares": 35.0,
      "start_price": 181.83,
-     "last_price": 187.33,
+     "last_price": 191.01,
      "start_value": 6364.05,
      "weight": 0.0651
     },
@@ -1779,7 +1985,7 @@
      "ticker": "TSM",
      "shares": 12.0,
      "start_price": 467.67,
-     "last_price": 455.1,
+     "last_price": 443.63,
      "start_value": 5612.04,
      "weight": 0.0574
     },
@@ -1787,7 +1993,7 @@
      "ticker": "UBER",
      "shares": 65.0,
      "start_price": 71.43,
-     "last_price": 75.5,
+     "last_price": 73.23,
      "start_value": 4642.95,
      "weight": 0.0475
     },
@@ -1795,7 +2001,7 @@
      "ticker": "V",
      "shares": 16.0,
      "start_price": 326.6,
-     "last_price": 341.65,
+     "last_price": 350.03,
      "start_value": 5225.6,
      "weight": 0.0535
     }
@@ -1810,9 +2016,9 @@
    "name": null,
    "file": null,
    "start_value": 190717.91,
-   "last_value": 183377.22,
-   "cumulative_return": -0.03849,
-   "sharpe": -2.2395,
+   "last_value": 177344.02,
+   "cumulative_return": -0.070124,
+   "sharpe": -3.3929,
    "beats_return": false,
    "beats_sharpe": false,
    "points": null,
@@ -1822,14 +2028,16 @@
     -0.071247,
     -0.022615,
     -0.057534,
-    -0.03849
+    -0.03849,
+    -0.021856,
+    -0.070124
    ],
    "holdings": [
     {
      "ticker": "AMZN",
      "shares": 39.0,
      "start_price": 232.79,
-     "last_price": 240.14,
+     "last_price": 243.8,
      "start_value": 9078.81,
      "weight": 0.0476
     },
@@ -1837,7 +2045,7 @@
      "ticker": "AVGO",
      "shares": 29.0,
      "start_price": 392.13,
-     "last_price": 372.45,
+     "last_price": 369.15,
      "start_value": 11371.77,
      "weight": 0.0596
     },
@@ -1845,7 +2053,7 @@
      "ticker": "COST",
      "shares": 4.0,
      "start_price": 951.35,
-     "last_price": 946.68,
+     "last_price": 927.735,
      "start_value": 3805.4,
      "weight": 0.02
     },
@@ -1853,7 +2061,7 @@
      "ticker": "FIX",
      "shares": 8.0,
      "start_price": 2066.51,
-     "last_price": 1948.6899,
+     "last_price": 1854.455,
      "start_value": 16532.08,
      "weight": 0.0867
     },
@@ -1861,7 +2069,7 @@
      "ticker": "GE",
      "shares": 15.0,
      "start_price": 355.12,
-     "last_price": 373.71,
+     "last_price": 373.675,
      "start_value": 5326.8,
      "weight": 0.0279
     },
@@ -1869,7 +2077,7 @@
      "ticker": "JBL",
      "shares": 19.0,
      "start_price": 377.24,
-     "last_price": 373.58,
+     "last_price": 374.245,
      "start_value": 7167.56,
      "weight": 0.0376
     },
@@ -1877,7 +2085,7 @@
      "ticker": "LLY",
      "shares": 5.0,
      "start_price": 1102.08,
-     "last_price": 1229.9301,
+     "last_price": 1185.14,
      "start_value": 5510.4,
      "weight": 0.0289
     },
@@ -1885,7 +2093,7 @@
      "ticker": "META",
      "shares": 12.0,
      "start_price": 563.85,
-     "last_price": 562.6,
+     "last_price": 620.0401,
      "start_value": 6766.2,
      "weight": 0.0355
     },
@@ -1893,7 +2101,7 @@
      "ticker": "MSFT",
      "shares": 20.0,
      "start_price": 367.34,
-     "last_price": 368.57,
+     "last_price": 387.12,
      "start_value": 7346.8,
      "weight": 0.0385
     },
@@ -1901,7 +2109,7 @@
      "ticker": "MU",
      "shares": 58.0,
      "start_price": 1211.38,
-     "last_price": 1145.28,
+     "last_price": 1039.8199,
      "start_value": 70260.04,
      "weight": 0.3684
     },
@@ -1909,7 +2117,7 @@
      "ticker": "NVDA",
      "shares": 71.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 14814.15,
      "weight": 0.0777
     },
@@ -1917,7 +2125,7 @@
      "ticker": "TSM",
      "shares": 34.0,
      "start_price": 467.67,
-     "last_price": 455.1,
+     "last_price": 443.63,
      "start_value": 15900.78,
      "weight": 0.0834
     },
@@ -1925,7 +2133,7 @@
      "ticker": "V",
      "shares": 11.0,
      "start_price": 326.6,
-     "last_price": 341.65,
+     "last_price": 350.03,
      "start_value": 3592.6,
      "weight": 0.0188
     },
@@ -1933,7 +2141,7 @@
      "ticker": "VRT",
      "shares": 37.0,
      "start_price": 357.96,
-     "last_price": 306.97,
+     "last_price": 309.72,
      "start_value": 13244.52,
      "weight": 0.0694
     }
@@ -1948,26 +2156,28 @@
    "name": null,
    "file": null,
    "start_value": 91010.5,
-   "last_value": 90520.71,
-   "cumulative_return": -0.005382,
-   "sharpe": -0.9729,
-   "beats_return": false,
+   "last_value": 92986.58,
+   "cumulative_return": 0.021713,
+   "sharpe": 3.0669,
+   "beats_return": true,
    "beats_sharpe": true,
-   "points": 3,
+   "points": 5,
    "curve": [
     0.0,
     -0.009216,
     -0.009357,
     -0.032275,
     -0.015907,
-    -0.005382
+    -0.005382,
+    -0.004356,
+    0.021713
    ],
    "holdings": [
     {
      "ticker": "AAPL",
      "shares": 20.0,
      "start_price": 297.01,
-     "last_price": 281.74,
+     "last_price": 294.95,
      "start_value": 5940.2,
      "weight": 0.0653
     },
@@ -1975,7 +2185,7 @@
      "ticker": "AMZN",
      "shares": 30.0,
      "start_price": 232.79,
-     "last_price": 240.14,
+     "last_price": 243.8,
      "start_value": 6983.7,
      "weight": 0.0767
     },
@@ -1983,7 +2193,7 @@
      "ticker": "AVGO",
      "shares": 18.0,
      "start_price": 392.13,
-     "last_price": 372.45,
+     "last_price": 369.15,
      "start_value": 7058.34,
      "weight": 0.0776
     },
@@ -1991,7 +2201,7 @@
      "ticker": "BRK-B",
      "shares": 10.0,
      "start_price": 488.69,
-     "last_price": 496.0,
+     "last_price": 502.69,
      "start_value": 4886.9,
      "weight": 0.0537
     },
@@ -1999,7 +2209,7 @@
      "ticker": "COST",
      "shares": 5.0,
      "start_price": 951.35,
-     "last_price": 946.68,
+     "last_price": 927.735,
      "start_value": 4756.75,
      "weight": 0.0523
     },
@@ -2007,7 +2217,7 @@
      "ticker": "GOOGL",
      "shares": 18.0,
      "start_price": 349.68,
-     "last_price": 353.65,
+     "last_price": 360.55,
      "start_value": 6294.24,
      "weight": 0.0692
     },
@@ -2015,7 +2225,7 @@
      "ticker": "JPM",
      "shares": 15.0,
      "start_price": 331.48,
-     "last_price": 329.39,
+     "last_price": 333.9125,
      "start_value": 4972.2,
      "weight": 0.0546
     },
@@ -2023,7 +2233,7 @@
      "ticker": "META",
      "shares": 14.0,
      "start_price": 563.85,
-     "last_price": 562.6,
+     "last_price": 620.0401,
      "start_value": 7893.9,
      "weight": 0.0867
     },
@@ -2031,7 +2241,7 @@
      "ticker": "MSFT",
      "shares": 18.0,
      "start_price": 367.34,
-     "last_price": 368.57,
+     "last_price": 387.12,
      "start_value": 6612.12,
      "weight": 0.0727
     },
@@ -2039,7 +2249,7 @@
      "ticker": "NFLX",
      "shares": 70.0,
      "start_price": 72.88,
-     "last_price": 73.78,
+     "last_price": 74.245,
      "start_value": 5101.6,
      "weight": 0.0561
     },
@@ -2047,7 +2257,7 @@
      "ticker": "NVDA",
      "shares": 45.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 9389.25,
      "weight": 0.1032
     },
@@ -2055,7 +2265,7 @@
      "ticker": "PLTR",
      "shares": 70.0,
      "start_price": 119.5,
-     "last_price": 115.7,
+     "last_price": 127.2,
      "start_value": 8365.0,
      "weight": 0.0919
     },
@@ -2063,7 +2273,7 @@
      "ticker": "UBER",
      "shares": 110.0,
      "start_price": 71.43,
-     "last_price": 75.5,
+     "last_price": 73.23,
      "start_value": 7857.3,
      "weight": 0.0863
     },
@@ -2071,7 +2281,7 @@
      "ticker": "V",
      "shares": 15.0,
      "start_price": 326.6,
-     "last_price": 341.65,
+     "last_price": 350.03,
      "start_value": 4899.0,
      "weight": 0.0538
     }
@@ -2086,9 +2296,9 @@
    "name": null,
    "file": null,
    "start_value": 100014.38,
-   "last_value": 96322.78,
-   "cumulative_return": -0.036911,
-   "sharpe": -3.8959,
+   "last_value": 97850.42,
+   "cumulative_return": -0.021637,
+   "sharpe": -1.5345,
    "beats_return": false,
    "beats_sharpe": false,
    "points": null,
@@ -2098,14 +2308,16 @@
     -0.019982,
     -0.037718,
     -0.071432,
-    -0.036911
+    -0.036911,
+    -0.00553,
+    -0.021637
    ],
    "holdings": [
     {
      "ticker": "AAPL",
      "shares": 25.0,
      "start_price": 297.01,
-     "last_price": 281.74,
+     "last_price": 294.95,
      "start_value": 7425.25,
      "weight": 0.0742
     },
@@ -2113,7 +2325,7 @@
      "ticker": "AMD",
      "shares": 10.0,
      "start_price": 551.63,
-     "last_price": 539.49,
+     "last_price": 543.6797,
      "start_value": 5516.3,
      "weight": 0.0552
     },
@@ -2121,7 +2333,7 @@
      "ticker": "AMZN",
      "shares": 50.0,
      "start_price": 232.79,
-     "last_price": 240.14,
+     "last_price": 243.8,
      "start_value": 11639.5,
      "weight": 0.1164
     },
@@ -2129,7 +2341,7 @@
      "ticker": "BE",
      "shares": 60.0,
      "start_price": 345.85,
-     "last_price": 275.01,
+     "last_price": 289.43,
      "start_value": 20751.0,
      "weight": 0.2075
     },
@@ -2137,7 +2349,7 @@
      "ticker": "CORT",
      "shares": 100.0,
      "start_price": 79.71,
-     "last_price": 87.89,
+     "last_price": 89.58,
      "start_value": 7971.0,
      "weight": 0.0797
     },
@@ -2145,7 +2357,7 @@
      "ticker": "DAL",
      "shares": 99.0,
      "start_price": 85.92,
-     "last_price": 93.17,
+     "last_price": 93.63,
      "start_value": 8506.08,
      "weight": 0.085
     },
@@ -2153,7 +2365,7 @@
      "ticker": "DELL",
      "shares": 15.0,
      "start_price": 418.71,
-     "last_price": 414.61,
+     "last_price": 418.6201,
      "start_value": 6280.65,
      "weight": 0.0628
     },
@@ -2161,7 +2373,7 @@
      "ticker": "GOOG",
      "shares": 15.0,
      "start_price": 348.78,
-     "last_price": 351.28,
+     "last_price": 357.41,
      "start_value": 5231.7,
      "weight": 0.0523
     },
@@ -2169,7 +2381,7 @@
      "ticker": "NVDA",
      "shares": 20.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 4173.0,
      "weight": 0.0417
     },
@@ -2177,7 +2389,7 @@
      "ticker": "ROM",
      "shares": 60.0,
      "start_price": 158.64,
-     "last_price": 147.4,
+     "last_price": 147.32,
      "start_value": 9518.4,
      "weight": 0.0952
     },
@@ -2185,7 +2397,7 @@
      "ticker": "SPCX",
      "shares": 20.0,
      "start_price": 154.6,
-     "last_price": 164.19,
+     "last_price": 157.16,
      "start_value": 3092.0,
      "weight": 0.0309
     },
@@ -2193,7 +2405,7 @@
      "ticker": "TSLA",
      "shares": 10.0,
      "start_price": 405.05,
-     "last_price": 411.84,
+     "last_price": 424.525,
      "start_value": 4050.5,
      "weight": 0.0405
     },
@@ -2201,7 +2413,7 @@
      "ticker": "WMT",
      "shares": 50.0,
      "start_price": 117.18,
-     "last_price": 114.6,
+     "last_price": 108.58,
      "start_value": 5859.0,
      "weight": 0.0586
     }
@@ -2216,9 +2428,9 @@
    "name": null,
    "file": null,
    "start_value": 100555.09,
-   "last_value": 99327.17,
-   "cumulative_return": -0.012211,
-   "sharpe": -2.6434,
+   "last_value": 100629.79,
+   "cumulative_return": 0.000743,
+   "sharpe": 0.215,
    "beats_return": false,
    "beats_sharpe": false,
    "points": null,
@@ -2228,14 +2440,16 @@
     -0.024474,
     -0.028739,
     -0.031605,
-    -0.012211
+    -0.012211,
+    0.005845,
+    0.000743
    ],
    "holdings": [
     {
      "ticker": "AAPL",
      "shares": 10.0,
      "start_price": 297.01,
-     "last_price": 281.74,
+     "last_price": 294.95,
      "start_value": 2970.1,
      "weight": 0.0295
     },
@@ -2243,7 +2457,7 @@
      "ticker": "F",
      "shares": 67.0,
      "start_price": 14.11,
-     "last_price": 14.02,
+     "last_price": 13.685,
      "start_value": 945.37,
      "weight": 0.0094
     },
@@ -2251,7 +2465,7 @@
      "ticker": "INTC",
      "shares": 41.0,
      "start_price": 140.94,
-     "last_price": 131.72,
+     "last_price": 126.765,
      "start_value": 5778.54,
      "weight": 0.0575
     },
@@ -2259,7 +2473,7 @@
      "ticker": "META",
      "shares": 10.0,
      "start_price": 563.85,
-     "last_price": 562.6,
+     "last_price": 620.0401,
      "start_value": 5638.5,
      "weight": 0.0561
     },
@@ -2267,7 +2481,7 @@
      "ticker": "MRVL",
      "shares": 15.0,
      "start_price": 307.86,
-     "last_price": 277.75,
+     "last_price": 272.74,
      "start_value": 4617.9,
      "weight": 0.0459
     },
@@ -2275,7 +2489,7 @@
      "ticker": "NVDA",
      "shares": 50.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 10432.5,
      "weight": 0.1037
     },
@@ -2283,7 +2497,7 @@
      "ticker": "PLTR",
      "shares": 30.0,
      "start_price": 119.5,
-     "last_price": 115.7,
+     "last_price": 127.2,
      "start_value": 3585.0,
      "weight": 0.0357
     },
@@ -2291,7 +2505,7 @@
      "ticker": "QQQ",
      "shares": 10.0,
      "start_price": 737.95,
-     "last_price": 724.08,
+     "last_price": 725.79,
      "start_value": 7379.5,
      "weight": 0.0734
     },
@@ -2299,7 +2513,7 @@
      "ticker": "RTX",
      "shares": 52.0,
      "start_price": 181.83,
-     "last_price": 187.33,
+     "last_price": 191.01,
      "start_value": 9455.16,
      "weight": 0.094
     },
@@ -2307,7 +2521,7 @@
      "ticker": "SOFI",
      "shares": 50.0,
      "start_price": 17.1,
-     "last_price": 18.19,
+     "last_price": 18.465,
      "start_value": 855.0,
      "weight": 0.0085
     },
@@ -2315,7 +2529,7 @@
      "ticker": "SPCX",
      "shares": 30.0,
      "start_price": 154.6,
-     "last_price": 164.19,
+     "last_price": 157.16,
      "start_value": 4638.0,
      "weight": 0.0461
     },
@@ -2323,7 +2537,7 @@
      "ticker": "SPIR",
      "shares": 55.0,
      "start_price": 17.27,
-     "last_price": 17.65,
+     "last_price": 19.07,
      "start_value": 949.85,
      "weight": 0.0094
     },
@@ -2331,7 +2545,7 @@
      "ticker": "SPY",
      "shares": 10.0,
      "start_price": 744.39,
-     "last_price": 741.0,
+     "last_price": 746.5,
      "start_value": 7443.9,
      "weight": 0.074
     },
@@ -2339,7 +2553,7 @@
      "ticker": "T",
      "shares": 44.0,
      "start_price": 22.1,
-     "last_price": 21.82,
+     "last_price": 20.4716,
      "start_value": 972.4,
      "weight": 0.0097
     },
@@ -2347,7 +2561,7 @@
      "ticker": "TMC",
      "shares": 49.0,
      "start_price": 4.95,
-     "last_price": 4.23,
+     "last_price": 4.3638,
      "start_value": 242.55,
      "weight": 0.0024
     },
@@ -2355,7 +2569,7 @@
      "ticker": "TSLA",
      "shares": 10.0,
      "start_price": 405.05,
-     "last_price": 411.84,
+     "last_price": 424.525,
      "start_value": 4050.5,
      "weight": 0.0403
     },
@@ -2363,7 +2577,7 @@
      "ticker": "VB",
      "shares": 34.0,
      "start_price": 296.3849,
-     "last_price": 301.3,
+     "last_price": 302.17,
      "start_value": 10077.09,
      "weight": 0.1002
     },
@@ -2371,7 +2585,7 @@
      "ticker": "VOO",
      "shares": 30.0,
      "start_price": 684.1078,
-     "last_price": 681.01,
+     "last_price": 686.12,
      "start_value": 20523.23,
      "weight": 0.2041
     }
@@ -2389,9 +2603,9 @@
    "name": null,
    "file": null,
    "start_value": 97134.95,
-   "last_value": 94597.23,
-   "cumulative_return": -0.026126,
-   "sharpe": -4.185,
+   "last_value": 97381.98,
+   "cumulative_return": 0.002543,
+   "sharpe": 0.4354,
    "beats_return": false,
    "beats_sharpe": false,
    "points": null,
@@ -2401,14 +2615,16 @@
     -0.033594,
     -0.05389,
     -0.047659,
-    -0.026126
+    -0.026126,
+    -0.015617,
+    0.002543
    ],
    "holdings": [
     {
      "ticker": "AMZN",
      "shares": 40.0,
      "start_price": 232.79,
-     "last_price": 240.14,
+     "last_price": 243.8,
      "start_value": 9311.6,
      "weight": 0.0959
     },
@@ -2416,7 +2632,7 @@
      "ticker": "AVGO",
      "shares": 25.0,
      "start_price": 392.13,
-     "last_price": 372.45,
+     "last_price": 369.15,
      "start_value": 9803.25,
      "weight": 0.1009
     },
@@ -2424,7 +2640,7 @@
      "ticker": "BA",
      "shares": 15.0,
      "start_price": 220.83,
-     "last_price": 214.69,
+     "last_price": 218.8575,
      "start_value": 3312.45,
      "weight": 0.0341
     },
@@ -2432,7 +2648,7 @@
      "ticker": "COIN",
      "shares": 45.0,
      "start_price": 164.84,
-     "last_price": 151.65,
+     "last_price": 160.75,
      "start_value": 7417.8,
      "weight": 0.0764
     },
@@ -2440,7 +2656,7 @@
      "ticker": "GOOGL",
      "shares": 30.0,
      "start_price": 349.68,
-     "last_price": 353.65,
+     "last_price": 360.55,
      "start_value": 10490.4,
      "weight": 0.108
     },
@@ -2448,7 +2664,7 @@
      "ticker": "MSFT",
      "shares": 25.0,
      "start_price": 367.34,
-     "last_price": 368.57,
+     "last_price": 387.12,
      "start_value": 9183.5,
      "weight": 0.0945
     },
@@ -2456,7 +2672,7 @@
      "ticker": "NVDA",
      "shares": 129.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 26915.85,
      "weight": 0.2771
     },
@@ -2464,7 +2680,7 @@
      "ticker": "PLTR",
      "shares": 75.0,
      "start_price": 119.5,
-     "last_price": 115.7,
+     "last_price": 127.2,
      "start_value": 8962.5,
      "weight": 0.0923
     },
@@ -2472,7 +2688,7 @@
      "ticker": "RTX",
      "shares": 20.0,
      "start_price": 181.83,
-     "last_price": 187.33,
+     "last_price": 191.01,
      "start_value": 3636.6,
      "weight": 0.0374
     },
@@ -2480,7 +2696,7 @@
      "ticker": "TSLA",
      "shares": 20.0,
      "start_price": 405.05,
-     "last_price": 411.84,
+     "last_price": 424.525,
      "start_value": 8101.0,
      "weight": 0.0834
     }
@@ -2495,9 +2711,9 @@
    "name": null,
    "file": null,
    "start_value": 95389.24,
-   "last_value": 96028.2,
-   "cumulative_return": 0.006698,
-   "sharpe": 1.4849,
+   "last_value": 97841.58,
+   "cumulative_return": 0.025709,
+   "sharpe": 4.261,
    "beats_return": true,
    "beats_sharpe": true,
    "points": 5,
@@ -2507,14 +2723,16 @@
     -0.009836,
     -0.024768,
     -0.011284,
-    0.006698
+    0.007203,
+    0.008825,
+    0.025709
    ],
    "holdings": [
     {
      "ticker": "AAPL",
      "shares": 33.0,
      "start_price": 297.01,
-     "last_price": 281.74,
+     "last_price": 294.95,
      "start_value": 9801.33,
      "weight": 0.1028
     },
@@ -2522,7 +2740,7 @@
      "ticker": "AMZN",
      "shares": 40.0,
      "start_price": 232.79,
-     "last_price": 240.14,
+     "last_price": 243.8,
      "start_value": 9311.6,
      "weight": 0.0976
     },
@@ -2530,7 +2748,7 @@
      "ticker": "BRK-B",
      "shares": 8.0,
      "start_price": 488.69,
-     "last_price": 496.0,
+     "last_price": 502.69,
      "start_value": 3909.52,
      "weight": 0.041
     },
@@ -2538,7 +2756,7 @@
      "ticker": "EXPE",
      "shares": 18.0,
      "start_price": 238.02,
-     "last_price": 265.28,
+     "last_price": 267.24,
      "start_value": 4284.36,
      "weight": 0.0449
     },
@@ -2546,7 +2764,7 @@
      "ticker": "FXAIX",
      "shares": 16.0,
      "start_price": 260.25,
-     "last_price": 256.14,
+     "last_price": 261.23,
      "start_value": 4164.0,
      "weight": 0.0437
     },
@@ -2554,7 +2772,7 @@
      "ticker": "GOOG",
      "shares": 27.0,
      "start_price": 348.78,
-     "last_price": 351.28,
+     "last_price": 357.41,
      "start_value": 9417.06,
      "weight": 0.0987
     },
@@ -2562,7 +2780,7 @@
      "ticker": "JPM",
      "shares": 13.0,
      "start_price": 331.48,
-     "last_price": 329.39,
+     "last_price": 333.9125,
      "start_value": 4309.24,
      "weight": 0.0452
     },
@@ -2570,7 +2788,7 @@
      "ticker": "MID",
      "shares": 65.0,
      "start_price": 67.531,
-     "last_price": 67.8471,
+     "last_price": 69.29,
      "start_value": 4389.51,
      "weight": 0.046
     },
@@ -2578,7 +2796,7 @@
      "ticker": "NFLX",
      "shares": 126.0,
      "start_price": 72.88,
-     "last_price": 73.78,
+     "last_price": 74.245,
      "start_value": 9182.88,
      "weight": 0.0963
     },
@@ -2586,7 +2804,7 @@
      "ticker": "NKE",
      "shares": 96.0,
      "start_price": 43.19,
-     "last_price": 41.48,
+     "last_price": 42.39,
      "start_value": 4146.24,
      "weight": 0.0435
     },
@@ -2594,7 +2812,7 @@
      "ticker": "NVDA",
      "shares": 47.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 9806.55,
      "weight": 0.1028
     },
@@ -2602,7 +2820,7 @@
      "ticker": "TSLA",
      "shares": 24.0,
      "start_price": 405.05,
-     "last_price": 411.84,
+     "last_price": 424.525,
      "start_value": 9721.2,
      "weight": 0.1019
     },
@@ -2610,7 +2828,7 @@
      "ticker": "UA",
      "shares": 758.0,
      "start_price": 5.73,
-     "last_price": 5.98,
+     "last_price": 6.355,
      "start_value": 4343.34,
      "weight": 0.0455
     },
@@ -2618,7 +2836,7 @@
      "ticker": "UBER",
      "shares": 59.0,
      "start_price": 71.43,
-     "last_price": 75.5,
+     "last_price": 73.23,
      "start_value": 4214.37,
      "weight": 0.0442
     },
@@ -2626,7 +2844,7 @@
      "ticker": "VLO",
      "shares": 18.0,
      "start_price": 243.78,
-     "last_price": 266.32,
+     "last_price": 266.35,
      "start_value": 4388.04,
      "weight": 0.046
     }
@@ -2643,9 +2861,9 @@
    "name": null,
    "file": null,
    "start_value": 97251.77,
-   "last_value": 99221.42,
-   "cumulative_return": 0.020253,
-   "sharpe": 6.9746,
+   "last_value": 100218.66,
+   "cumulative_return": 0.030507,
+   "sharpe": 8.2885,
    "beats_return": true,
    "beats_sharpe": true,
    "points": 5,
@@ -2655,14 +2873,16 @@
     0.006876,
     -0.002238,
     0.013984,
-    0.020253
+    0.020253,
+    0.019292,
+    0.030507
    ],
    "holdings": [
     {
      "ticker": "AAPL",
      "shares": 19.0,
      "start_price": 297.01,
-     "last_price": 281.74,
+     "last_price": 294.95,
      "start_value": 5643.19,
      "weight": 0.058
     },
@@ -2670,7 +2890,7 @@
      "ticker": "AMZN",
      "shares": 23.0,
      "start_price": 232.79,
-     "last_price": 240.14,
+     "last_price": 243.8,
      "start_value": 5354.17,
      "weight": 0.0551
     },
@@ -2678,7 +2898,7 @@
      "ticker": "GOOGL",
      "shares": 15.0,
      "start_price": 349.68,
-     "last_price": 353.65,
+     "last_price": 360.55,
      "start_value": 5245.2,
      "weight": 0.0539
     },
@@ -2686,7 +2906,7 @@
      "ticker": "HD",
      "shares": 17.0,
      "start_price": 326.62,
-     "last_price": 350.81,
+     "last_price": 352.795,
      "start_value": 5552.54,
      "weight": 0.0571
     },
@@ -2694,7 +2914,7 @@
      "ticker": "JNJ",
      "shares": 27.0,
      "start_price": 231.29,
-     "last_price": 258.51,
+     "last_price": 253.58,
      "start_value": 6244.83,
      "weight": 0.0642
     },
@@ -2702,7 +2922,7 @@
      "ticker": "JPM",
      "shares": 17.0,
      "start_price": 331.48,
-     "last_price": 329.39,
+     "last_price": 333.9125,
      "start_value": 5635.16,
      "weight": 0.0579
     },
@@ -2710,7 +2930,7 @@
      "ticker": "KO",
      "shares": 78.0,
      "start_price": 79.53,
-     "last_price": 82.65,
+     "last_price": 81.41,
      "start_value": 6203.34,
      "weight": 0.0638
     },
@@ -2718,7 +2938,7 @@
      "ticker": "LLY",
      "shares": 5.0,
      "start_price": 1102.08,
-     "last_price": 1229.9301,
+     "last_price": 1185.14,
      "start_value": 5510.4,
      "weight": 0.0567
     },
@@ -2726,7 +2946,7 @@
      "ticker": "META",
      "shares": 10.0,
      "start_price": 563.85,
-     "last_price": 562.6,
+     "last_price": 620.0401,
      "start_value": 5638.5,
      "weight": 0.058
     },
@@ -2734,7 +2954,7 @@
      "ticker": "MSFT",
      "shares": 15.0,
      "start_price": 367.34,
-     "last_price": 368.57,
+     "last_price": 387.12,
      "start_value": 5510.1,
      "weight": 0.0567
     },
@@ -2742,7 +2962,7 @@
      "ticker": "NVDA",
      "shares": 27.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 5633.55,
      "weight": 0.0579
     },
@@ -2750,7 +2970,7 @@
      "ticker": "PG",
      "shares": 41.0,
      "start_price": 147.68,
-     "last_price": 148.45,
+     "last_price": 146.55,
      "start_value": 6054.88,
      "weight": 0.0623
     },
@@ -2758,7 +2978,7 @@
      "ticker": "RTX",
      "shares": 31.0,
      "start_price": 181.83,
-     "last_price": 187.33,
+     "last_price": 191.01,
      "start_value": 5636.73,
      "weight": 0.058
     },
@@ -2766,7 +2986,7 @@
      "ticker": "UNH",
      "shares": 14.0,
      "start_price": 406.68,
-     "last_price": 419.82,
+     "last_price": 427.08,
      "start_value": 5693.52,
      "weight": 0.0585
     },
@@ -2774,7 +2994,7 @@
      "ticker": "V",
      "shares": 17.0,
      "start_price": 326.6,
-     "last_price": 341.65,
+     "last_price": 350.03,
      "start_value": 5552.2,
      "weight": 0.0571
     },
@@ -2782,7 +3002,7 @@
      "ticker": "WMT",
      "shares": 54.0,
      "start_price": 117.18,
-     "last_price": 114.6,
+     "last_price": 108.58,
      "start_value": 6327.72,
      "weight": 0.0651
     },
@@ -2790,7 +3010,7 @@
      "ticker": "XOM",
      "shares": 42.0,
      "start_price": 138.47,
-     "last_price": 136.06,
+     "last_price": 136.36,
      "start_value": 5815.74,
      "weight": 0.0598
     }
@@ -2805,9 +3025,9 @@
    "name": null,
    "file": null,
    "start_value": 96635.45,
-   "last_value": 96417.96,
-   "cumulative_return": -0.002251,
-   "sharpe": -0.2293,
+   "last_value": 98937.88,
+   "cumulative_return": 0.023826,
+   "sharpe": 2.9537,
    "beats_return": true,
    "beats_sharpe": true,
    "points": 5,
@@ -2817,14 +3037,16 @@
     -0.026321,
     -0.027138,
     -0.034762,
-    -0.002251
+    -0.002251,
+    0.022483,
+    0.023826
    ],
    "holdings": [
     {
      "ticker": "AMD",
      "shares": 18.0,
      "start_price": 551.63,
-     "last_price": 539.49,
+     "last_price": 543.6797,
      "start_value": 9929.34,
      "weight": 0.1028
     },
@@ -2832,7 +3054,7 @@
      "ticker": "AMZN",
      "shares": 49.0,
      "start_price": 232.79,
-     "last_price": 240.14,
+     "last_price": 243.8,
      "start_value": 11406.71,
      "weight": 0.118
     },
@@ -2840,7 +3062,7 @@
      "ticker": "ASTS",
      "shares": 37.0,
      "start_price": 73.19,
-     "last_price": 86.77,
+     "last_price": 87.7,
      "start_value": 2708.03,
      "weight": 0.028
     },
@@ -2848,7 +3070,7 @@
      "ticker": "BRK-B",
      "shares": 10.0,
      "start_price": 488.69,
-     "last_price": 496.0,
+     "last_price": 502.69,
      "start_value": 4886.9,
      "weight": 0.0506
     },
@@ -2856,7 +3078,7 @@
      "ticker": "FORM",
      "shares": 46.0,
      "start_price": 156.66,
-     "last_price": 144.17,
+     "last_price": 147.325,
      "start_value": 7206.36,
      "weight": 0.0746
     },
@@ -2864,7 +3086,7 @@
      "ticker": "GOOGL",
      "shares": 27.0,
      "start_price": 349.68,
-     "last_price": 353.65,
+     "last_price": 360.55,
      "start_value": 9441.36,
      "weight": 0.0977
     },
@@ -2872,7 +3094,7 @@
      "ticker": "HII",
      "shares": 17.0,
      "start_price": 278.19,
-     "last_price": 277.39,
+     "last_price": 279.435,
      "start_value": 4729.23,
      "weight": 0.0489
     },
@@ -2880,7 +3102,7 @@
      "ticker": "JPM",
      "shares": 12.0,
      "start_price": 331.48,
-     "last_price": 329.39,
+     "last_price": 333.9125,
      "start_value": 3977.76,
      "weight": 0.0412
     },
@@ -2888,7 +3110,7 @@
      "ticker": "KEYS",
      "shares": 21.0,
      "start_price": 373.34,
-     "last_price": 340.13,
+     "last_price": 338.87,
      "start_value": 7840.14,
      "weight": 0.0811
     },
@@ -2896,7 +3118,7 @@
      "ticker": "LIN",
      "shares": 19.0,
      "start_price": 516.71,
-     "last_price": 511.06,
+     "last_price": 534.635,
      "start_value": 9817.49,
      "weight": 0.1016
     },
@@ -2904,7 +3126,7 @@
      "ticker": "OKLO",
      "shares": 32.0,
      "start_price": 58.4,
-     "last_price": 52.76,
+     "last_price": 52.145,
      "start_value": 1868.8,
      "weight": 0.0193
     },
@@ -2912,7 +3134,7 @@
      "ticker": "OKTA",
      "shares": 33.0,
      "start_price": 115.94,
-     "last_price": 131.31,
+     "last_price": 141.6198,
      "start_value": 3826.02,
      "weight": 0.0396
     },
@@ -2920,7 +3142,7 @@
      "ticker": "PLTR",
      "shares": 62.0,
      "start_price": 119.5,
-     "last_price": 115.7,
+     "last_price": 127.2,
      "start_value": 7409.0,
      "weight": 0.0767
     },
@@ -2928,7 +3150,7 @@
      "ticker": "RTX",
      "shares": 37.0,
      "start_price": 181.83,
-     "last_price": 187.33,
+     "last_price": 191.01,
      "start_value": 6727.71,
      "weight": 0.0696
     },
@@ -2936,7 +3158,7 @@
      "ticker": "TSLA",
      "shares": 12.0,
      "start_price": 405.05,
-     "last_price": 411.84,
+     "last_price": 424.525,
      "start_value": 4860.6,
      "weight": 0.0503
     }
@@ -2950,27 +3172,29 @@
    "student_id": "01476256",
    "name": null,
    "file": null,
-   "start_value": 99667.45,
-   "last_value": 100021.35,
-   "cumulative_return": 0.003551,
-   "sharpe": 0.7952,
+   "start_value": 99665.67,
+   "last_value": 100195.39,
+   "cumulative_return": 0.005315,
+   "sharpe": 0.949,
    "beats_return": true,
    "beats_sharpe": true,
    "points": 5,
    "curve": [
     0.0,
-    -0.017396,
-    -0.012594,
-    -0.019502,
-    -0.021919,
-    0.003551
+    -0.017393,
+    -0.012592,
+    -0.0195,
+    -0.021917,
+    0.003553,
+    0.012693,
+    0.005315
    ],
    "holdings": [
     {
      "ticker": "AMC",
      "shares": 600.0,
      "start_price": 2.76,
-     "last_price": 2.03,
+     "last_price": 1.925,
      "start_value": 1656.0,
      "weight": 0.0166
     },
@@ -2978,7 +3202,7 @@
      "ticker": "AMZN",
      "shares": 15.0,
      "start_price": 232.79,
-     "last_price": 240.14,
+     "last_price": 243.8,
      "start_value": 3491.85,
      "weight": 0.035
     },
@@ -2986,7 +3210,7 @@
      "ticker": "DFTX",
      "shares": 100.0,
      "start_price": 36.67,
-     "last_price": 46.55,
+     "last_price": 43.74,
      "start_value": 3667.0,
      "weight": 0.0368
     },
@@ -2994,7 +3218,7 @@
      "ticker": "GOOG",
      "shares": 100.0,
      "start_price": 348.78,
-     "last_price": 351.28,
+     "last_price": 357.41,
      "start_value": 34878.0,
      "weight": 0.3499
     },
@@ -3002,7 +3226,7 @@
      "ticker": "IBM",
      "shares": 20.0,
      "start_price": 252.22,
-     "last_price": 278.0,
+     "last_price": 287.955,
      "start_value": 5044.4,
      "weight": 0.0506
     },
@@ -3010,7 +3234,7 @@
      "ticker": "KO",
      "shares": 50.0,
      "start_price": 79.53,
-     "last_price": 82.65,
+     "last_price": 81.41,
      "start_value": 3976.5,
      "weight": 0.0399
     },
@@ -3018,7 +3242,7 @@
      "ticker": "NVDA",
      "shares": 100.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 20865.0,
      "weight": 0.2093
     },
@@ -3026,23 +3250,23 @@
      "ticker": "ORKA",
      "shares": 20.0,
      "start_price": 85.38,
-     "last_price": 92.49,
+     "last_price": 93.78,
      "start_value": 1707.6,
      "weight": 0.0171
     },
     {
      "ticker": "PRIM",
      "shares": 20.0,
-     "start_price": 108.34,
-     "last_price": 97.24,
-     "start_value": 2166.8,
+     "start_price": 108.2509,
+     "last_price": 92.765,
+     "start_value": 2165.02,
      "weight": 0.0217
     },
     {
      "ticker": "SMCI",
      "shares": 100.0,
      "start_price": 35.46,
-     "last_price": 28.15,
+     "last_price": 27.805,
      "start_value": 3546.0,
      "weight": 0.0356
     },
@@ -3050,7 +3274,7 @@
      "ticker": "SOFI",
      "shares": 100.0,
      "start_price": 17.1,
-     "last_price": 18.19,
+     "last_price": 18.465,
      "start_value": 1710.0,
      "weight": 0.0172
     },
@@ -3058,7 +3282,7 @@
      "ticker": "SPCX",
      "shares": 50.0,
      "start_price": 154.6,
-     "last_price": 164.19,
+     "last_price": 157.16,
      "start_value": 7730.0,
      "weight": 0.0776
     },
@@ -3066,7 +3290,7 @@
      "ticker": "TGT",
      "shares": 20.0,
      "start_price": 129.73,
-     "last_price": 133.92,
+     "last_price": 130.55,
      "start_value": 2594.6,
      "weight": 0.026
     },
@@ -3074,7 +3298,7 @@
      "ticker": "TKO",
      "shares": 15.0,
      "start_price": 197.26,
-     "last_price": 211.62,
+     "last_price": 205.42,
      "start_value": 2958.9,
      "weight": 0.0297
     },
@@ -3082,7 +3306,7 @@
      "ticker": "V",
      "shares": 3.0,
      "start_price": 326.6,
-     "last_price": 341.65,
+     "last_price": 350.03,
      "start_value": 979.8,
      "weight": 0.0098
     },
@@ -3090,7 +3314,7 @@
      "ticker": "WBD",
      "shares": 100.0,
      "start_price": 26.95,
-     "last_price": 27.13,
+     "last_price": 26.825,
      "start_value": 2695.0,
      "weight": 0.027
     }
@@ -3105,26 +3329,28 @@
    "name": null,
    "file": null,
    "start_value": 114525.04,
-   "last_value": 113873.34,
-   "cumulative_return": -0.00569,
-   "sharpe": -1.5226,
-   "beats_return": false,
-   "beats_sharpe": false,
-   "points": null,
+   "last_value": 115388.52,
+   "cumulative_return": 0.00754,
+   "sharpe": 1.6972,
+   "beats_return": true,
+   "beats_sharpe": true,
+   "points": 5,
    "curve": [
     0.0,
     -0.014689,
     -0.01912,
     -0.023915,
     -0.021312,
-    -0.00569
+    -0.00569,
+    0.006267,
+    0.00754
    ],
    "holdings": [
     {
      "ticker": "AAPL",
      "shares": 27.0,
      "start_price": 297.01,
-     "last_price": 281.74,
+     "last_price": 294.95,
      "start_value": 8019.27,
      "weight": 0.07
     },
@@ -3132,7 +3358,7 @@
      "ticker": "AMZN",
      "shares": 25.0,
      "start_price": 232.79,
-     "last_price": 240.14,
+     "last_price": 243.8,
      "start_value": 5819.75,
      "weight": 0.0508
     },
@@ -3140,7 +3366,7 @@
      "ticker": "ASML",
      "shares": 5.0,
      "start_price": 1929.25,
-     "last_price": 1883.11,
+     "last_price": 1833.135,
      "start_value": 9646.25,
      "weight": 0.0842
     },
@@ -3148,7 +3374,7 @@
      "ticker": "AVGO",
      "shares": 12.0,
      "start_price": 392.13,
-     "last_price": 372.45,
+     "last_price": 369.15,
      "start_value": 4705.56,
      "weight": 0.0411
     },
@@ -3156,7 +3382,7 @@
      "ticker": "GOOGL",
      "shares": 17.0,
      "start_price": 349.68,
-     "last_price": 353.65,
+     "last_price": 360.55,
      "start_value": 5944.56,
      "weight": 0.0519
     },
@@ -3164,7 +3390,7 @@
      "ticker": "JNJ",
      "shares": 25.0,
      "start_price": 231.29,
-     "last_price": 258.51,
+     "last_price": 253.58,
      "start_value": 5782.25,
      "weight": 0.0505
     },
@@ -3172,7 +3398,7 @@
      "ticker": "JPM",
      "shares": 23.0,
      "start_price": 331.48,
-     "last_price": 329.39,
+     "last_price": 333.9125,
      "start_value": 7624.04,
      "weight": 0.0666
     },
@@ -3180,7 +3406,7 @@
      "ticker": "MSFT",
      "shares": 20.0,
      "start_price": 367.34,
-     "last_price": 368.57,
+     "last_price": 387.12,
      "start_value": 7346.8,
      "weight": 0.0642
     },
@@ -3188,7 +3414,7 @@
      "ticker": "NVDA",
      "shares": 38.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 7928.7,
      "weight": 0.0692
     },
@@ -3196,7 +3422,7 @@
      "ticker": "PLTR",
      "shares": 32.0,
      "start_price": 119.5,
-     "last_price": 115.7,
+     "last_price": 127.2,
      "start_value": 3824.0,
      "weight": 0.0334
     },
@@ -3204,7 +3430,7 @@
      "ticker": "QQQ",
      "shares": 20.0,
      "start_price": 737.95,
-     "last_price": 724.08,
+     "last_price": 725.79,
      "start_value": 14759.0,
      "weight": 0.1289
     },
@@ -3212,7 +3438,7 @@
      "ticker": "SPY",
      "shares": 25.0,
      "start_price": 744.39,
-     "last_price": 741.0,
+     "last_price": 746.5,
      "start_value": 18609.75,
      "weight": 0.1625
     },
@@ -3220,7 +3446,7 @@
      "ticker": "UNH",
      "shares": 10.0,
      "start_price": 406.68,
-     "last_price": 419.82,
+     "last_price": 427.08,
      "start_value": 4066.8,
      "weight": 0.0355
     },
@@ -3228,7 +3454,7 @@
      "ticker": "V",
      "shares": 18.0,
      "start_price": 326.6,
-     "last_price": 341.65,
+     "last_price": 350.03,
      "start_value": 5878.8,
      "weight": 0.0513
     },
@@ -3236,7 +3462,7 @@
      "ticker": "XOM",
      "shares": 33.0,
      "start_price": 138.47,
-     "last_price": 136.06,
+     "last_price": 136.36,
      "start_value": 4569.51,
      "weight": 0.0399
     }
@@ -3251,26 +3477,28 @@
    "name": null,
    "file": null,
    "start_value": 121822.94,
-   "last_value": 120249.4,
-   "cumulative_return": -0.012917,
-   "sharpe": -1.0981,
-   "beats_return": false,
+   "last_value": 124717.64,
+   "cumulative_return": 0.023762,
+   "sharpe": 2.1029,
+   "beats_return": true,
    "beats_sharpe": true,
-   "points": 3,
+   "points": 5,
    "curve": [
     0.0,
     -0.035603,
     -0.051565,
     -0.065718,
     -0.057276,
-    -0.012917
+    -0.015663,
+    0.013019,
+    0.023762
    ],
    "holdings": [
     {
      "ticker": "AMD",
      "shares": 12.0,
      "start_price": 551.63,
-     "last_price": 539.49,
+     "last_price": 543.6797,
      "start_value": 6619.56,
      "weight": 0.0543
     },
@@ -3278,7 +3506,7 @@
      "ticker": "AMZN",
      "shares": 35.0,
      "start_price": 232.79,
-     "last_price": 240.14,
+     "last_price": 243.8,
      "start_value": 8147.65,
      "weight": 0.0669
     },
@@ -3286,7 +3514,7 @@
      "ticker": "APP",
      "shares": 22.0,
      "start_price": 469.39,
-     "last_price": 498.76,
+     "last_price": 569.77,
      "start_value": 10326.58,
      "weight": 0.0848
     },
@@ -3294,7 +3522,7 @@
      "ticker": "AVGO",
      "shares": 12.0,
      "start_price": 392.13,
-     "last_price": 372.45,
+     "last_price": 369.15,
      "start_value": 4705.56,
      "weight": 0.0386
     },
@@ -3302,7 +3530,7 @@
      "ticker": "CRWD",
      "shares": 8.0,
      "start_price": 675.44,
-     "last_price": 742.91,
+     "last_price": 767.41,
      "start_value": 5403.52,
      "weight": 0.0444
     },
@@ -3310,7 +3538,7 @@
      "ticker": "GOOGL",
      "shares": 40.0,
      "start_price": 349.68,
-     "last_price": 353.65,
+     "last_price": 360.55,
      "start_value": 13987.2,
      "weight": 0.1148
     },
@@ -3318,7 +3546,7 @@
      "ticker": "HIMS",
      "shares": 85.0,
      "start_price": 33.54,
-     "last_price": 33.39,
+     "last_price": 37.355,
      "start_value": 2850.9,
      "weight": 0.0234
     },
@@ -3326,7 +3554,7 @@
      "ticker": "META",
      "shares": 10.0,
      "start_price": 563.85,
-     "last_price": 562.6,
+     "last_price": 620.0401,
      "start_value": 5638.5,
      "weight": 0.0463
     },
@@ -3334,7 +3562,7 @@
      "ticker": "NET",
      "shares": 22.0,
      "start_price": 218.38,
-     "last_price": 243.76,
+     "last_price": 249.0,
      "start_value": 4804.36,
      "weight": 0.0394
     },
@@ -3342,7 +3570,7 @@
      "ticker": "NVDA",
      "shares": 30.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 6259.5,
      "weight": 0.0514
     },
@@ -3350,7 +3578,7 @@
      "ticker": "PLTR",
      "shares": 55.0,
      "start_price": 119.5,
-     "last_price": 115.7,
+     "last_price": 127.2,
      "start_value": 6572.5,
      "weight": 0.054
     },
@@ -3358,7 +3586,7 @@
      "ticker": "RKLB",
      "shares": 180.0,
      "start_price": 100.29,
-     "last_price": 98.01,
+     "last_price": 102.195,
      "start_value": 18052.2,
      "weight": 0.1482
     },
@@ -3366,7 +3594,7 @@
      "ticker": "TSM",
      "shares": 18.0,
      "start_price": 467.67,
-     "last_price": 455.1,
+     "last_price": 443.63,
      "start_value": 8418.06,
      "weight": 0.0691
     },
@@ -3374,7 +3602,7 @@
      "ticker": "UBER",
      "shares": 55.0,
      "start_price": 71.43,
-     "last_price": 75.5,
+     "last_price": 73.23,
      "start_value": 3928.65,
      "weight": 0.0322
     },
@@ -3382,7 +3610,7 @@
      "ticker": "VRT",
      "shares": 45.0,
      "start_price": 357.96,
-     "last_price": 306.97,
+     "last_price": 309.72,
      "start_value": 16108.2,
      "weight": 0.1322
     }
@@ -3397,9 +3625,9 @@
    "name": null,
    "file": null,
    "start_value": 148181.04,
-   "last_value": 148401.81,
-   "cumulative_return": 0.00149,
-   "sharpe": 0.3686,
+   "last_value": 151276.3,
+   "cumulative_return": 0.020888,
+   "sharpe": 2.7476,
    "beats_return": true,
    "beats_sharpe": true,
    "points": 5,
@@ -3409,14 +3637,16 @@
     -0.02248,
     -0.029434,
     -0.028928,
-    0.00149
+    -0.002461,
+    0.025165,
+    0.020888
    ],
    "holdings": [
     {
      "ticker": "AMZN",
      "shares": 21.0,
      "start_price": 232.79,
-     "last_price": 240.14,
+     "last_price": 243.8,
      "start_value": 4888.59,
      "weight": 0.033
     },
@@ -3424,7 +3654,7 @@
      "ticker": "AVGO",
      "shares": 25.0,
      "start_price": 392.13,
-     "last_price": 372.45,
+     "last_price": 369.15,
      "start_value": 9803.25,
      "weight": 0.0662
     },
@@ -3432,7 +3662,7 @@
      "ticker": "CRWD",
      "shares": 14.0,
      "start_price": 675.44,
-     "last_price": 742.91,
+     "last_price": 767.41,
      "start_value": 9456.16,
      "weight": 0.0638
     },
@@ -3440,7 +3670,7 @@
      "ticker": "DDOG",
      "shares": 76.0,
      "start_price": 221.37,
-     "last_price": 248.57,
+     "last_price": 263.555,
      "start_value": 16824.12,
      "weight": 0.1135
     },
@@ -3448,7 +3678,7 @@
      "ticker": "DELL",
      "shares": 70.0,
      "start_price": 418.71,
-     "last_price": 414.61,
+     "last_price": 418.6201,
      "start_value": 29309.7,
      "weight": 0.1978
     },
@@ -3456,7 +3686,7 @@
      "ticker": "GOOGL",
      "shares": 28.0,
      "start_price": 349.68,
-     "last_price": 353.65,
+     "last_price": 360.55,
      "start_value": 9791.04,
      "weight": 0.0661
     },
@@ -3464,7 +3694,7 @@
      "ticker": "MSFT",
      "shares": 25.0,
      "start_price": 367.34,
-     "last_price": 368.57,
+     "last_price": 387.12,
      "start_value": 9183.5,
      "weight": 0.062
     },
@@ -3472,7 +3702,7 @@
      "ticker": "MU",
      "shares": 8.0,
      "start_price": 1211.38,
-     "last_price": 1145.28,
+     "last_price": 1039.8199,
      "start_value": 9691.04,
      "weight": 0.0654
     },
@@ -3480,7 +3710,7 @@
      "ticker": "NOW",
      "shares": 8.0,
      "start_price": 93.01,
-     "last_price": 99.97,
+     "last_price": 105.98,
      "start_value": 744.08,
      "weight": 0.005
     },
@@ -3488,7 +3718,7 @@
      "ticker": "NVDA",
      "shares": 71.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 14814.15,
      "weight": 0.1
     },
@@ -3496,7 +3726,7 @@
      "ticker": "ORCL",
      "shares": 31.0,
      "start_price": 175.07,
-     "last_price": 147.76,
+     "last_price": 143.52,
      "start_value": 5427.17,
      "weight": 0.0366
     },
@@ -3504,7 +3734,7 @@
      "ticker": "PANW",
      "shares": 37.0,
      "start_price": 286.4,
-     "last_price": 332.0,
+     "last_price": 351.93,
      "start_value": 10596.8,
      "weight": 0.0715
     },
@@ -3512,7 +3742,7 @@
      "ticker": "PLTR",
      "shares": 24.0,
      "start_price": 119.5,
-     "last_price": 115.7,
+     "last_price": 127.2,
      "start_value": 2868.0,
      "weight": 0.0194
     },
@@ -3520,7 +3750,7 @@
      "ticker": "V",
      "shares": 8.0,
      "start_price": 326.6,
-     "last_price": 341.65,
+     "last_price": 350.03,
      "start_value": 2612.8,
      "weight": 0.0176
     },
@@ -3528,7 +3758,7 @@
      "ticker": "VRT",
      "shares": 34.0,
      "start_price": 357.96,
-     "last_price": 306.97,
+     "last_price": 309.72,
      "start_value": 12170.64,
      "weight": 0.0821
     }
@@ -3543,9 +3773,9 @@
    "name": null,
    "file": null,
    "start_value": 99079.64,
-   "last_value": 98760.42,
-   "cumulative_return": -0.003222,
-   "sharpe": -0.1384,
+   "last_value": 102528.66,
+   "cumulative_return": 0.034811,
+   "sharpe": 3.0748,
    "beats_return": true,
    "beats_sharpe": true,
    "points": 5,
@@ -3555,14 +3785,16 @@
     -0.04558,
     -0.064881,
     -0.041968,
-    -0.003222
+    -0.007443,
+    0.004048,
+    0.034811
    ],
    "holdings": [
     {
      "ticker": "AMD",
      "shares": 18.0,
      "start_price": 551.63,
-     "last_price": 539.49,
+     "last_price": 543.6797,
      "start_value": 9929.34,
      "weight": 0.1002
     },
@@ -3570,7 +3802,7 @@
      "ticker": "CRWD",
      "shares": 10.0,
      "start_price": 675.44,
-     "last_price": 742.91,
+     "last_price": 767.41,
      "start_value": 6754.4,
      "weight": 0.0682
     },
@@ -3578,7 +3810,7 @@
      "ticker": "HOOD",
      "shares": 70.0,
      "start_price": 105.71,
-     "last_price": 101.83,
+     "last_price": 107.69,
      "start_value": 7399.7,
      "weight": 0.0747
     },
@@ -3586,7 +3818,7 @@
      "ticker": "META",
      "shares": 15.0,
      "start_price": 563.85,
-     "last_price": 562.6,
+     "last_price": 620.0401,
      "start_value": 8457.75,
      "weight": 0.0854
     },
@@ -3594,7 +3826,7 @@
      "ticker": "NVDA",
      "shares": 70.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 14605.5,
      "weight": 0.1474
     },
@@ -3602,7 +3834,7 @@
      "ticker": "PLTR",
      "shares": 125.0,
      "start_price": 119.5,
-     "last_price": 115.7,
+     "last_price": 127.2,
      "start_value": 14937.5,
      "weight": 0.1508
     },
@@ -3610,7 +3842,7 @@
      "ticker": "RKLB",
      "shares": 100.0,
      "start_price": 100.29,
-     "last_price": 98.01,
+     "last_price": 102.195,
      "start_value": 10029.0,
      "weight": 0.1012
     },
@@ -3618,7 +3850,7 @@
      "ticker": "SOFI",
      "shares": 400.0,
      "start_price": 17.1,
-     "last_price": 18.19,
+     "last_price": 18.465,
      "start_value": 6840.0,
      "weight": 0.069
     },
@@ -3626,7 +3858,7 @@
      "ticker": "TSLA",
      "shares": 25.0,
      "start_price": 405.05,
-     "last_price": 411.84,
+     "last_price": 424.525,
      "start_value": 10126.25,
      "weight": 0.1022
     },
@@ -3634,7 +3866,7 @@
      "ticker": "UBER",
      "shares": 140.0,
      "start_price": 71.43,
-     "last_price": 75.5,
+     "last_price": 73.23,
      "start_value": 10000.2,
      "weight": 0.1009
     }
@@ -3649,9 +3881,9 @@
    "name": null,
    "file": null,
    "start_value": 99499.56,
-   "last_value": 99074.7,
-   "cumulative_return": -0.00427,
-   "sharpe": -0.9833,
+   "last_value": 99987.01,
+   "cumulative_return": 0.004899,
+   "sharpe": 1.0626,
    "beats_return": true,
    "beats_sharpe": true,
    "points": 5,
@@ -3661,14 +3893,16 @@
     -0.01154,
     -0.027582,
     -0.013624,
-    -0.00427
+    -0.00427,
+    -0.00539,
+    0.004899
    ],
    "holdings": [
     {
      "ticker": "AAPL",
      "shares": 30.0,
      "start_price": 297.01,
-     "last_price": 281.74,
+     "last_price": 294.95,
      "start_value": 8910.3,
      "weight": 0.0896
     },
@@ -3676,7 +3910,7 @@
      "ticker": "AMZN",
      "shares": 40.0,
      "start_price": 232.79,
-     "last_price": 240.14,
+     "last_price": 243.8,
      "start_value": 9311.6,
      "weight": 0.0936
     },
@@ -3684,7 +3918,7 @@
      "ticker": "GOOGL",
      "shares": 25.0,
      "start_price": 349.68,
-     "last_price": 353.65,
+     "last_price": 360.55,
      "start_value": 8742.0,
      "weight": 0.0879
     },
@@ -3692,7 +3926,7 @@
      "ticker": "HOOD",
      "shares": 100.0,
      "start_price": 105.71,
-     "last_price": 101.83,
+     "last_price": 107.69,
      "start_value": 10571.0,
      "weight": 0.1062
     },
@@ -3700,7 +3934,7 @@
      "ticker": "JNJ",
      "shares": 43.0,
      "start_price": 231.29,
-     "last_price": 258.51,
+     "last_price": 253.58,
      "start_value": 9945.47,
      "weight": 0.1
     },
@@ -3708,7 +3942,7 @@
      "ticker": "JPM",
      "shares": 30.0,
      "start_price": 331.48,
-     "last_price": 329.39,
+     "last_price": 333.9125,
      "start_value": 9944.4,
      "weight": 0.0999
     },
@@ -3716,7 +3950,7 @@
      "ticker": "MSFT",
      "shares": 35.0,
      "start_price": 367.34,
-     "last_price": 368.57,
+     "last_price": 387.12,
      "start_value": 12856.9,
      "weight": 0.1292
     },
@@ -3724,7 +3958,7 @@
      "ticker": "NVDA",
      "shares": 45.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 9389.25,
      "weight": 0.0944
     },
@@ -3732,7 +3966,7 @@
      "ticker": "VST",
      "shares": 59.0,
      "start_price": 167.26,
-     "last_price": 162.38,
+     "last_price": 152.455,
      "start_value": 9868.34,
      "weight": 0.0992
     },
@@ -3740,7 +3974,7 @@
      "ticker": "WMT",
      "shares": 85.0,
      "start_price": 117.18,
-     "last_price": 114.6,
+     "last_price": 108.58,
      "start_value": 9960.3,
      "weight": 0.1001
     }
@@ -3755,9 +3989,9 @@
    "name": null,
    "file": null,
    "start_value": 141472.51,
-   "last_value": 132736.11,
-   "cumulative_return": -0.061753,
-   "sharpe": -5.0889,
+   "last_value": 131635.43,
+   "cumulative_return": -0.069533,
+   "sharpe": -4.2553,
    "beats_return": false,
    "beats_sharpe": false,
    "points": null,
@@ -3767,14 +4001,16 @@
     -0.066561,
     -0.05371,
     -0.09153,
-    -0.061753
+    -0.061753,
+    -0.035292,
+    -0.069533
    ],
    "holdings": [
     {
      "ticker": "ANET",
      "shares": 35.0,
      "start_price": 174.56,
-     "last_price": 164.1,
+     "last_price": 167.79,
      "start_value": 6109.6,
      "weight": 0.0432
     },
@@ -3782,7 +4018,7 @@
      "ticker": "APP",
      "shares": 10.0,
      "start_price": 469.39,
-     "last_price": 498.76,
+     "last_price": 569.77,
      "start_value": 4693.9,
      "weight": 0.0332
     },
@@ -3790,7 +4026,7 @@
      "ticker": "AXTI",
      "shares": 50.0,
      "start_price": 92.44,
-     "last_price": 71.46,
+     "last_price": 64.34,
      "start_value": 4622.0,
      "weight": 0.0327
     },
@@ -3798,7 +4034,7 @@
      "ticker": "BE",
      "shares": 20.0,
      "start_price": 345.85,
-     "last_price": 275.01,
+     "last_price": 289.43,
      "start_value": 6917.0,
      "weight": 0.0489
     },
@@ -3806,7 +4042,7 @@
      "ticker": "CAT",
      "shares": 15.0,
      "start_price": 1022.28,
-     "last_price": 1033.1899,
+     "last_price": 986.57,
      "start_value": 15334.2,
      "weight": 0.1084
     },
@@ -3814,7 +4050,7 @@
      "ticker": "CEG",
      "shares": 18.0,
      "start_price": 275.53,
-     "last_price": 259.32,
+     "last_price": 232.45,
      "start_value": 4959.54,
      "weight": 0.0351
     },
@@ -3822,7 +4058,7 @@
      "ticker": "COIN",
      "shares": 25.0,
      "start_price": 164.84,
-     "last_price": 151.65,
+     "last_price": 160.75,
      "start_value": 4121.0,
      "weight": 0.0291
     },
@@ -3830,7 +4066,7 @@
      "ticker": "DELL",
      "shares": 10.0,
      "start_price": 418.71,
-     "last_price": 414.61,
+     "last_price": 418.6201,
      "start_value": 4187.1,
      "weight": 0.0296
     },
@@ -3838,7 +4074,7 @@
      "ticker": "FIX",
      "shares": 8.0,
      "start_price": 2066.51,
-     "last_price": 1948.6899,
+     "last_price": 1854.455,
      "start_value": 16532.08,
      "weight": 0.1169
     },
@@ -3846,7 +4082,7 @@
      "ticker": "GEV",
      "shares": 4.0,
      "start_price": 1127.59,
-     "last_price": 1102.51,
+     "last_price": 1129.02,
      "start_value": 4510.36,
      "weight": 0.0319
     },
@@ -3854,7 +4090,7 @@
      "ticker": "HOOD",
      "shares": 35.0,
      "start_price": 105.71,
-     "last_price": 101.83,
+     "last_price": 107.69,
      "start_value": 3699.85,
      "weight": 0.0262
     },
@@ -3862,7 +4098,7 @@
      "ticker": "INTC",
      "shares": 35.0,
      "start_price": 140.94,
-     "last_price": 131.72,
+     "last_price": 126.765,
      "start_value": 4932.9,
      "weight": 0.0349
     },
@@ -3870,7 +4106,7 @@
      "ticker": "MU",
      "shares": 5.0,
      "start_price": 1211.38,
-     "last_price": 1145.28,
+     "last_price": 1039.8199,
      "start_value": 6056.9,
      "weight": 0.0428
     },
@@ -3878,7 +4114,7 @@
      "ticker": "NVDA",
      "shares": 94.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 19613.1,
      "weight": 0.1386
     },
@@ -3886,7 +4122,7 @@
      "ticker": "OKLO",
      "shares": 40.0,
      "start_price": 58.4,
-     "last_price": 52.76,
+     "last_price": 52.145,
      "start_value": 2336.0,
      "weight": 0.0165
     },
@@ -3894,7 +4130,7 @@
      "ticker": "PLTR",
      "shares": 40.0,
      "start_price": 119.5,
-     "last_price": 115.7,
+     "last_price": 127.2,
      "start_value": 4780.0,
      "weight": 0.0338
     },
@@ -3902,7 +4138,7 @@
      "ticker": "RKLB",
      "shares": 30.0,
      "start_price": 100.29,
-     "last_price": 98.01,
+     "last_price": 102.195,
      "start_value": 3008.7,
      "weight": 0.0213
     },
@@ -3910,7 +4146,7 @@
      "ticker": "SNDK",
      "shares": 2.0,
      "start_price": 2273.73,
-     "last_price": 2050.3899,
+     "last_price": 2006.84,
      "start_value": 4547.46,
      "weight": 0.0321
     },
@@ -3918,7 +4154,7 @@
      "ticker": "STX",
      "shares": 4.0,
      "start_price": 1093.2605,
-     "last_price": 968.53,
+     "last_price": 916.695,
      "start_value": 4373.04,
      "weight": 0.0309
     },
@@ -3926,7 +4162,7 @@
      "ticker": "TSM",
      "shares": 10.0,
      "start_price": 467.67,
-     "last_price": 455.1,
+     "last_price": 443.63,
      "start_value": 4676.7,
      "weight": 0.0331
     },
@@ -3934,7 +4170,7 @@
      "ticker": "VRT",
      "shares": 18.0,
      "start_price": 357.96,
-     "last_price": 306.97,
+     "last_price": 309.72,
      "start_value": 6443.28,
      "weight": 0.0455
     },
@@ -3942,7 +4178,7 @@
      "ticker": "VST",
      "shares": 30.0,
      "start_price": 167.26,
-     "last_price": 162.38,
+     "last_price": 152.455,
      "start_value": 5017.8,
      "weight": 0.0355
     }
@@ -3957,9 +4193,9 @@
    "name": null,
    "file": null,
    "start_value": 108726.66,
-   "last_value": 106588.95,
-   "cumulative_return": -0.019661,
-   "sharpe": -1.866,
+   "last_value": 103557.95,
+   "cumulative_return": -0.047539,
+   "sharpe": -3.6521,
    "beats_return": false,
    "beats_sharpe": false,
    "points": null,
@@ -3969,14 +4205,16 @@
     -0.043194,
     -0.020212,
     -0.046519,
-    -0.019661
+    -0.019661,
+    -0.011258,
+    -0.047539
    ],
    "holdings": [
     {
      "ticker": "AMAT",
      "shares": 16.0,
      "start_price": 640.18,
-     "last_price": 694.64,
+     "last_price": 640.74,
      "start_value": 10242.88,
      "weight": 0.0942
     },
@@ -3984,7 +4222,7 @@
      "ticker": "ARKO",
      "shares": 880.0,
      "start_price": 7.46,
-     "last_price": 7.97,
+     "last_price": 8.175,
      "start_value": 6564.8,
      "weight": 0.0604
     },
@@ -3992,7 +4230,7 @@
      "ticker": "CEG",
      "shares": 27.0,
      "start_price": 275.53,
-     "last_price": 259.32,
+     "last_price": 232.45,
      "start_value": 7439.31,
      "weight": 0.0684
     },
@@ -4000,7 +4238,7 @@
      "ticker": "FIX",
      "shares": 5.0,
      "start_price": 2066.51,
-     "last_price": 1948.6899,
+     "last_price": 1854.455,
      "start_value": 10332.55,
      "weight": 0.095
     },
@@ -4008,7 +4246,7 @@
      "ticker": "GOOGL",
      "shares": 27.0,
      "start_price": 349.68,
-     "last_price": 353.65,
+     "last_price": 360.55,
      "start_value": 9441.36,
      "weight": 0.0868
     },
@@ -4016,7 +4254,7 @@
      "ticker": "GS",
      "shares": 21.0,
      "start_price": 1106.37,
-     "last_price": 1020.21,
+     "last_price": 1021.0,
      "start_value": 23233.77,
      "weight": 0.2137
     },
@@ -4024,7 +4262,7 @@
      "ticker": "LLY",
      "shares": 11.0,
      "start_price": 1102.08,
-     "last_price": 1229.9301,
+     "last_price": 1185.14,
      "start_value": 12122.88,
      "weight": 0.1115
     },
@@ -4032,7 +4270,7 @@
      "ticker": "MRVL",
      "shares": 32.0,
      "start_price": 307.86,
-     "last_price": 277.75,
+     "last_price": 272.74,
      "start_value": 9851.52,
      "weight": 0.0906
     },
@@ -4040,7 +4278,7 @@
      "ticker": "MU",
      "shares": 8.0,
      "start_price": 1211.38,
-     "last_price": 1145.28,
+     "last_price": 1039.8199,
      "start_value": 9691.04,
      "weight": 0.0891
     },
@@ -4048,7 +4286,7 @@
      "ticker": "NVDA",
      "shares": 47.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 9806.55,
      "weight": 0.0902
     }
@@ -4063,9 +4301,9 @@
    "name": null,
    "file": null,
    "start_value": 98148.35,
-   "last_value": 99824.85,
-   "cumulative_return": 0.017081,
-   "sharpe": 5.5792,
+   "last_value": 100958.86,
+   "cumulative_return": 0.028635,
+   "sharpe": 7.9534,
    "beats_return": true,
    "beats_sharpe": true,
    "points": 5,
@@ -4075,14 +4313,16 @@
     0.000195,
     -0.008329,
     0.008397,
-    0.017081
+    0.017081,
+    0.020875,
+    0.028635
    ],
    "holdings": [
     {
      "ticker": "AAPL",
      "shares": 25.0,
      "start_price": 297.01,
-     "last_price": 281.74,
+     "last_price": 294.95,
      "start_value": 7425.25,
      "weight": 0.0757
     },
@@ -4090,7 +4330,7 @@
      "ticker": "AMGN",
      "shares": 9.0,
      "start_price": 344.72,
-     "last_price": 360.55,
+     "last_price": 360.63,
      "start_value": 3102.48,
      "weight": 0.0316
     },
@@ -4098,7 +4338,7 @@
      "ticker": "AMZN",
      "shares": 20.0,
      "start_price": 232.79,
-     "last_price": 240.14,
+     "last_price": 243.8,
      "start_value": 4655.8,
      "weight": 0.0474
     },
@@ -4106,7 +4346,7 @@
      "ticker": "AS",
      "shares": 54.0,
      "start_price": 36.11,
-     "last_price": 33.3,
+     "last_price": 33.985,
      "start_value": 1949.94,
      "weight": 0.0199
     },
@@ -4114,7 +4354,7 @@
      "ticker": "AVGO",
      "shares": 12.0,
      "start_price": 392.13,
-     "last_price": 372.45,
+     "last_price": 369.15,
      "start_value": 4705.56,
      "weight": 0.0479
     },
@@ -4122,7 +4362,7 @@
      "ticker": "AXP",
      "shares": 15.0,
      "start_price": 338.07,
-     "last_price": 340.88,
+     "last_price": 347.95,
      "start_value": 5071.05,
      "weight": 0.0517
     },
@@ -4130,7 +4370,7 @@
      "ticker": "BIIB",
      "shares": 15.0,
      "start_price": 199.71,
-     "last_price": 216.63,
+     "last_price": 210.585,
      "start_value": 2995.65,
      "weight": 0.0305
     },
@@ -4138,7 +4378,7 @@
      "ticker": "BRK-B",
      "shares": 6.0,
      "start_price": 488.69,
-     "last_price": 496.0,
+     "last_price": 502.69,
      "start_value": 2932.14,
      "weight": 0.0299
     },
@@ -4146,7 +4386,7 @@
      "ticker": "CAT",
      "shares": 3.0,
      "start_price": 1022.28,
-     "last_price": 1033.1899,
+     "last_price": 986.57,
      "start_value": 3066.84,
      "weight": 0.0312
     },
@@ -4154,7 +4394,7 @@
      "ticker": "COST",
      "shares": 6.0,
      "start_price": 951.35,
-     "last_price": 946.68,
+     "last_price": 927.735,
      "start_value": 5708.1,
      "weight": 0.0582
     },
@@ -4162,7 +4402,7 @@
      "ticker": "FISV",
      "shares": 63.0,
      "start_price": 47.18,
-     "last_price": 48.83,
+     "last_price": 50.945,
      "start_value": 2972.34,
      "weight": 0.0303
     },
@@ -4170,7 +4410,7 @@
      "ticker": "GOOGL",
      "shares": 14.0,
      "start_price": 349.68,
-     "last_price": 353.65,
+     "last_price": 360.55,
      "start_value": 4895.52,
      "weight": 0.0499
     },
@@ -4178,7 +4418,7 @@
      "ticker": "JNJ",
      "shares": 22.0,
      "start_price": 231.29,
-     "last_price": 258.51,
+     "last_price": 253.58,
      "start_value": 5088.38,
      "weight": 0.0518
     },
@@ -4186,7 +4426,7 @@
      "ticker": "LLY",
      "shares": 5.0,
      "start_price": 1102.08,
-     "last_price": 1229.9301,
+     "last_price": 1185.14,
      "start_value": 5510.4,
      "weight": 0.0561
     },
@@ -4194,7 +4434,7 @@
      "ticker": "LULU",
      "shares": 27.0,
      "start_price": 105.43,
-     "last_price": 114.29,
+     "last_price": 115.1,
      "start_value": 2846.61,
      "weight": 0.029
     },
@@ -4202,7 +4442,7 @@
      "ticker": "META",
      "shares": 9.0,
      "start_price": 563.85,
-     "last_price": 562.6,
+     "last_price": 620.0401,
      "start_value": 5074.65,
      "weight": 0.0517
     },
@@ -4210,7 +4450,7 @@
      "ticker": "MRK",
      "shares": 44.0,
      "start_price": 115.48,
-     "last_price": 129.38,
+     "last_price": 125.4,
      "start_value": 5081.12,
      "weight": 0.0518
     },
@@ -4218,7 +4458,7 @@
      "ticker": "MSFT",
      "shares": 18.0,
      "start_price": 367.34,
-     "last_price": 368.57,
+     "last_price": 387.12,
      "start_value": 6612.12,
      "weight": 0.0674
     },
@@ -4226,7 +4466,7 @@
      "ticker": "MTN",
      "shares": 14.0,
      "start_price": 139.4896,
-     "last_price": 135.2,
+     "last_price": 136.725,
      "start_value": 1952.85,
      "weight": 0.0199
     },
@@ -4234,7 +4474,7 @@
      "ticker": "NKE",
      "shares": 66.0,
      "start_price": 43.19,
-     "last_price": 41.48,
+     "last_price": 42.39,
      "start_value": 2850.54,
      "weight": 0.029
     },
@@ -4242,7 +4482,7 @@
      "ticker": "SLV",
      "shares": 34.0,
      "start_price": 58.91,
-     "last_price": 52.68,
+     "last_price": 53.93,
      "start_value": 2002.94,
      "weight": 0.0204
     },
@@ -4250,7 +4490,7 @@
      "ticker": "SPCX",
      "shares": 11.0,
      "start_price": 154.6,
-     "last_price": 164.19,
+     "last_price": 157.16,
      "start_value": 1700.6,
      "weight": 0.0173
     },
@@ -4258,7 +4498,7 @@
      "ticker": "SPXL",
      "shares": 4.0,
      "start_price": 269.537,
-     "last_price": 265.13,
+     "last_price": 270.92,
      "start_value": 1078.15,
      "weight": 0.011
     },
@@ -4266,7 +4506,7 @@
      "ticker": "TXN",
      "shares": 9.0,
      "start_price": 332.28,
-     "last_price": 285.48,
+     "last_price": 298.24,
      "start_value": 2990.52,
      "weight": 0.0305
     },
@@ -4274,7 +4514,7 @@
      "ticker": "V",
      "shares": 18.0,
      "start_price": 326.6,
-     "last_price": 341.65,
+     "last_price": 350.03,
      "start_value": 5878.8,
      "weight": 0.0599
     }
@@ -4290,35 +4530,37 @@
    "student_id": "01523172",
    "name": null,
    "file": null,
-   "start_value": 98339.98,
-   "last_value": 98479.11,
-   "cumulative_return": 0.001415,
-   "sharpe": 0.3906,
+   "start_value": 98309.6,
+   "last_value": 100275.79,
+   "cumulative_return": 0.02,
+   "sharpe": 3.3362,
    "beats_return": true,
    "beats_sharpe": true,
    "points": 5,
    "curve": [
     0.0,
-    -0.005622,
-    -0.010616,
-    -0.029698,
-    -0.013278,
-    0.001415
+    -0.005627,
+    -0.010615,
+    -0.029694,
+    -0.013271,
+    0.001427,
+    0.003414,
+    0.02
    ],
    "holdings": [
     {
      "ticker": "AAPL",
      "shares": 26.0,
      "start_price": 297.01,
-     "last_price": 281.74,
+     "last_price": 294.95,
      "start_value": 7722.26,
-     "weight": 0.0785
+     "weight": 0.0786
     },
     {
      "ticker": "AMZN",
      "shares": 38.0,
      "start_price": 232.79,
-     "last_price": 240.14,
+     "last_price": 243.8,
      "start_value": 8846.02,
      "weight": 0.09
     },
@@ -4326,23 +4568,23 @@
      "ticker": "COST",
      "shares": 5.0,
      "start_price": 951.35,
-     "last_price": 946.68,
+     "last_price": 927.735,
      "start_value": 4756.75,
      "weight": 0.0484
     },
     {
      "ticker": "DIS",
      "shares": 39.0,
-     "start_price": 102.45,
-     "last_price": 98.63,
-     "start_value": 3995.55,
-     "weight": 0.0406
+     "start_price": 101.671,
+     "last_price": 96.375,
+     "start_value": 3965.17,
+     "weight": 0.0403
     },
     {
      "ticker": "GOOGL",
      "shares": 23.0,
      "start_price": 349.68,
-     "last_price": 353.65,
+     "last_price": 360.55,
      "start_value": 8042.64,
      "weight": 0.0818
     },
@@ -4350,7 +4592,7 @@
      "ticker": "JPM",
      "shares": 15.0,
      "start_price": 331.48,
-     "last_price": 329.39,
+     "last_price": 333.9125,
      "start_value": 4972.2,
      "weight": 0.0506
     },
@@ -4358,15 +4600,15 @@
      "ticker": "LLY",
      "shares": 6.0,
      "start_price": 1102.08,
-     "last_price": 1229.9301,
+     "last_price": 1185.14,
      "start_value": 6612.48,
-     "weight": 0.0672
+     "weight": 0.0673
     },
     {
      "ticker": "META",
      "shares": 14.0,
      "start_price": 563.85,
-     "last_price": 562.6,
+     "last_price": 620.0401,
      "start_value": 7893.9,
      "weight": 0.0803
     },
@@ -4374,7 +4616,7 @@
      "ticker": "MSFT",
      "shares": 27.0,
      "start_price": 367.34,
-     "last_price": 368.57,
+     "last_price": 387.12,
      "start_value": 9918.18,
      "weight": 0.1009
     },
@@ -4382,7 +4624,7 @@
      "ticker": "NFLX",
      "shares": 68.0,
      "start_price": 72.88,
-     "last_price": 73.78,
+     "last_price": 74.245,
      "start_value": 4955.84,
      "weight": 0.0504
     },
@@ -4390,15 +4632,15 @@
      "ticker": "NVDA",
      "shares": 57.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 11893.05,
-     "weight": 0.1209
+     "weight": 0.121
     },
     {
      "ticker": "SBUX",
      "shares": 30.0,
      "start_price": 100.15,
-     "last_price": 104.06,
+     "last_price": 102.975,
      "start_value": 3004.5,
      "weight": 0.0306
     },
@@ -4406,7 +4648,7 @@
      "ticker": "TSLA",
      "shares": 17.0,
      "start_price": 405.05,
-     "last_price": 411.84,
+     "last_price": 424.525,
      "start_value": 6885.85,
      "weight": 0.07
     },
@@ -4414,7 +4656,7 @@
      "ticker": "V",
      "shares": 12.0,
      "start_price": 326.6,
-     "last_price": 341.65,
+     "last_price": 350.03,
      "start_value": 3919.2,
      "weight": 0.0399
     },
@@ -4422,9 +4664,9 @@
      "ticker": "WMT",
      "shares": 42.0,
      "start_price": 117.18,
-     "last_price": 114.6,
+     "last_price": 108.58,
      "start_value": 4921.56,
-     "weight": 0.05
+     "weight": 0.0501
     }
    ],
    "dropped_tickers": [],
@@ -4437,9 +4679,9 @@
    "name": null,
    "file": null,
    "start_value": 98040.4,
-   "last_value": 100625.58,
-   "cumulative_return": 0.026369,
-   "sharpe": 42.3909,
+   "last_value": 100971.02,
+   "cumulative_return": 0.029892,
+   "sharpe": 23.5253,
    "beats_return": true,
    "beats_sharpe": true,
    "points": 5,
@@ -4449,14 +4691,16 @@
     0.011487,
     0.015601,
     0.019455,
-    0.026369
+    0.026369,
+    0.025243,
+    0.029892
    ],
    "holdings": [
     {
      "ticker": "AMZN",
      "shares": 29.0,
      "start_price": 232.79,
-     "last_price": 240.14,
+     "last_price": 243.8,
      "start_value": 6750.91,
      "weight": 0.0689
     },
@@ -4464,7 +4708,7 @@
      "ticker": "CAT",
      "shares": 7.0,
      "start_price": 1022.28,
-     "last_price": 1033.1899,
+     "last_price": 986.57,
      "start_value": 7155.96,
      "weight": 0.073
     },
@@ -4472,7 +4716,7 @@
      "ticker": "GOOGL",
      "shares": 19.0,
      "start_price": 349.68,
-     "last_price": 353.65,
+     "last_price": 360.55,
      "start_value": 6643.92,
      "weight": 0.0678
     },
@@ -4480,7 +4724,7 @@
      "ticker": "JPM",
      "shares": 34.0,
      "start_price": 331.48,
-     "last_price": 329.39,
+     "last_price": 333.9125,
      "start_value": 11270.32,
      "weight": 0.115
     },
@@ -4488,7 +4732,7 @@
      "ticker": "KO",
      "shares": 136.0,
      "start_price": 79.53,
-     "last_price": 82.65,
+     "last_price": 81.41,
      "start_value": 10816.08,
      "weight": 0.1103
     },
@@ -4496,7 +4740,7 @@
      "ticker": "MSFT",
      "shares": 18.0,
      "start_price": 367.34,
-     "last_price": 368.57,
+     "last_price": 387.12,
      "start_value": 6612.12,
      "weight": 0.0674
     },
@@ -4504,7 +4748,7 @@
      "ticker": "NVDA",
      "shares": 25.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 5216.25,
      "weight": 0.0532
     },
@@ -4512,7 +4756,7 @@
      "ticker": "PG",
      "shares": 48.0,
      "start_price": 147.68,
-     "last_price": 148.45,
+     "last_price": 146.55,
      "start_value": 7088.64,
      "weight": 0.0723
     },
@@ -4520,7 +4764,7 @@
      "ticker": "TEM",
      "shares": 106.0,
      "start_price": 47.85,
-     "last_price": 58.31,
+     "last_price": 61.44,
      "start_value": 5072.1,
      "weight": 0.0517
     },
@@ -4528,7 +4772,7 @@
      "ticker": "UAL",
      "shares": 60.0,
      "start_price": 118.68,
-     "last_price": 135.19,
+     "last_price": 136.29,
      "start_value": 7120.8,
      "weight": 0.0726
     },
@@ -4536,7 +4780,7 @@
      "ticker": "UNH",
      "shares": 17.0,
      "start_price": 406.68,
-     "last_price": 419.82,
+     "last_price": 427.08,
      "start_value": 6913.56,
      "weight": 0.0705
     },
@@ -4544,7 +4788,7 @@
      "ticker": "UPS",
      "shares": 67.0,
      "start_price": 107.24,
-     "last_price": 108.01,
+     "last_price": 110.01,
      "start_value": 7185.08,
      "weight": 0.0733
     },
@@ -4552,7 +4796,7 @@
      "ticker": "WMT",
      "shares": 87.0,
      "start_price": 117.18,
-     "last_price": 114.6,
+     "last_price": 108.58,
      "start_value": 10194.66,
      "weight": 0.104
     }
@@ -4567,9 +4811,9 @@
    "name": null,
    "file": null,
    "start_value": 90922.96,
-   "last_value": 91782.19,
-   "cumulative_return": 0.00945,
-   "sharpe": 3.8092,
+   "last_value": 92049.39,
+   "cumulative_return": 0.012389,
+   "sharpe": 4.3456,
    "beats_return": true,
    "beats_sharpe": true,
    "points": 5,
@@ -4579,14 +4823,16 @@
     0.000531,
     -0.009195,
     -0.000583,
-    0.00945
+    0.00945,
+    0.010791,
+    0.012389
    ],
    "holdings": [
     {
      "ticker": "AAPL",
      "shares": 18.0,
      "start_price": 297.01,
-     "last_price": 281.74,
+     "last_price": 294.95,
      "start_value": 5346.18,
      "weight": 0.0588
     },
@@ -4594,7 +4840,7 @@
      "ticker": "AMZN",
      "shares": 22.0,
      "start_price": 232.79,
-     "last_price": 240.14,
+     "last_price": 243.8,
      "start_value": 5121.38,
      "weight": 0.0563
     },
@@ -4602,7 +4848,7 @@
      "ticker": "AVGO",
      "shares": 13.0,
      "start_price": 392.13,
-     "last_price": 372.45,
+     "last_price": 369.15,
      "start_value": 5097.69,
      "weight": 0.0561
     },
@@ -4610,7 +4856,7 @@
      "ticker": "CAT",
      "shares": 5.0,
      "start_price": 1022.28,
-     "last_price": 1033.1899,
+     "last_price": 986.57,
      "start_value": 5111.4,
      "weight": 0.0562
     },
@@ -4618,7 +4864,7 @@
      "ticker": "COST",
      "shares": 6.0,
      "start_price": 951.35,
-     "last_price": 946.68,
+     "last_price": 927.735,
      "start_value": 5708.1,
      "weight": 0.0628
     },
@@ -4626,7 +4872,7 @@
      "ticker": "GOOGL",
      "shares": 15.0,
      "start_price": 349.68,
-     "last_price": 353.65,
+     "last_price": 360.55,
      "start_value": 5245.2,
      "weight": 0.0577
     },
@@ -4634,7 +4880,7 @@
      "ticker": "JNJ",
      "shares": 24.0,
      "start_price": 231.29,
-     "last_price": 258.51,
+     "last_price": 253.58,
      "start_value": 5550.96,
      "weight": 0.0611
     },
@@ -4642,7 +4888,7 @@
      "ticker": "JPM",
      "shares": 17.0,
      "start_price": 331.48,
-     "last_price": 329.39,
+     "last_price": 333.9125,
      "start_value": 5635.16,
      "weight": 0.062
     },
@@ -4650,7 +4896,7 @@
      "ticker": "LLY",
      "shares": 5.0,
      "start_price": 1102.08,
-     "last_price": 1229.9301,
+     "last_price": 1185.14,
      "start_value": 5510.4,
      "weight": 0.0606
     },
@@ -4658,7 +4904,7 @@
      "ticker": "META",
      "shares": 9.0,
      "start_price": 563.85,
-     "last_price": 562.6,
+     "last_price": 620.0401,
      "start_value": 5074.65,
      "weight": 0.0558
     },
@@ -4666,7 +4912,7 @@
      "ticker": "MSFT",
      "shares": 14.0,
      "start_price": 367.34,
-     "last_price": 368.57,
+     "last_price": 387.12,
      "start_value": 5142.76,
      "weight": 0.0566
     },
@@ -4674,7 +4920,7 @@
      "ticker": "NEE",
      "shares": 60.0,
      "start_price": 86.08,
-     "last_price": 88.66,
+     "last_price": 86.8,
      "start_value": 5164.8,
      "weight": 0.0568
     },
@@ -4682,7 +4928,7 @@
      "ticker": "NVDA",
      "shares": 26.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 5424.9,
      "weight": 0.0597
     },
@@ -4690,7 +4936,7 @@
      "ticker": "PG",
      "shares": 36.0,
      "start_price": 147.68,
-     "last_price": 148.45,
+     "last_price": 146.55,
      "start_value": 5316.48,
      "weight": 0.0585
     },
@@ -4698,7 +4944,7 @@
      "ticker": "WMT",
      "shares": 47.0,
      "start_price": 117.18,
-     "last_price": 114.6,
+     "last_price": 108.58,
      "start_value": 5507.46,
      "weight": 0.0606
     },
@@ -4706,7 +4952,7 @@
      "ticker": "XOM",
      "shares": 40.0,
      "start_price": 138.47,
-     "last_price": 136.06,
+     "last_price": 136.36,
      "start_value": 5538.8,
      "weight": 0.0609
     },
@@ -4714,7 +4960,7 @@
      "ticker": "YUM",
      "shares": 36.0,
      "start_price": 150.74,
-     "last_price": 158.24,
+     "last_price": 160.92,
      "start_value": 5426.64,
      "weight": 0.0597
     }
@@ -4729,9 +4975,9 @@
    "name": null,
    "file": null,
    "start_value": 100038.66,
-   "last_value": 96985.26,
-   "cumulative_return": -0.030522,
-   "sharpe": -5.9619,
+   "last_value": 97718.38,
+   "cumulative_return": -0.023194,
+   "sharpe": -3.302,
    "beats_return": false,
    "beats_sharpe": false,
    "points": null,
@@ -4741,14 +4987,16 @@
     -0.032097,
     -0.044128,
     -0.047728,
-    -0.030522
+    -0.030522,
+    -0.015519,
+    -0.023194
    ],
    "holdings": [
     {
      "ticker": "AMD",
      "shares": 11.0,
      "start_price": 551.63,
-     "last_price": 539.49,
+     "last_price": 543.6797,
      "start_value": 6067.93,
      "weight": 0.0607
     },
@@ -4756,7 +5004,7 @@
      "ticker": "AMZN",
      "shares": 30.0,
      "start_price": 232.79,
-     "last_price": 240.14,
+     "last_price": 243.8,
      "start_value": 6983.7,
      "weight": 0.0698
     },
@@ -4764,7 +5012,7 @@
      "ticker": "AVGO",
      "shares": 25.0,
      "start_price": 392.13,
-     "last_price": 372.45,
+     "last_price": 369.15,
      "start_value": 9803.25,
      "weight": 0.098
     },
@@ -4772,7 +5020,7 @@
      "ticker": "CEG",
      "shares": 25.0,
      "start_price": 275.53,
-     "last_price": 259.32,
+     "last_price": 232.45,
      "start_value": 6888.25,
      "weight": 0.0689
     },
@@ -4780,7 +5028,7 @@
      "ticker": "COIN",
      "shares": 36.0,
      "start_price": 164.84,
-     "last_price": 151.65,
+     "last_price": 160.75,
      "start_value": 5934.24,
      "weight": 0.0593
     },
@@ -4788,7 +5036,7 @@
      "ticker": "DELL",
      "shares": 12.0,
      "start_price": 418.71,
-     "last_price": 414.61,
+     "last_price": 418.6201,
      "start_value": 5024.52,
      "weight": 0.0502
     },
@@ -4796,7 +5044,7 @@
      "ticker": "GOOGL",
      "shares": 20.0,
      "start_price": 349.68,
-     "last_price": 353.65,
+     "last_price": 360.55,
      "start_value": 6993.6,
      "weight": 0.0699
     },
@@ -4804,7 +5052,7 @@
      "ticker": "IREN",
      "shares": 20.0,
      "start_price": 56.87,
-     "last_price": 45.91,
+     "last_price": 43.625,
      "start_value": 1137.4,
      "weight": 0.0114
     },
@@ -4812,7 +5060,7 @@
      "ticker": "JPM",
      "shares": 15.0,
      "start_price": 331.48,
-     "last_price": 329.39,
+     "last_price": 333.9125,
      "start_value": 4972.2,
      "weight": 0.0497
     },
@@ -4820,7 +5068,7 @@
      "ticker": "LLY",
      "shares": 5.0,
      "start_price": 1102.08,
-     "last_price": 1229.9301,
+     "last_price": 1185.14,
      "start_value": 5510.4,
      "weight": 0.0551
     },
@@ -4828,7 +5076,7 @@
      "ticker": "META",
      "shares": 9.0,
      "start_price": 563.85,
-     "last_price": 562.6,
+     "last_price": 620.0401,
      "start_value": 5074.65,
      "weight": 0.0507
     },
@@ -4836,7 +5084,7 @@
      "ticker": "MSFT",
      "shares": 21.0,
      "start_price": 367.34,
-     "last_price": 368.57,
+     "last_price": 387.12,
      "start_value": 7714.14,
      "weight": 0.0771
     },
@@ -4844,7 +5092,7 @@
      "ticker": "NVDA",
      "shares": 67.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 13979.55,
      "weight": 0.1397
     },
@@ -4852,7 +5100,7 @@
      "ticker": "TSM",
      "shares": 13.0,
      "start_price": 467.67,
-     "last_price": 455.1,
+     "last_price": 443.63,
      "start_value": 6079.71,
      "weight": 0.0608
     },
@@ -4860,7 +5108,7 @@
      "ticker": "VRT",
      "shares": 22.0,
      "start_price": 357.96,
-     "last_price": 306.97,
+     "last_price": 309.72,
      "start_value": 7875.12,
      "weight": 0.0787
     }
@@ -4874,27 +5122,29 @@
    "student_id": "00044085",
    "name": null,
    "file": null,
-   "start_value": 100257.54,
-   "last_value": 101429.25,
-   "cumulative_return": 0.011687,
-   "sharpe": 3.1692,
+   "start_value": 100241.13,
+   "last_value": 102072.86,
+   "cumulative_return": 0.018273,
+   "sharpe": 4.9116,
    "beats_return": true,
    "beats_sharpe": true,
    "points": 5,
    "curve": [
     0.0,
-    -0.011972,
-    -0.015457,
-    -0.013783,
-    -0.008388,
-    0.011687
+    -0.011976,
+    -0.015464,
+    -0.013789,
+    -0.008397,
+    0.006259,
+    0.011662,
+    0.018273
    ],
    "holdings": [
     {
      "ticker": "AAPL",
      "shares": 24.0,
      "start_price": 297.01,
-     "last_price": 281.74,
+     "last_price": 294.95,
      "start_value": 7128.24,
      "weight": 0.0711
     },
@@ -4902,15 +5152,15 @@
      "ticker": "AMZN",
      "shares": 25.0,
      "start_price": 232.79,
-     "last_price": 240.14,
+     "last_price": 243.8,
      "start_value": 5819.75,
-     "weight": 0.058
+     "weight": 0.0581
     },
     {
      "ticker": "COST",
      "shares": 3.0,
      "start_price": 951.35,
-     "last_price": 946.68,
+     "last_price": 927.735,
      "start_value": 2854.05,
      "weight": 0.0285
     },
@@ -4918,7 +5168,7 @@
      "ticker": "CRWD",
      "shares": 13.0,
      "start_price": 675.44,
-     "last_price": 742.91,
+     "last_price": 767.41,
      "start_value": 8780.72,
      "weight": 0.0876
     },
@@ -4926,7 +5176,7 @@
      "ticker": "EPD",
      "shares": 108.0,
      "start_price": 36.42,
-     "last_price": 36.66,
+     "last_price": 36.55,
      "start_value": 3933.36,
      "weight": 0.0392
     },
@@ -4934,7 +5184,7 @@
      "ticker": "GEV",
      "shares": 9.0,
      "start_price": 1127.59,
-     "last_price": 1102.51,
+     "last_price": 1129.02,
      "start_value": 10148.31,
      "weight": 0.1012
     },
@@ -4942,7 +5192,7 @@
      "ticker": "GOOGL",
      "shares": 13.0,
      "start_price": 349.68,
-     "last_price": 353.65,
+     "last_price": 360.55,
      "start_value": 4545.84,
      "weight": 0.0453
     },
@@ -4950,7 +5200,7 @@
      "ticker": "JPM",
      "shares": 16.0,
      "start_price": 331.48,
-     "last_price": 329.39,
+     "last_price": 333.9125,
      "start_value": 5303.68,
      "weight": 0.0529
     },
@@ -4958,7 +5208,7 @@
      "ticker": "KO",
      "shares": 37.0,
      "start_price": 79.53,
-     "last_price": 82.65,
+     "last_price": 81.41,
      "start_value": 2942.61,
      "weight": 0.0294
     },
@@ -4966,7 +5216,7 @@
      "ticker": "LLY",
      "shares": 6.0,
      "start_price": 1102.08,
-     "last_price": 1229.9301,
+     "last_price": 1185.14,
      "start_value": 6612.48,
      "weight": 0.066
     },
@@ -4974,7 +5224,7 @@
      "ticker": "MPC",
      "shares": 29.0,
      "start_price": 247.29,
-     "last_price": 259.22,
+     "last_price": 261.06,
      "start_value": 7171.41,
      "weight": 0.0715
     },
@@ -4982,23 +5232,23 @@
      "ticker": "NVDA",
      "shares": 33.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 6885.45,
      "weight": 0.0687
     },
     {
      "ticker": "O",
      "shares": 63.0,
-     "start_price": 60.58,
-     "last_price": 63.04,
-     "start_value": 3816.54,
-     "weight": 0.0381
+     "start_price": 60.3196,
+     "last_price": 62.27,
+     "start_value": 3800.13,
+     "weight": 0.0379
     },
     {
      "ticker": "PFG",
      "shares": 46.0,
      "start_price": 111.23,
-     "last_price": 108.51,
+     "last_price": 108.8501,
      "start_value": 5116.58,
      "weight": 0.051
     },
@@ -5006,7 +5256,7 @@
      "ticker": "PWR",
      "shares": 12.0,
      "start_price": 740.14,
-     "last_price": 714.45,
+     "last_price": 689.35,
      "start_value": 8881.68,
      "weight": 0.0886
     },
@@ -5014,7 +5264,7 @@
      "ticker": "SGOV",
      "shares": 50.0,
      "start_price": 100.6,
-     "last_price": 100.67,
+     "last_price": 100.395,
      "start_value": 5030.0,
      "weight": 0.0502
     },
@@ -5022,7 +5272,7 @@
      "ticker": "UNH",
      "shares": 13.0,
      "start_price": 406.68,
-     "last_price": 419.82,
+     "last_price": 427.08,
      "start_value": 5286.84,
      "weight": 0.0527
     }
@@ -5037,26 +5287,28 @@
    "name": null,
    "file": null,
    "start_value": 100473.26,
-   "last_value": 99994.45,
-   "cumulative_return": -0.004766,
-   "sharpe": -1.3268,
+   "last_value": 100305.71,
+   "cumulative_return": -0.001668,
+   "sharpe": -0.323,
    "beats_return": false,
-   "beats_sharpe": true,
-   "points": 3,
+   "beats_sharpe": false,
+   "points": null,
    "curve": [
     0.0,
     -0.010787,
     -0.013736,
     -0.014885,
     -0.021741,
-    -0.004766
+    -0.004766,
+    0.00338,
+    -0.001668
    ],
    "holdings": [
     {
      "ticker": "AMZN",
      "shares": 50.0,
      "start_price": 232.79,
-     "last_price": 240.14,
+     "last_price": 243.8,
      "start_value": 11639.5,
      "weight": 0.1158
     },
@@ -5064,7 +5316,7 @@
      "ticker": "AVGO",
      "shares": 20.0,
      "start_price": 392.13,
-     "last_price": 372.45,
+     "last_price": 369.15,
      "start_value": 7842.6,
      "weight": 0.0781
     },
@@ -5072,7 +5324,7 @@
      "ticker": "CAT",
      "shares": 8.0,
      "start_price": 1022.28,
-     "last_price": 1033.1899,
+     "last_price": 986.57,
      "start_value": 8178.24,
      "weight": 0.0814
     },
@@ -5080,7 +5332,7 @@
      "ticker": "GOOGL",
      "shares": 50.0,
      "start_price": 349.68,
-     "last_price": 353.65,
+     "last_price": 360.55,
      "start_value": 17484.0,
      "weight": 0.174
     },
@@ -5088,7 +5340,7 @@
      "ticker": "JPM",
      "shares": 15.0,
      "start_price": 331.48,
-     "last_price": 329.39,
+     "last_price": 333.9125,
      "start_value": 4972.2,
      "weight": 0.0495
     },
@@ -5096,7 +5348,7 @@
      "ticker": "LLY",
      "shares": 4.0,
      "start_price": 1102.08,
-     "last_price": 1229.9301,
+     "last_price": 1185.14,
      "start_value": 4408.32,
      "weight": 0.0439
     },
@@ -5104,7 +5356,7 @@
      "ticker": "LMT",
      "shares": 8.0,
      "start_price": 493.6,
-     "last_price": 502.07,
+     "last_price": 519.45,
      "start_value": 3948.8,
      "weight": 0.0393
     },
@@ -5112,7 +5364,7 @@
      "ticker": "NVDA",
      "shares": 100.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 20865.0,
      "weight": 0.2077
     },
@@ -5120,7 +5372,7 @@
      "ticker": "RTX",
      "shares": 20.0,
      "start_price": 181.83,
-     "last_price": 187.33,
+     "last_price": 191.01,
      "start_value": 3636.6,
      "weight": 0.0362
     },
@@ -5128,7 +5380,7 @@
      "ticker": "UNH",
      "shares": 15.0,
      "start_price": 406.68,
-     "last_price": 419.82,
+     "last_price": 427.08,
      "start_value": 6100.2,
      "weight": 0.0607
     },
@@ -5136,7 +5388,7 @@
      "ticker": "WMT",
      "shares": 50.0,
      "start_price": 117.18,
-     "last_price": 114.6,
+     "last_price": 108.58,
      "start_value": 5859.0,
      "weight": 0.0583
     },
@@ -5144,7 +5396,7 @@
      "ticker": "XOM",
      "shares": 40.0,
      "start_price": 138.47,
-     "last_price": 136.06,
+     "last_price": 136.36,
      "start_value": 5538.8,
      "weight": 0.0551
     }
@@ -5159,9 +5411,9 @@
    "name": null,
    "file": null,
    "start_value": 101757.94,
-   "last_value": 100759.84,
-   "cumulative_return": -0.009809,
-   "sharpe": -1.6992,
+   "last_value": 101886.4,
+   "cumulative_return": 0.001262,
+   "sharpe": 0.2986,
    "beats_return": false,
    "beats_sharpe": false,
    "points": null,
@@ -5171,14 +5423,16 @@
     -0.026309,
     -0.017012,
     -0.027803,
-    -0.009809
+    -0.012685,
+    -0.004117,
+    0.001262
    ],
    "holdings": [
     {
      "ticker": "AXON",
      "shares": 5.0,
      "start_price": 410.03,
-     "last_price": 510.6,
+     "last_price": 594.12,
      "start_value": 2050.15,
      "weight": 0.0201
     },
@@ -5186,7 +5440,7 @@
      "ticker": "CEG",
      "shares": 16.0,
      "start_price": 275.53,
-     "last_price": 259.32,
+     "last_price": 232.45,
      "start_value": 4408.48,
      "weight": 0.0433
     },
@@ -5194,7 +5448,7 @@
      "ticker": "COST",
      "shares": 4.0,
      "start_price": 951.35,
-     "last_price": 946.68,
+     "last_price": 927.735,
      "start_value": 3805.4,
      "weight": 0.0374
     },
@@ -5202,7 +5456,7 @@
      "ticker": "CRWD",
      "shares": 7.0,
      "start_price": 675.44,
-     "last_price": 742.91,
+     "last_price": 767.41,
      "start_value": 4728.08,
      "weight": 0.0465
     },
@@ -5210,7 +5464,7 @@
      "ticker": "FDX",
      "shares": 14.0,
      "start_price": 328.78,
-     "last_price": 325.4,
+     "last_price": 314.4,
      "start_value": 4602.92,
      "weight": 0.0452
     },
@@ -5218,7 +5472,7 @@
      "ticker": "GEV",
      "shares": 7.0,
      "start_price": 1127.59,
-     "last_price": 1102.51,
+     "last_price": 1129.02,
      "start_value": 7893.13,
      "weight": 0.0776
     },
@@ -5226,7 +5480,7 @@
      "ticker": "GOOGL",
      "shares": 20.0,
      "start_price": 349.68,
-     "last_price": 353.65,
+     "last_price": 360.55,
      "start_value": 6993.6,
      "weight": 0.0687
     },
@@ -5234,7 +5488,7 @@
      "ticker": "JNJ",
      "shares": 20.0,
      "start_price": 231.29,
-     "last_price": 258.51,
+     "last_price": 253.58,
      "start_value": 4625.8,
      "weight": 0.0455
     },
@@ -5242,7 +5496,7 @@
      "ticker": "JPM",
      "shares": 17.0,
      "start_price": 331.48,
-     "last_price": 329.39,
+     "last_price": 333.9125,
      "start_value": 5635.16,
      "weight": 0.0554
     },
@@ -5250,7 +5504,7 @@
      "ticker": "KEYS",
      "shares": 20.0,
      "start_price": 373.34,
-     "last_price": 340.13,
+     "last_price": 338.87,
      "start_value": 7466.8,
      "weight": 0.0734
     },
@@ -5258,7 +5512,7 @@
      "ticker": "MCHP",
      "shares": 48.0,
      "start_price": 102.71,
-     "last_price": 89.06,
+     "last_price": 88.88,
      "start_value": 4930.08,
      "weight": 0.0484
     },
@@ -5266,7 +5520,7 @@
      "ticker": "META",
      "shares": 15.0,
      "start_price": 563.85,
-     "last_price": 562.6,
+     "last_price": 620.0401,
      "start_value": 8457.75,
      "weight": 0.0831
     },
@@ -5274,7 +5528,7 @@
      "ticker": "MMM",
      "shares": 22.0,
      "start_price": 163.22,
-     "last_price": 162.43,
+     "last_price": 160.99,
      "start_value": 3590.84,
      "weight": 0.0353
     },
@@ -5282,7 +5536,7 @@
      "ticker": "MSFT",
      "shares": 14.0,
      "start_price": 367.34,
-     "last_price": 368.57,
+     "last_price": 387.12,
      "start_value": 5142.76,
      "weight": 0.0505
     },
@@ -5290,7 +5544,7 @@
      "ticker": "MU",
      "shares": 5.0,
      "start_price": 1211.38,
-     "last_price": 1145.28,
+     "last_price": 1039.8199,
      "start_value": 6056.9,
      "weight": 0.0595
     },
@@ -5298,7 +5552,7 @@
      "ticker": "NEE",
      "shares": 50.0,
      "start_price": 86.08,
-     "last_price": 88.66,
+     "last_price": 86.8,
      "start_value": 4304.0,
      "weight": 0.0423
     },
@@ -5306,7 +5560,7 @@
      "ticker": "NVDA",
      "shares": 45.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 9389.25,
      "weight": 0.0923
     },
@@ -5314,7 +5568,7 @@
      "ticker": "PLTR",
      "shares": 20.0,
      "start_price": 119.5,
-     "last_price": 115.7,
+     "last_price": 127.2,
      "start_value": 2390.0,
      "weight": 0.0235
     },
@@ -5322,7 +5576,7 @@
      "ticker": "UNH",
      "shares": 13.0,
      "start_price": 406.68,
-     "last_price": 419.82,
+     "last_price": 427.08,
      "start_value": 5286.84,
      "weight": 0.052
     }
@@ -5337,9 +5591,9 @@
    "name": null,
    "file": null,
    "start_value": 103048.42,
-   "last_value": 103610.33,
-   "cumulative_return": 0.005453,
-   "sharpe": 2.0868,
+   "last_value": 103625.66,
+   "cumulative_return": 0.005602,
+   "sharpe": 1.7655,
    "beats_return": true,
    "beats_sharpe": true,
    "points": 5,
@@ -5349,14 +5603,16 @@
     -0.011221,
     -0.010981,
     -0.006889,
-    0.005453
+    0.005453,
+    0.00987,
+    0.005602
    ],
    "holdings": [
     {
      "ticker": "AAPL",
      "shares": 16.0,
      "start_price": 297.01,
-     "last_price": 281.74,
+     "last_price": 294.95,
      "start_value": 4752.16,
      "weight": 0.0461
     },
@@ -5364,7 +5620,7 @@
      "ticker": "ABBV",
      "shares": 22.0,
      "start_price": 230.01,
-     "last_price": 254.31,
+     "last_price": 251.585,
      "start_value": 5060.22,
      "weight": 0.0491
     },
@@ -5372,7 +5628,7 @@
      "ticker": "AMZN",
      "shares": 30.0,
      "start_price": 232.79,
-     "last_price": 240.14,
+     "last_price": 243.8,
      "start_value": 6983.7,
      "weight": 0.0678
     },
@@ -5380,7 +5636,7 @@
      "ticker": "AVGO",
      "shares": 19.0,
      "start_price": 392.13,
-     "last_price": 372.45,
+     "last_price": 369.15,
      "start_value": 7450.47,
      "weight": 0.0723
     },
@@ -5388,7 +5644,7 @@
      "ticker": "CAT",
      "shares": 5.0,
      "start_price": 1022.28,
-     "last_price": 1033.1899,
+     "last_price": 986.57,
      "start_value": 5111.4,
      "weight": 0.0496
     },
@@ -5396,7 +5652,7 @@
      "ticker": "COST",
      "shares": 5.0,
      "start_price": 951.35,
-     "last_price": 946.68,
+     "last_price": 927.735,
      "start_value": 4756.75,
      "weight": 0.0462
     },
@@ -5404,7 +5660,7 @@
      "ticker": "CVX",
      "shares": 27.0,
      "start_price": 175.06,
-     "last_price": 168.47,
+     "last_price": 166.115,
      "start_value": 4726.62,
      "weight": 0.0459
     },
@@ -5412,7 +5668,7 @@
      "ticker": "GEV",
      "shares": 5.0,
      "start_price": 1127.59,
-     "last_price": 1102.51,
+     "last_price": 1129.02,
      "start_value": 5637.95,
      "weight": 0.0547
     },
@@ -5420,7 +5676,7 @@
      "ticker": "GOOGL",
      "shares": 13.0,
      "start_price": 349.68,
-     "last_price": 353.65,
+     "last_price": 360.55,
      "start_value": 4545.84,
      "weight": 0.0441
     },
@@ -5428,7 +5684,7 @@
      "ticker": "JNJ",
      "shares": 21.0,
      "start_price": 231.29,
-     "last_price": 258.51,
+     "last_price": 253.58,
      "start_value": 4857.09,
      "weight": 0.0471
     },
@@ -5436,7 +5692,7 @@
      "ticker": "JPM",
      "shares": 7.0,
      "start_price": 331.48,
-     "last_price": 329.39,
+     "last_price": 333.9125,
      "start_value": 2320.36,
      "weight": 0.0225
     },
@@ -5444,7 +5700,7 @@
      "ticker": "KO",
      "shares": 62.0,
      "start_price": 79.53,
-     "last_price": 82.65,
+     "last_price": 81.41,
      "start_value": 4930.86,
      "weight": 0.0478
     },
@@ -5452,7 +5708,7 @@
      "ticker": "LLY",
      "shares": 4.0,
      "start_price": 1102.08,
-     "last_price": 1229.9301,
+     "last_price": 1185.14,
      "start_value": 4408.32,
      "weight": 0.0428
     },
@@ -5460,7 +5716,7 @@
      "ticker": "META",
      "shares": 8.0,
      "start_price": 563.85,
-     "last_price": 562.6,
+     "last_price": 620.0401,
      "start_value": 4510.8,
      "weight": 0.0438
     },
@@ -5468,7 +5724,7 @@
      "ticker": "MSFT",
      "shares": 19.0,
      "start_price": 367.34,
-     "last_price": 368.57,
+     "last_price": 387.12,
      "start_value": 6979.46,
      "weight": 0.0677
     },
@@ -5476,7 +5732,7 @@
      "ticker": "MU",
      "shares": 4.0,
      "start_price": 1211.38,
-     "last_price": 1145.28,
+     "last_price": 1039.8199,
      "start_value": 4845.52,
      "weight": 0.047
     },
@@ -5484,7 +5740,7 @@
      "ticker": "NVDA",
      "shares": 36.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 7511.4,
      "weight": 0.0729
     },
@@ -5492,7 +5748,7 @@
      "ticker": "PG",
      "shares": 29.0,
      "start_price": 147.68,
-     "last_price": 148.45,
+     "last_price": 146.55,
      "start_value": 4282.72,
      "weight": 0.0416
     },
@@ -5500,7 +5756,7 @@
      "ticker": "V",
      "shares": 14.0,
      "start_price": 326.6,
-     "last_price": 341.65,
+     "last_price": 350.03,
      "start_value": 4572.4,
      "weight": 0.0444
     },
@@ -5508,7 +5764,7 @@
      "ticker": "WMT",
      "shares": 41.0,
      "start_price": 117.18,
-     "last_price": 114.6,
+     "last_price": 108.58,
      "start_value": 4804.38,
      "weight": 0.0466
     }
@@ -5523,26 +5779,28 @@
    "name": null,
    "file": null,
    "start_value": 96115.61,
-   "last_value": 94901.45,
-   "cumulative_return": -0.012632,
-   "sharpe": -0.5609,
-   "beats_return": false,
+   "last_value": 98745.72,
+   "cumulative_return": 0.027364,
+   "sharpe": 1.8182,
+   "beats_return": true,
    "beats_sharpe": true,
-   "points": 3,
+   "points": 5,
    "curve": [
     0.0,
     -0.02875,
     -0.070387,
     -0.100182,
     -0.073513,
-    -0.012632
+    -0.014808,
+    0.001303,
+    0.027364
    ],
    "holdings": [
     {
      "ticker": "AMD",
      "shares": 8.0,
      "start_price": 551.63,
-     "last_price": 539.49,
+     "last_price": 543.6797,
      "start_value": 4413.04,
      "weight": 0.0459
     },
@@ -5550,7 +5808,7 @@
      "ticker": "AMZN",
      "shares": 15.0,
      "start_price": 232.79,
-     "last_price": 240.14,
+     "last_price": 243.8,
      "start_value": 3491.85,
      "weight": 0.0363
     },
@@ -5558,7 +5816,7 @@
      "ticker": "AVGO",
      "shares": 5.0,
      "start_price": 392.13,
-     "last_price": 372.45,
+     "last_price": 369.15,
      "start_value": 1960.65,
      "weight": 0.0204
     },
@@ -5566,7 +5824,7 @@
      "ticker": "CRWD",
      "shares": 5.0,
      "start_price": 675.44,
-     "last_price": 742.91,
+     "last_price": 767.41,
      "start_value": 3377.2,
      "weight": 0.0351
     },
@@ -5574,7 +5832,7 @@
      "ticker": "GOOGL",
      "shares": 10.0,
      "start_price": 349.68,
-     "last_price": 353.65,
+     "last_price": 360.55,
      "start_value": 3496.8,
      "weight": 0.0364
     },
@@ -5582,7 +5840,7 @@
      "ticker": "HOOD",
      "shares": 80.0,
      "start_price": 105.71,
-     "last_price": 101.83,
+     "last_price": 107.69,
      "start_value": 8456.8,
      "weight": 0.088
     },
@@ -5590,7 +5848,7 @@
      "ticker": "JPM",
      "shares": 10.0,
      "start_price": 331.48,
-     "last_price": 329.39,
+     "last_price": 333.9125,
      "start_value": 3314.8,
      "weight": 0.0345
     },
@@ -5598,7 +5856,7 @@
      "ticker": "META",
      "shares": 8.0,
      "start_price": 563.85,
-     "last_price": 562.6,
+     "last_price": 620.0401,
      "start_value": 4510.8,
      "weight": 0.0469
     },
@@ -5606,7 +5864,7 @@
      "ticker": "MSFT",
      "shares": 10.0,
      "start_price": 367.34,
-     "last_price": 368.57,
+     "last_price": 387.12,
      "start_value": 3673.4,
      "weight": 0.0382
     },
@@ -5614,7 +5872,7 @@
      "ticker": "NFLX",
      "shares": 25.0,
      "start_price": 72.88,
-     "last_price": 73.78,
+     "last_price": 74.245,
      "start_value": 1822.0,
      "weight": 0.019
     },
@@ -5622,7 +5880,7 @@
      "ticker": "NVDA",
      "shares": 35.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 7302.75,
      "weight": 0.076
     },
@@ -5630,7 +5888,7 @@
      "ticker": "PLTR",
      "shares": 80.0,
      "start_price": 119.5,
-     "last_price": 115.7,
+     "last_price": 127.2,
      "start_value": 9560.0,
      "weight": 0.0995
     },
@@ -5638,7 +5896,7 @@
      "ticker": "RKLB",
      "shares": 338.0,
      "start_price": 100.29,
-     "last_price": 98.01,
+     "last_price": 102.195,
      "start_value": 33898.02,
      "weight": 0.3527
     },
@@ -5646,7 +5904,7 @@
      "ticker": "UBER",
      "shares": 50.0,
      "start_price": 71.43,
-     "last_price": 75.5,
+     "last_price": 73.23,
      "start_value": 3571.5,
      "weight": 0.0372
     },
@@ -5654,7 +5912,7 @@
      "ticker": "V",
      "shares": 10.0,
      "start_price": 326.6,
-     "last_price": 341.65,
+     "last_price": 350.03,
      "start_value": 3266.0,
      "weight": 0.034
     }
@@ -5669,9 +5927,9 @@
    "name": null,
    "file": null,
    "start_value": 100191.3,
-   "last_value": 96936.3,
-   "cumulative_return": -0.032488,
-   "sharpe": -4.7582,
+   "last_value": 97868.49,
+   "cumulative_return": -0.023184,
+   "sharpe": -2.308,
    "beats_return": false,
    "beats_sharpe": false,
    "points": null,
@@ -5681,14 +5939,16 @@
     -0.040805,
     -0.04922,
     -0.055491,
-    -0.032488
+    -0.032488,
+    -0.008337,
+    -0.023184
    ],
    "holdings": [
     {
      "ticker": "AMZN",
      "shares": 50.0,
      "start_price": 232.79,
-     "last_price": 240.14,
+     "last_price": 243.8,
      "start_value": 11639.5,
      "weight": 0.1162
     },
@@ -5696,7 +5956,7 @@
      "ticker": "APGE",
      "shares": 20.0,
      "start_price": 132.55,
-     "last_price": 132.61,
+     "last_price": 132.725,
      "start_value": 2651.0,
      "weight": 0.0265
     },
@@ -5704,7 +5964,7 @@
      "ticker": "DELL",
      "shares": 10.0,
      "start_price": 418.71,
-     "last_price": 414.61,
+     "last_price": 418.6201,
      "start_value": 4187.1,
      "weight": 0.0418
     },
@@ -5712,7 +5972,7 @@
      "ticker": "DFTX",
      "shares": 20.0,
      "start_price": 36.67,
-     "last_price": 46.55,
+     "last_price": 43.74,
      "start_value": 733.4,
      "weight": 0.0073
     },
@@ -5720,7 +5980,7 @@
      "ticker": "F",
      "shares": 50.0,
      "start_price": 14.11,
-     "last_price": 14.02,
+     "last_price": 13.685,
      "start_value": 705.5,
      "weight": 0.007
     },
@@ -5728,7 +5988,7 @@
      "ticker": "GOOG",
      "shares": 25.0,
      "start_price": 348.78,
-     "last_price": 351.28,
+     "last_price": 357.41,
      "start_value": 8719.5,
      "weight": 0.087
     },
@@ -5736,7 +5996,7 @@
      "ticker": "INTC",
      "shares": 10.0,
      "start_price": 140.94,
-     "last_price": 131.72,
+     "last_price": 126.765,
      "start_value": 1409.4,
      "weight": 0.0141
     },
@@ -5744,7 +6004,7 @@
      "ticker": "JPM",
      "shares": 5.0,
      "start_price": 331.48,
-     "last_price": 329.39,
+     "last_price": 333.9125,
      "start_value": 1657.4,
      "weight": 0.0165
     },
@@ -5752,7 +6012,7 @@
      "ticker": "LLY",
      "shares": 10.0,
      "start_price": 1102.08,
-     "last_price": 1229.9301,
+     "last_price": 1185.14,
      "start_value": 11020.8,
      "weight": 0.11
     },
@@ -5760,7 +6020,7 @@
      "ticker": "NVDA",
      "shares": 70.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 14605.5,
      "weight": 0.1458
     },
@@ -5768,7 +6028,7 @@
      "ticker": "OKLO",
      "shares": 75.0,
      "start_price": 58.4,
-     "last_price": 52.76,
+     "last_price": 52.145,
      "start_value": 4380.0,
      "weight": 0.0437
     },
@@ -5776,7 +6036,7 @@
      "ticker": "PLTR",
      "shares": 80.0,
      "start_price": 119.5,
-     "last_price": 115.7,
+     "last_price": 127.2,
      "start_value": 9560.0,
      "weight": 0.0954
     },
@@ -5784,7 +6044,7 @@
      "ticker": "SPCX",
      "shares": 25.0,
      "start_price": 154.6,
-     "last_price": 164.19,
+     "last_price": 157.16,
      "start_value": 3865.0,
      "weight": 0.0386
     },
@@ -5792,7 +6052,7 @@
      "ticker": "VRT",
      "shares": 70.0,
      "start_price": 357.96,
-     "last_price": 306.97,
+     "last_price": 309.72,
      "start_value": 25057.2,
      "weight": 0.2501
     }
@@ -5807,26 +6067,28 @@
    "name": null,
    "file": null,
    "start_value": 100249.29,
-   "last_value": 99647.57,
-   "cumulative_return": -0.006002,
-   "sharpe": -0.4903,
-   "beats_return": false,
+   "last_value": 101814.18,
+   "cumulative_return": 0.01561,
+   "sharpe": 1.6081,
+   "beats_return": true,
    "beats_sharpe": true,
-   "points": 3,
+   "points": 5,
    "curve": [
     0.0,
     -0.014454,
     -0.030727,
     -0.059572,
     -0.044656,
-    -0.006002
+    -0.006002,
+    0.012281,
+    0.01561
    ],
    "holdings": [
     {
      "ticker": "AAPL",
      "shares": 50.0,
      "start_price": 297.01,
-     "last_price": 281.74,
+     "last_price": 294.95,
      "start_value": 14850.5,
      "weight": 0.1481
     },
@@ -5834,7 +6096,7 @@
      "ticker": "AMZN",
      "shares": 34.1,
      "start_price": 232.79,
-     "last_price": 240.14,
+     "last_price": 243.8,
      "start_value": 7938.14,
      "weight": 0.0792
     },
@@ -5842,7 +6104,7 @@
      "ticker": "GOOG",
      "shares": 30.0,
      "start_price": 348.78,
-     "last_price": 351.28,
+     "last_price": 357.41,
      "start_value": 10463.4,
      "weight": 0.1044
     },
@@ -5850,7 +6112,7 @@
      "ticker": "META",
      "shares": 15.0,
      "start_price": 563.85,
-     "last_price": 562.6,
+     "last_price": 620.0401,
      "start_value": 8457.75,
      "weight": 0.0844
     },
@@ -5858,7 +6120,7 @@
      "ticker": "MSFT",
      "shares": 20.0,
      "start_price": 367.34,
-     "last_price": 368.57,
+     "last_price": 387.12,
      "start_value": 7346.8,
      "weight": 0.0733
     },
@@ -5866,7 +6128,7 @@
      "ticker": "NVDA",
      "shares": 80.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 16692.0,
      "weight": 0.1665
     },
@@ -5874,7 +6136,7 @@
      "ticker": "RKLB",
      "shares": 140.0,
      "start_price": 100.29,
-     "last_price": 98.01,
+     "last_price": 102.195,
      "start_value": 14040.6,
      "weight": 0.1401
     },
@@ -5882,7 +6144,7 @@
      "ticker": "SPCX",
      "shares": 100.0,
      "start_price": 154.6,
-     "last_price": 164.19,
+     "last_price": 157.16,
      "start_value": 15460.0,
      "weight": 0.1542
     },
@@ -5890,7 +6152,7 @@
      "ticker": "UBER",
      "shares": 70.0,
      "start_price": 71.43,
-     "last_price": 75.5,
+     "last_price": 73.23,
      "start_value": 5000.1,
      "weight": 0.0499
     }
@@ -5905,26 +6167,28 @@
    "name": null,
    "file": null,
    "start_value": 92907.6,
-   "last_value": 92381.45,
-   "cumulative_return": -0.005663,
-   "sharpe": -1.0565,
+   "last_value": 91872.77,
+   "cumulative_return": -0.011138,
+   "sharpe": -1.7233,
    "beats_return": false,
-   "beats_sharpe": true,
-   "points": 3,
+   "beats_sharpe": false,
+   "points": null,
    "curve": [
     0.0,
     -0.026076,
     -0.022657,
     -0.020202,
     -0.021893,
-    -0.005663
+    -0.005663,
+    0.001403,
+    -0.011138
    ],
    "holdings": [
     {
      "ticker": "AMZN",
      "shares": 40.0415,
      "start_price": 232.79,
-     "last_price": 240.14,
+     "last_price": 243.8,
      "start_value": 9321.26,
      "weight": 0.1003
     },
@@ -5932,7 +6196,7 @@
      "ticker": "AVGO",
      "shares": 24.4332,
      "start_price": 392.13,
-     "last_price": 372.45,
+     "last_price": 369.15,
      "start_value": 9581.01,
      "weight": 0.1031
     },
@@ -5940,7 +6204,7 @@
      "ticker": "COHR",
      "shares": 12.5974,
      "start_price": 425.48,
-     "last_price": 391.22,
+     "last_price": 369.04,
      "start_value": 5359.94,
      "weight": 0.0577
     },
@@ -5948,7 +6212,7 @@
      "ticker": "ETN",
      "shares": 23.5437,
      "start_price": 435.78,
-     "last_price": 408.26,
+     "last_price": 413.11,
      "start_value": 10259.87,
      "weight": 0.1104
     },
@@ -5956,7 +6220,7 @@
      "ticker": "HWM",
      "shares": 22.5806,
      "start_price": 280.36,
-     "last_price": 268.57,
+     "last_price": 267.5,
      "start_value": 6330.71,
      "weight": 0.0681
     },
@@ -5964,7 +6228,7 @@
      "ticker": "IAU",
      "shares": 123.4568,
      "start_price": 78.8,
-     "last_price": 75.53,
+     "last_price": 76.35,
      "start_value": 9728.4,
      "weight": 0.1047
     },
@@ -5972,7 +6236,7 @@
      "ticker": "LLY",
      "shares": 8.7074,
      "start_price": 1102.08,
-     "last_price": 1229.9301,
+     "last_price": 1185.14,
      "start_value": 9596.21,
      "weight": 0.1033
     },
@@ -5980,7 +6244,7 @@
      "ticker": "PGR",
      "shares": 31.2195,
      "start_price": 207.38,
-     "last_price": 219.86,
+     "last_price": 225.18,
      "start_value": 6474.3,
      "weight": 0.0697
     },
@@ -5988,7 +6252,7 @@
      "ticker": "PWR",
      "shares": 13.5154,
      "start_price": 740.14,
-     "last_price": 714.45,
+     "last_price": 689.35,
      "start_value": 10003.29,
      "weight": 0.1077
     },
@@ -5996,7 +6260,7 @@
      "ticker": "TSM",
      "shares": 14.5,
      "start_price": 467.67,
-     "last_price": 455.1,
+     "last_price": 443.63,
      "start_value": 6781.22,
      "weight": 0.073
     },
@@ -6004,7 +6268,7 @@
      "ticker": "V",
      "shares": 29.0,
      "start_price": 326.6,
-     "last_price": 341.65,
+     "last_price": 350.03,
      "start_value": 9471.4,
      "weight": 0.1019
     }
@@ -6019,26 +6283,28 @@
    "name": null,
    "file": null,
    "start_value": 128165.32,
-   "last_value": 127222.27,
-   "cumulative_return": -0.007358,
-   "sharpe": -1.2684,
-   "beats_return": false,
+   "last_value": 129086.31,
+   "cumulative_return": 0.007186,
+   "sharpe": 1.1261,
+   "beats_return": true,
    "beats_sharpe": true,
-   "points": 3,
+   "points": 5,
    "curve": [
     0.0,
     -0.021289,
     -0.025258,
     -0.034075,
     -0.031263,
-    -0.007358
+    -0.011274,
+    0.011556,
+    0.007186
    ],
    "holdings": [
     {
      "ticker": "AAPL",
      "shares": 25.0,
      "start_price": 297.01,
-     "last_price": 281.74,
+     "last_price": 294.95,
      "start_value": 7425.25,
      "weight": 0.0579
     },
@@ -6046,7 +6312,7 @@
      "ticker": "AMD",
      "shares": 35.0,
      "start_price": 551.63,
-     "last_price": 539.49,
+     "last_price": 543.6797,
      "start_value": 19307.05,
      "weight": 0.1506
     },
@@ -6054,7 +6320,7 @@
      "ticker": "AMZN",
      "shares": 30.0,
      "start_price": 232.79,
-     "last_price": 240.14,
+     "last_price": 243.8,
      "start_value": 6983.7,
      "weight": 0.0545
     },
@@ -6062,7 +6328,7 @@
      "ticker": "AVGO",
      "shares": 15.0,
      "start_price": 392.13,
-     "last_price": 372.45,
+     "last_price": 369.15,
      "start_value": 5881.95,
      "weight": 0.0459
     },
@@ -6070,7 +6336,7 @@
      "ticker": "COST",
      "shares": 10.0,
      "start_price": 951.35,
-     "last_price": 946.68,
+     "last_price": 927.735,
      "start_value": 9513.5,
      "weight": 0.0742
     },
@@ -6078,7 +6344,7 @@
      "ticker": "CRWD",
      "shares": 12.0,
      "start_price": 675.44,
-     "last_price": 742.91,
+     "last_price": 767.41,
      "start_value": 8105.28,
      "weight": 0.0632
     },
@@ -6086,7 +6352,7 @@
      "ticker": "GOOGL",
      "shares": 25.0,
      "start_price": 349.68,
-     "last_price": 353.65,
+     "last_price": 360.55,
      "start_value": 8742.0,
      "weight": 0.0682
     },
@@ -6094,7 +6360,7 @@
      "ticker": "HII",
      "shares": 18.0,
      "start_price": 278.19,
-     "last_price": 277.39,
+     "last_price": 279.435,
      "start_value": 5007.42,
      "weight": 0.0391
     },
@@ -6102,7 +6368,7 @@
      "ticker": "JPM",
      "shares": 25.0,
      "start_price": 331.48,
-     "last_price": 329.39,
+     "last_price": 333.9125,
      "start_value": 8287.0,
      "weight": 0.0647
     },
@@ -6110,7 +6376,7 @@
      "ticker": "MSFT",
      "shares": 18.0,
      "start_price": 367.34,
-     "last_price": 368.57,
+     "last_price": 387.12,
      "start_value": 6612.12,
      "weight": 0.0516
     },
@@ -6118,7 +6384,7 @@
      "ticker": "NVDA",
      "shares": 50.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 10432.5,
      "weight": 0.0814
     },
@@ -6126,7 +6392,7 @@
      "ticker": "PLTR",
      "shares": 35.0,
      "start_price": 119.5,
-     "last_price": 115.7,
+     "last_price": 127.2,
      "start_value": 4182.5,
      "weight": 0.0326
     },
@@ -6134,7 +6400,7 @@
      "ticker": "RTX",
      "shares": 35.0,
      "start_price": 181.83,
-     "last_price": 187.33,
+     "last_price": 191.01,
      "start_value": 6364.05,
      "weight": 0.0497
     },
@@ -6142,7 +6408,7 @@
      "ticker": "TSLA",
      "shares": 18.0,
      "start_price": 405.05,
-     "last_price": 411.84,
+     "last_price": 424.525,
      "start_value": 7290.9,
      "weight": 0.0569
     },
@@ -6150,7 +6416,7 @@
      "ticker": "TSM",
      "shares": 30.0,
      "start_price": 467.67,
-     "last_price": 455.1,
+     "last_price": 443.63,
      "start_value": 14030.1,
      "weight": 0.1095
     }
@@ -6164,43 +6430,45 @@
    "student_id": "01522616",
    "name": null,
    "file": null,
-   "start_value": 100847.25,
-   "last_value": 99129.93,
-   "cumulative_return": -0.017029,
-   "sharpe": -4.4451,
+   "start_value": 100824.6,
+   "last_value": 98828.01,
+   "cumulative_return": -0.019803,
+   "sharpe": -4.0361,
    "beats_return": false,
    "beats_sharpe": false,
    "points": null,
    "curve": [
     0.0,
-    -0.022688,
-    -0.017947,
-    -0.01062,
-    -0.017067,
-    -0.017029
+    -0.022695,
+    -0.017954,
+    -0.010628,
+    -0.017082,
+    -0.017046,
+    -0.010094,
+    -0.019803
    ],
    "holdings": [
     {
      "ticker": "AEO",
      "shares": 100.0,
      "start_price": 17.79,
-     "last_price": 17.07,
+     "last_price": 17.17,
      "start_value": 1779.0,
      "weight": 0.0176
     },
     {
      "ticker": "AGNC",
      "shares": 200.0,
-     "start_price": 10.38,
-     "last_price": 11.0,
-     "start_value": 2076.0,
-     "weight": 0.0206
+     "start_price": 10.2668,
+     "last_price": 10.8199,
+     "start_value": 2053.35,
+     "weight": 0.0204
     },
     {
      "ticker": "ANF",
      "shares": 65.0,
      "start_price": 86.07,
-     "last_price": 89.39,
+     "last_price": 91.9,
      "start_value": 5594.55,
      "weight": 0.0555
     },
@@ -6208,7 +6476,7 @@
      "ticker": "BOOT",
      "shares": 60.0,
      "start_price": 178.46,
-     "last_price": 164.55,
+     "last_price": 164.46,
      "start_value": 10707.6,
      "weight": 0.1062
     },
@@ -6216,7 +6484,7 @@
      "ticker": "BRK-B",
      "shares": 10.0,
      "start_price": 488.69,
-     "last_price": 496.0,
+     "last_price": 502.69,
      "start_value": 4886.9,
      "weight": 0.0485
     },
@@ -6224,7 +6492,7 @@
      "ticker": "CAT",
      "shares": 5.0,
      "start_price": 1022.28,
-     "last_price": 1033.1899,
+     "last_price": 986.57,
      "start_value": 5111.4,
      "weight": 0.0507
     },
@@ -6232,7 +6500,7 @@
      "ticker": "CVX",
      "shares": 25.0,
      "start_price": 175.06,
-     "last_price": 168.47,
+     "last_price": 166.115,
      "start_value": 4376.5,
      "weight": 0.0434
     },
@@ -6240,7 +6508,7 @@
      "ticker": "DAL",
      "shares": 50.0,
      "start_price": 85.92,
-     "last_price": 93.17,
+     "last_price": 93.63,
      "start_value": 4296.0,
      "weight": 0.0426
     },
@@ -6248,7 +6516,7 @@
      "ticker": "DVN",
      "shares": 70.0,
      "start_price": 43.05,
-     "last_price": 41.99,
+     "last_price": 40.305,
      "start_value": 3013.5,
      "weight": 0.0299
     },
@@ -6256,7 +6524,7 @@
      "ticker": "JNJ",
      "shares": 22.0,
      "start_price": 231.29,
-     "last_price": 258.51,
+     "last_price": 253.58,
      "start_value": 5088.38,
      "weight": 0.0505
     },
@@ -6264,7 +6532,7 @@
      "ticker": "JPM",
      "shares": 15.0,
      "start_price": 331.48,
-     "last_price": 329.39,
+     "last_price": 333.9125,
      "start_value": 4972.2,
      "weight": 0.0493
     },
@@ -6272,15 +6540,15 @@
      "ticker": "NVDA",
      "shares": 50.0,
      "start_price": 208.65,
-     "last_price": 194.97,
+     "last_price": 197.98,
      "start_value": 10432.5,
-     "weight": 0.1034
+     "weight": 0.1035
     },
     {
      "ticker": "STM",
      "shares": 60.0,
      "start_price": 79.82,
-     "last_price": 74.79,
+     "last_price": 70.3,
      "start_value": 4789.2,
      "weight": 0.0475
     },
@@ -6288,7 +6556,7 @@
      "ticker": "TQQQ",
      "shares": 100.0,
      "start_price": 82.58,
-     "last_price": 77.19,
+     "last_price": 77.605,
      "start_value": 8258.0,
      "weight": 0.0819
     },
@@ -6296,7 +6564,7 @@
      "ticker": "TRN",
      "shares": 80.0,
      "start_price": 35.13,
-     "last_price": 34.88,
+     "last_price": 34.09,
      "start_value": 2810.4,
      "weight": 0.0279
     },
@@ -6304,7 +6572,7 @@
      "ticker": "VXUS",
      "shares": 150.0,
      "start_price": 87.06,
-     "last_price": 84.93,
+     "last_price": 84.535,
      "start_value": 13059.0,
      "weight": 0.1295
     },
@@ -6312,7 +6580,7 @@
      "ticker": "WFC",
      "shares": 55.0,
      "start_price": 83.84,
-     "last_price": 83.51,
+     "last_price": 85.62,
      "start_value": 4611.2,
      "weight": 0.0457
     },
@@ -6320,7 +6588,7 @@
      "ticker": "XOM",
      "shares": 36.0,
      "start_price": 138.47,
-     "last_price": 136.06,
+     "last_price": 136.36,
      "start_value": 4984.92,
      "weight": 0.0494
     }
