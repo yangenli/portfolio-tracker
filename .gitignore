@@ -6,3 +6,4 @@ __pycache__/
 docs/_preview.png
 .DS_Store
 Thumbs.db
+analysis/
