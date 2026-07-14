@@ -41,6 +41,10 @@
   .badge.lose{background:rgba(148,163,184,.12);color:var(--muted);border:1px solid var(--line)}
   .badge.pts{background:rgba(56,189,248,.15);color:var(--blue);border:1px solid rgba(56,189,248,.4)}
   .badge.warn{background:rgba(245,158,11,.15);color:var(--amber);border:1px solid rgba(245,158,11,.4)}
+  .report-link{display:block;margin-top:14px;padding:12px 16px;border-radius:10px;
+    background:rgba(56,189,248,.10);border:1px solid rgba(56,189,248,.4);
+    color:var(--blue);font-weight:600;text-decoration:none;font-size:.95rem}
+  .report-link:hover{background:rgba(56,189,248,.18)}
   .chartbox{margin-top:18px;background:#0b1322;border:1px solid var(--line);border-radius:10px;padding:12px}
   table{width:100%;border-collapse:collapse;font-size:.9rem;margin-top:8px}
   th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line)}
@@ -188,7 +192,9 @@ function renderStudent(s){
       <span class="badge ${beatsS?'win':'lose'}">${beatsS?'✅':'▫️'} Beats S&P on Sharpe</span>
       <span class="badge pts">🎯 ${ptsTxt}</span>
       ${flags.filter(()=>!s.needs_review).map(f=>`<span class="badge warn">⚠ ${f}</span>`).join('')}
-    </div>`;
+    </div>
+    <a class="report-link" href="ch6/${encodeURIComponent(s.student_id)}.html" target="_blank">
+      📊 Your Chapter 6 report — diversification, efficient frontier, alpha &amp; beta →</a>`;
 
   // chart + holdings (class average is merged into the chart, so hide the standalone one)
   document.getElementById('chartcard').classList.remove('hidden');
