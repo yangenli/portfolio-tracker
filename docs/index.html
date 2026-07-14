@@ -41,10 +41,6 @@
   .badge.lose{background:rgba(148,163,184,.12);color:var(--muted);border:1px solid var(--line)}
   .badge.pts{background:rgba(56,189,248,.15);color:var(--blue);border:1px solid rgba(56,189,248,.4)}
   .badge.warn{background:rgba(245,158,11,.15);color:var(--amber);border:1px solid rgba(245,158,11,.4)}
-  .report-link{display:block;margin-top:14px;padding:12px 16px;border-radius:10px;
-    background:rgba(56,189,248,.10);border:1px solid rgba(56,189,248,.4);
-    color:var(--blue);font-weight:600;text-decoration:none;font-size:.95rem}
-  .report-link:hover{background:rgba(56,189,248,.18)}
   .chartbox{margin-top:18px;background:#0b1322;border:1px solid var(--line);border-radius:10px;padding:12px}
   table{width:100%;border-collapse:collapse;font-size:.9rem;margin-top:8px}
   th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line)}
@@ -76,6 +72,14 @@
     <div class="section-title" style="margin-top:0">Cumulative return — you vs. class average vs. <span id="bnameC"></span></div>
     <div class="chartbox"><canvas id="chart" height="150"></canvas></div>
     <div id="holdings"></div>
+  </div>
+
+  <div id="ch6card" class="card hidden">
+    <div class="section-title" style="margin-top:0">📚 Chapter 6 — Efficient Diversification report
+      <a id="ch6open" href="#" target="_blank"
+         style="float:right;font-size:.8rem;font-weight:500;color:var(--blue)">open full page ↗</a></div>
+    <iframe id="ch6frame" title="Chapter 6 report"
+            style="width:100%;min-height:600px;border:none;border-radius:10px;background:#f9f9f7"></iframe>
   </div>
 
   <div id="classcard">
@@ -149,6 +153,7 @@ function lookup(){
   const cc=document.getElementById('chartcard');
   if(!s){
     res.classList.remove('hidden'); cc.classList.add('hidden');
+    document.getElementById('ch6card').classList.add('hidden');
     document.getElementById('classcard').classList.remove('hidden');
     res.innerHTML=`<div class="err">No portfolio found for “${q}”. Please double-check your Student ID.</div>`;
     return;
@@ -192,15 +197,30 @@ function renderStudent(s){
       <span class="badge ${beatsS?'win':'lose'}">${beatsS?'✅':'▫️'} Beats S&P on Sharpe</span>
       <span class="badge pts">🎯 ${ptsTxt}</span>
       ${flags.filter(()=>!s.needs_review).map(f=>`<span class="badge warn">⚠ ${f}</span>`).join('')}
-    </div>
-    <a class="report-link" href="ch6/${encodeURIComponent(s.student_id)}.html" target="_blank">
-      📊 Your Chapter 6 report — diversification, efficient frontier, alpha &amp; beta →</a>`;
+    </div>`;
 
   // chart + holdings (class average is merged into the chart, so hide the standalone one)
   document.getElementById('chartcard').classList.remove('hidden');
   document.getElementById('classcard').classList.add('hidden');
   drawChart(s);
   drawHoldings(s);
+  showCh6(s);
+}
+
+// embed the student's Chapter 6 report below the holdings (hide if not generated yet)
+function showCh6(s){
+  const card=document.getElementById('ch6card');
+  const fr=document.getElementById('ch6frame');
+  const url='ch6/'+encodeURIComponent(s.student_id)+'.html';
+  fetch(url,{method:'HEAD'}).then(r=>{
+    if(!r.ok){ card.classList.add('hidden'); return; }
+    document.getElementById('ch6open').href=url;
+    fr.onload=()=>{ try{
+        fr.style.height=(fr.contentDocument.body.scrollHeight+40)+'px';
+      }catch(e){ fr.style.height='1400px'; } };
+    if(fr.getAttribute('src')!==url) fr.setAttribute('src',url);
+    card.classList.remove('hidden');
+  }).catch(()=>card.classList.add('hidden'));
 }
 
 function drawChart(s){
