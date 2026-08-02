@@ -82,13 +82,6 @@
             style="width:100%;min-height:600px;border:none;border-radius:10px;background:#f9f9f7"></iframe>
   </div>
 
-  <div id="ch6card" class="card hidden">
-    <div class="section-title" style="margin-top:0">📚 Chapter 6 — Efficient Diversification report
-      <a id="ch6open" href="#" target="_blank"
-         style="float:right;font-size:.8rem;font-weight:500;color:var(--blue)">open full page ↗</a></div>
-    <iframe id="ch6frame" title="Chapter 6 report"
-            style="width:100%;min-height:600px;border:none;border-radius:10px;background:#f9f9f7"></iframe>
-  </div>
 
   <div id="classcard">
     <div class="section-title">📊 Class average vs. <span id="bnameAvg"></span></div>
@@ -161,7 +154,6 @@ function lookup(){
   const cc=document.getElementById('chartcard');
   if(!s){
     res.classList.remove('hidden'); cc.classList.add('hidden');
-    document.getElementById('ch6card').classList.add('hidden');
     document.getElementById('finalcard').classList.add('hidden');
     document.getElementById('classcard').classList.remove('hidden');
     res.innerHTML=`<div class="err">No portfolio found for “${q}”. Please double-check your Student ID.</div>`;
@@ -214,7 +206,6 @@ function renderStudent(s){
   drawChart(s);
   drawHoldings(s);
   showFinal(s);
-  showCh6(s);
 }
 
 // embed the student's Final Performance Report (Project 4) below the holdings
@@ -225,22 +216,6 @@ function showFinal(s){
   fetch(url,{method:'HEAD'}).then(r=>{
     if(!r.ok){ card.classList.add('hidden'); return; }
     document.getElementById('finalopen').href=url;
-    fr.onload=()=>{ try{
-        fr.style.height=(fr.contentDocument.body.scrollHeight+40)+'px';
-      }catch(e){ fr.style.height='1400px'; } };
-    if(fr.getAttribute('src')!==url) fr.setAttribute('src',url);
-    card.classList.remove('hidden');
-  }).catch(()=>card.classList.add('hidden'));
-}
-
-// embed the student's Chapter 6 report below the holdings (hide if not generated yet)
-function showCh6(s){
-  const card=document.getElementById('ch6card');
-  const fr=document.getElementById('ch6frame');
-  const url='ch6/'+encodeURIComponent(s.student_id)+'.html';
-  fetch(url,{method:'HEAD'}).then(r=>{
-    if(!r.ok){ card.classList.add('hidden'); return; }
-    document.getElementById('ch6open').href=url;
     fr.onload=()=>{ try{
         fr.style.height=(fr.contentDocument.body.scrollHeight+40)+'px';
       }catch(e){ fr.style.height='1400px'; } };
